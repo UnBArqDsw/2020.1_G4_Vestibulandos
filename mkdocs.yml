@@ -6,4 +6,9 @@ theme:
 
 nav:
     - Home: index.md
-    
+    - Planejamento: planejamento.md
+    - Pré-Rastreabilidade: 
+      - RichPicture: richPicture.md
+      - 5W2H: 5W2H.md
+    - Elicitação de requisitos : 
+        - Requisitos ELicitados: requisitos_elicitados.md
