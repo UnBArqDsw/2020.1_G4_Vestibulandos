@@ -19,7 +19,7 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
     <li> Deve ter turorial sobre  jogo</li>
  </ul>
 
- ### 1.2 Tela Principal
+### 1.2 Tela Principal
 
  <ul> 
     <li>Deve ter menu com os modos de jogo</li>
@@ -27,17 +27,17 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
     <li>Deve ter opção de cadastrar perguntas ou questões</li>
 </ul>
  
- ### 1.3 Modos de jogos
+### 1.3 Modos de jogos
 
  <ul>
     <li>Deve ter possibilidade de selecionar a categorias de perguntas nos modos de jogo </li>
     <li>Deve ter campo de feedback, para poder visualizar respostas comentadas</li>
  </ul>
 
- ### 1.4 Integração com apps de Mídia
+### 1.4 Integração com apps de Mídia
 
  <ul>
-    <li>Deve ter conexão com os apps de mídia para compartilhamento de rank ou criar desafios</li>
+    <li>Deve ter conexão com os apps de mídia social para compartilhamento de rank ou criar desafios</li>
  </ul>
 
 
@@ -50,9 +50,21 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
     <li>Deve ter relatório de desempenho</li>
     <li>Deve ter configurações de notificações</li>
     <li>Deve ter menu de suporte ao usuário e Central de Ajuda</li>
-    <li></li>
+</ul>
 
+### 2. Requisitos Elicitados
 
+### Moscow
+
+| Código | Descrição | Prioridade |
+|--------|-----------|------------|
+|INS00 | Cadastro de usuário e login | Must |
+|INS01 | Tutorial de jogabilidade | Should |
+|INS02 | Diferentes modos de jogo | Could |
+|INS03 | Cadastro de perguntas/questões | Should |
+|INS04 | Categorias de perguntas | Could |
+|INS05 | Feedback com respostas comentadas | Won't |
+|INS06 | Integração com apps de Mídia Social | Could |
 
 
 ## Histórico de Versões
@@ -60,3 +72,4 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 10/09/20 |  1.0   |    Documento Introspecção     |           Guilherme Leal|
+| 10/09/20 |  1.1 |    Elicitação de Requisitos     |           Guilherme Leal|
