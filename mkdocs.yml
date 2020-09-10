@@ -1,0 +1,9 @@
+site_name: Vestibulandos
+repo_name: 'Repositório de ArqDsw - Vestibulandos'
+repo_url: 'https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos'
+theme:
+    name: 'material'
+
+nav:
+    - Home: index.md
+    
