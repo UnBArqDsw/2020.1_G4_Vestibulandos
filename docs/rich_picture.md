@@ -6,6 +6,7 @@
 | 10/09/2020 |  0.1   |  Criação do documento e adição de rich picture. | [Lucas Silva](https://github.com/lucasgomesgs0) | 
 | 11/09/2020 |  0.2   |  Adição de rich picture. | [Julio Litwin](https://github.com/juliolitwin) | 
 | 11/09/2020 |  0.3   |  Adição de introdução, metodologia e referências. | [Lucas Silva](https://github.com/lucasgomesgs0) | 
+| 11/09/2020 |  0.4   |  Adição de rich picture. | [Guilherme Leal](https://github.com/gleal17) | 
 
 ## 1. Introdução
 O Rich Picture é um desenho que ilustra os principais elementos e relações para modelagem de idéias ou solução de um problema. Por ser uma técnica pouco formal, os desenhos podem ser feitos à mão livre enquanto participa de uma reunião, brainstorming ou em uma conversa com o cliente. É um desenho composto por diferentes tipos de componentes, seja textos, imagens, símbolos e ícones, que são utilizados para ilustrar a idéia.
@@ -20,6 +21,9 @@ Para uma maior reunião de idéias, o grupo decidiu que cada membro criaria um r
 
 ## Autor: [Julio Litwin](https://github.com/juliolitwin)
 ![Rich Picture - Julio Litwin](./img/rich_picture/RP_JulioLitwin.jpg)
+
+## Autor: [Guilherme Leal](https://github.com/gleal17)
+![Rich Picture - Guilherme Leal](./img/rich_picture/RP_Guilherme.jpg)
 
 ## 4. Rich Pictures criados pelo grupo
 
