@@ -1,5 +1,13 @@
 #  Introspecção
 
+## Histórico de Versões
+
+|   Data   | Versão |           Descrição           |             Autor(es)              |
+|:--------:|:------:|:-----------------------------:|:----------------------------------:|
+| 10/09/20 |  0.1   |    Documento Introspecção     |           Guilherme Leal|
+| 10/09/20 |  0.2 |    Elicitação de Requisitos     |           Guilherme Leal|
+
+## Introdução
 <p align="justify">
 Obter informações a respeito de um software por meio da introspecção, assim será uma forma de imaginar o caminho do usuário no sistema.
 </p>
@@ -65,14 +73,6 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 |INS04 | Categorias de perguntas | Could |
 |INS05 | Feedback com respostas comentadas | Won't |
 |INS06 | Integração com apps de Mídia Social | Could |
-
-
-## Histórico de Versões
-
-|   Data   | Versão |           Descrição           |             Autor(es)              |
-|:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| 10/09/20 |  1.0   |    Documento Introspecção     |           Guilherme Leal|
-| 10/09/20 |  1.1 |    Elicitação de Requisitos     |           Guilherme Leal|
 
 
 ## Referências
