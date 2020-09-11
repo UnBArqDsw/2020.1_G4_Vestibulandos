@@ -6,10 +6,16 @@ theme:
 
 nav:
     - Home: index.md
-    - Planejamento: planejamento.md
+    - Design Sprint: design_sprint.md
     - Pré-Rastreabilidade: 
-      - RichPicture: richPicture.md
+      - RichPicture: rich_picture.md
       - 5W2H: 5W2H.md
     - Elicitação de requisitos : 
+        - Brainstorm: brainstorm.md
+        - Entrevista: entrevista.md
         - Introspecção: introspeccao.md
-        - Requisitos Elicitados: requisitos_elicitados.md
+    - Iniciativas Extras: 
+        - Identidade visual: id_visual.md
+    - Plano de Análise de Riscos: plano_de_analise.md
+
+      
