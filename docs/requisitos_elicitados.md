@@ -7,10 +7,10 @@
 | 10/09/2020| 0.2 | Adição de requisitos elicitados pela Introspecção | [Guilherme Lima Matos Leal](https://github.com/gleal17) |
 | 11/09/2020| 0.3 | Adição de requisitos elicitados pelo Brainstorming | [Lucas Silva](https://github.com/lucasgomesgs0) |
 
-## Introdução
+## 1. Introdução
 
 
-## Requisitos funcionais
+## 2. Requisitos funcionais
 | ID | Descrição | Rastreabilidade | 
 |--------|-----------|------------|
 |**RF01**| Cadastro de usuário e login | [Introspecção](./introspeccao.md), [Brainstorming](./brainstorming.md)  |
@@ -36,6 +36,6 @@
 |**RF21**| O usuário cadastrado poderá visualizar o ranking. | [Brainstorming](./brainstorming.md) |
 
 
-## Requisitos não funcionais
+## 3. Requisitos não funcionais
 | ID | Descrição | Rastreabilidade | 
 |--------|-----------|------------|
