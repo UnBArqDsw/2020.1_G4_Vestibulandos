@@ -27,6 +27,9 @@ Para uma maior reunião de idéias, o grupo decidiu que cada membro criaria um r
 
 ## 4. Rich Pictures criados pelo grupo
 
+## Versão 1
+![Rich Picture - Versão 1](./img/rich_picture/RP_Grupo_v1.jpg)
+
 ## 5. Referências
 - Material complementar da disciplina Arquitetura e Desenho de Software. VideoAula 02c - DSW - Base - RichPicture. Professora Milene Serrano. Universidade de Brasília.
 
