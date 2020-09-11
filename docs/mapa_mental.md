@@ -12,7 +12,7 @@ O mapa mental é um diagrama que auxilia na elaboração de idéias a partir de 
 ## 2. Mapas mentais
 
 ## Autor: [Guilherme Leal](https://github.com/gleal17)
-![Mapa mental - Guilherme Leal](./img/mapas_mentais\mapa_Guilherme.jpg)
+![Mapa mental - Guilherme Leal](./img/mapas_mentais/mapa_Guilherme.jpg)
 
 ## Autor: [João Pedro](https://github.com/jpmartins201)
 ![Mapa mental - João Pedro](./img/mapas_mentais/mapa_Joao.png)
