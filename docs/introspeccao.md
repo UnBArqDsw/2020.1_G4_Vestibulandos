@@ -73,3 +73,10 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 10/09/20 |  1.0   |    Documento Introspecção     |           Guilherme Leal|
 | 10/09/20 |  1.1 |    Elicitação de Requisitos     |           Guilherme Leal|
+
+
+## Referências
+
+>SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+>Goguen, J. A. and C. Linde, "Techniques for Requirements Elicitation", in Software Requirements Engineering, 2nd. Ed., IEEE CS Press, 1997, pp110-122.

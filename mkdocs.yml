@@ -11,4 +11,5 @@ nav:
       - RichPicture: richPicture.md
       - 5W2H: 5W2H.md
     - Elicitação de requisitos : 
-        - Requisitos ELicitados: requisitos_elicitados.md
+        - Introspecção: introspeccao.md
+        - Requisitos Elicitados: requisitos_elicitados.md
