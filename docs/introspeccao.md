@@ -62,17 +62,15 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 
 ### 2. Requisitos Elicitados
 
-### Moscow
-
 | Código | Descrição |
 |--------|-----------|
-|INS00 | Cadastro de usuário e login | 
-|INS01 | Tutorial de jogabilidade | 
-|INS02 | Diferentes modos de jogo | 
-|INS03 | Cadastro de perguntas/questões | 
-|INS04 | Categorias de perguntas | 
-|INS05 | Feedback com respostas comentadas | 
-|INS06 | Integração com apps de Mídia Social |
+| INS00 | Cadastro de usuário e login | 
+| INS01 | Tutorial de jogabilidade | 
+| INS02 | Diferentes modos de jogo | 
+| INS03 | Cadastro de perguntas/questões | 
+| INS04 | Categorias de perguntas | 
+| INS05 | Feedback com respostas comentadas | 
+| INS06 | Integração com apps de Mídia Social |
 
 
 ## Referências
