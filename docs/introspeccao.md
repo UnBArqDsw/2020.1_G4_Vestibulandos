@@ -64,15 +64,15 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 
 ### Moscow
 
-| Código | Descrição | Prioridade |
-|--------|-----------|------------|
-|INS00 | Cadastro de usuário e login | Must |
-|INS01 | Tutorial de jogabilidade | Should |
-|INS02 | Diferentes modos de jogo | Could |
-|INS03 | Cadastro de perguntas/questões | Should |
-|INS04 | Categorias de perguntas | Could |
-|INS05 | Feedback com respostas comentadas | Won't |
-|INS06 | Integração com apps de Mídia Social | Could |
+| Código | Descrição |
+|--------|-----------|
+|INS00 | Cadastro de usuário e login | 
+|INS01 | Tutorial de jogabilidade | 
+|INS02 | Diferentes modos de jogo | 
+|INS03 | Cadastro de perguntas/questões | 
+|INS04 | Categorias de perguntas | 
+|INS05 | Feedback com respostas comentadas | 
+|INS06 | Integração com apps de Mídia Social |
 
 
 ## Referências
