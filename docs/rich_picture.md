@@ -27,7 +27,7 @@ Para uma maior reunião de idéias, o grupo decidiu que cada membro criaria um r
 ![Rich Picture - Guilherme Leal](./img/rich_picture/RP_Guilherme.jpg)
 
 ## Autor: [João Pedro Martins](https://github.com/gleal17)
-![Rich Picture - João Pedro Martins](./img/rich_picture/richpicture_v1.jpg)
+![Rich Picture - João Pedro Martins](./img/rich_picture/RP_JoaoPedro.jpg)
 
 ## 4. Rich Pictures criados pelo grupo
 

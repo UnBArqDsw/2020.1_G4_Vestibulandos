@@ -1,4 +1,4 @@
-# Brainstorming
+# Mapa mental
 
 ## Histórico de versão
 | Data | Versão | Descrição | Autor(es) |
