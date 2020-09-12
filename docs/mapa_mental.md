@@ -7,7 +7,7 @@
 | 11/09/2020| 0.2 | Adição de mapas mentais | Lucas Gomes |
 
 ## 1. Introdução
-O mapa mental é um diagrama que auxilia na elaboração de ideias a partir de um assunto central. É um diagrama simples onde é possível ser criado a mão livre enquanto participa de alguma reunião ou brainstorming. O mapa mental dá uma visão geral do assunto central e ajuda na memorização das idéias ali representadas, além de facilitar no planejamento.
+O mapa mental é um diagrama que auxilia na elaboração de ideias a partir de um assunto central. É um diagrama simples onde é possível ser criado a mão livre enquanto participa de alguma reunião ou brainstorming. O mapa mental dá uma visão geral do assunto central e ajuda na memorização das ideias ali representadas, além de facilitar no planejamento.
 
 ## 2. Mapas mentais
 
