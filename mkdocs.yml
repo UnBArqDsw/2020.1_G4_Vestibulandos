@@ -7,15 +7,22 @@ theme:
 nav:
     - Home: index.md
     - Design Sprint: design_sprint.md
+    - Metodologia: metodologia.md
     - Pré-Rastreabilidade: 
       - RichPicture: rich_picture.md
       - 5W2H: 5W2H.md
     - Elicitação de requisitos : 
-        - Brainstorm: brainstorm.md
+        - Brainstorm: brainstorming.md
         - Entrevista: entrevista.md
         - Introspecção: introspeccao.md
+        - Lexico: lexico.md
+        - Mapa Mental: mapa_mental.md
+        - Storyboard: storyboard.md
+        - Requisitos Elicitados: requisitos_elicitados.md
+        
+    - Plano de Análise de Riscos: plano_de_analise.md
     - Iniciativas Extras: 
         - Identidade visual: id_visual.md
-    - Plano de Análise de Riscos: plano_de_analise.md
+    
 
       
