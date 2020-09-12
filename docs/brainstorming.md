@@ -7,12 +7,12 @@
 | 10/09/2020| 0.2 | Adição dos primeiros tópicos sobre o Brainstorming | Lucas Gomes |
 
 ## 1. Introdução
-O Brainstorming é um método em que as equipes crieam idéias para resolver problemas definidos previamente. Por ser um ambiente de pensamento livre, todos os integrantes podem dar suas idéias acerca do problema. O problema geralmente parte de uma pergunta que é iniciada com "Como poderíamos...". Essa técnica produz uma grande quantidade de idéias de diferentes pessoas e estabelecem ligações entre elas para encontrar soluções para o problema.
+O Brainstorming é um método em que as equipes criam ideias para resolver problemas definidos previamente. Por ser um ambiente de pensamento livre, todos os integrantes podem dar suas ideias acerca do problema. O problema geralmente parte de uma pergunta que é iniciada com "Como poderíamos...". Essa técnica produz uma grande quantidade de ideias de diferentes pessoas e estabelecem ligações entre elas para encontrar soluções para o problema.
 
 ## 2. Metodologia
-Esta técnica foi realizado na primeira reunião em que todo o grupo estava presente. O objetivo foi definir o escopo do projeto e levantar idéias para o seu desenvolvimento, onde cada componente do grupo expressou suas idéias e opiniões, gerando discussões a respeito do projeto até ser formada uma decisão "final" sobre cada idéia dada. Como a reunião foi gravada, foi possível estar escutando todas as idéias novamente para não correr o risco de estar deixando algo relevante para trás.
+Esta técnica foi realizado na primeira reunião em que todo o grupo estava presente. O objetivo foi definir o escopo do projeto e levantar ideias para o seu desenvolvimento, onde cada componente do grupo expressou suas ideias e opiniões, gerando discussões a respeito do projeto até ser formada uma decisão "final" sobre cada ideia dada. Como a reunião foi gravada, foi possível escutar todas as ideias novamente para não correr o risco de estar deixando algo relevante para trás.
 
-## 3. Idéias elicitadas
+## 3. ideias elicitadas
 | Índice | Descrição |
 | :----: | :-------: |
 |**BR01**| O usuário poderá fazer seu cadastro no jogo. |

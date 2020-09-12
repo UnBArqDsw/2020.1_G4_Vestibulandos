@@ -10,10 +10,10 @@
 | 11/09/2020 |  0.4   |  Adição de rich picture. | [João Pedro](https://github.com/jpmartins201) | 
 
 ## 1. Introdução
-O Rich Picture é um desenho que ilustra os principais elementos e relações para modelagem de idéias ou solução de um problema. Por ser uma técnica pouco formal, os desenhos podem ser feitos à mão livre enquanto participa de uma reunião, brainstorming ou em uma conversa com o cliente. É um desenho composto por diferentes tipos de componentes, seja textos, imagens, símbolos e ícones, que são utilizados para ilustrar a idéia.
+O Rich Picture é um desenho que ilustra os principais elementos e relações para modelagem de ideias ou solução de um problema. Por ser uma técnica pouco formal, os desenhos podem ser feitos à mão livre enquanto participa de uma reunião, brainstorming ou em uma conversa com o cliente. É um desenho composto por diferentes tipos de componentes, seja textos, imagens, símbolos e ícones, que são utilizados para ilustrar a ideia.
 
 ## 2. Metodologia
-Para uma maior reunião de idéias, o grupo decidiu que cada membro criaria um rich picture com o seu entedimento e idéias sobre o tema. Assim, será possível criar um rich picture final com a união das principais idéias de cada rich picture criado.
+Para uma maior reunião de ideias, o grupo decidiu que cada membro criaria um rich picture com o seu entedimento e ideias sobre o tema. Assim, será possível criar um rich picture final com a união das principais ideias de cada rich picture criado.
 
 ## 3. Rich Pictures criados pelos integrantes do grupo
 
