@@ -19,8 +19,10 @@ nav:
         - Mapa Mental: mapa_mental.md
         - Storyboard: storyboard.md
         - Requisitos Elicitados: requisitos_elicitados.md
-        
     - Plano de Análise de Riscos: plano_de_analise.md
+    - Modelagem: 
+        - Diagramas Estáticos:
+            - Diagrama de Classes: diagrama_de_classe.md
     - Iniciativas Extras: 
         - Identidade visual: id_visual.md
         - Protótipos: prototipos.md
