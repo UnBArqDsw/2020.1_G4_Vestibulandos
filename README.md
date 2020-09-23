@@ -6,7 +6,7 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 14/0139281 | [Lucas Gomes Silva](https://github.com/fernand0aguilar)|
+| 14/0139281 | [Fernando Ribeiro Aguilar](https://github.com/fernand0aguilar)|
 | 15/0128312 | [Guilherme Lima Matos Leal](https://github.com/gleal17) |
 | 16/0046602 | [João Pedro de Aquino Corrêa Martins](https://github.com/jpmartins201) |
 | 16/0129443 | [Julio Cesar Litwin Lima](https://github.com/juliolitwin) |
