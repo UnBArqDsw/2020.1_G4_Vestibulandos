@@ -20,11 +20,15 @@ nav:
             - Introspecção: 'base/elicitacao/introspeccao.md'
             - Storyboard: 'base/elicitacao/storyboard.md'
             - Requisitos Elicitados: 'base/elicitacao/requisitos_elicitados.md'
+        - Iniciativas Extras: 
+            - Identidade visual: 'base/iniciativas_extras/id_visual.md'
+            - Protótipos: 'base/iniciativas_extras/prototipos.md'
     - Modelagem: 
         - Diagramas Estáticos:
             - Diagrama de Classes: 'modelagem/diagrama_de_classe.md'
+        - Diagramas Dinâmicos:
             - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
+            - Diagrama de Estados: 'modelagem/diagrama_de_estados.md'
         - Lexico: 'modelagem/lexico.md'
-    - Iniciativas Extras: 
-        - Identidade visual: 'iniciativas_extras/id_visual.md'
-        - Protótipos: 'iniciativas_extras/prototipos.md'
+    
+    
