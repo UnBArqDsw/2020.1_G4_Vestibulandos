@@ -12,7 +12,7 @@ Trata-se de especificar as metologias nas quais serão utilizadas ao projeto do 
 
 ### Scrum
 
-![Scrum](/img/scrum.jpg)
+![Scrum](./../img/scrum.jpg)
 
 O Scrum é uma metodologia ágil de trabalho onde é usada para estabelecer conjuntos de regras e práticas de gestão para conseguir o sucesso de um projeto. Com o foco no trabalho em equipe, ocorre uma melhora na comunicação e maximiza o apoio de todos, fazendo com que todos do time se esforcem e se sintam bem com que estão fazendo e isso acaba gerando mais para frente um aumento de produtividade.
 
@@ -25,7 +25,7 @@ O Scrum é uma metodologia ágil de trabalho onde é usada para estabelecer conj
 
 ### XP
 
-![Scrum](/img/xp.jpg)
+![Scrum](./../img/xp.jpg)
 
 O XP é uma metodologia ágil de desenvolvimento de softwares focada na agilidade de equipes e na qualidade dos projetos e tem como seus valores a simplicidade, o feedback, a comunicação, a coragem, o respeito.
 
