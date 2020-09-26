@@ -14,11 +14,7 @@ Os diagramas de classes são os principais blocos de construção de todos os m�
 
 #### Versão: 0
 
-<<<<<<< HEAD
 ![DiagramaClasse](./../img/diagramas/diagrama_de_classe.png)
-=======
-![DiagramaClasse](/img/diagramas/diagrama_de_classe.png)
->>>>>>> Organizado mkdocs e arquivos em pastas
 
 ### Referências
 **GeeksForGeeks**. Disponível em: <https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/>. Acesso em: 18 de Setembro 2020.
