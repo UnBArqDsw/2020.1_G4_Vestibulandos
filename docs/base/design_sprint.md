@@ -6,7 +6,7 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 10/09/20 | 0.1 | Adicionado o documento | Julio Litwin |
 
-![Sketch](/img/design_sprint_example.png)
+![Sketch](./../img/design_sprint_example.png)
 
 ## Introdução
 

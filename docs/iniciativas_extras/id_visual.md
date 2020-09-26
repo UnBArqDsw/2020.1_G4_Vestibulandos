@@ -17,13 +17,13 @@ Composta pela união de símbolo e tipografia, a identidade visual do projeto ut
 ## 3. Logo
 
 ## Autor: [Guilherme Leal](https://github.com/gleal17)
-![Logo](./img/idVisual/logo.jpg)
+![Logo](./../img/idVisual/logo.jpg)
 
 ### Aplicação Preto e Branco
-![Logo](./img/idVisual/logoPB.jpg)
+![Logo](./../img/idVisual/logoPB.jpg)
 
 ## 3.1 Paleta de Cores
-![Logo](./img/idVisual/COR-1.jpg)
+![Logo](./../img/idVisual/COR-1.jpg)
 
 
 ## Referências
