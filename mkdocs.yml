@@ -23,6 +23,7 @@ nav:
     - Modelagem: 
         - Diagramas Estáticos:
             - Diagrama de Classes: 'modelagem/diagrama_de_classe.md'
+            - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
         - Lexico: 'modelagem/lexico.md'
     - Iniciativas Extras: 
         - Identidade visual: 'iniciativas_extras/id_visual.md'
