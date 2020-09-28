@@ -23,7 +23,8 @@ nav:
         - Iniciativas Extras: 
             - Identidade visual: 'base/iniciativas_extras/id_visual.md'
             - Protótipos: 'base/iniciativas_extras/prototipos.md'
-    - Modelagem: 
+    - Modelagem:
+        - Backlog: 'modelagem/backlog.md'
         - Diagramas Estáticos:
             - Diagrama de Classes: 'modelagem/diagrama_de_classe.md'
             - Diagrama de Pacotes: '/modelagem/diagrama_de_pacotes.md'
