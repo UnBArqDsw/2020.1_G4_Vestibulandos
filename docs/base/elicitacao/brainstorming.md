@@ -12,7 +12,7 @@ O Brainstorming é um método em que as equipes criam ideias para resolver probl
 ## 2. Metodologia
 Esta técnica foi realizado na primeira reunião em que todo o grupo estava presente. O objetivo foi definir o escopo do projeto e levantar ideias para o seu desenvolvimento, onde cada componente do grupo expressou suas ideias e opiniões, gerando discussões a respeito do projeto até ser formada uma decisão "final" sobre cada ideia dada. Como a reunião foi gravada, foi possível escutar todas as ideias novamente para não correr o risco de estar deixando algo relevante para trás.
 
-## 3. ideias elicitadas
+## 3. Ideias elicitadas
 | Índice | Descrição |
 | :----: | :-------: |
 |**BR01**| O usuário poderá fazer seu cadastro no jogo. |

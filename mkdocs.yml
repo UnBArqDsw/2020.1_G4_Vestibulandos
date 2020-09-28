@@ -26,13 +26,14 @@ nav:
     - Modelagem:
         - Backlog: 'modelagem/backlog.md'
         - Diagramas Estáticos:
+            - Diagrama de Componentes: 'modelagem/diagrama_de_componentes.md'
             - Diagrama de Classes: 'modelagem/diagrama_de_classe.md'
-            - Diagrama de Pacotes: '/modelagem/diagrama_de_pacotes.md'
+            - Diagrama de Pacotes: 'modelagem/diagrama_de_pacotes.md'
         - Diagramas Dinâmicos:
             - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
             - Diagrama de Estados: 'modelagem/diagrama_de_estados.md'
             - Diagrama de Sequencia: 'modelagem/diagrama_de_sequencia.md'
         - Lexico: 'modelagem/lexico.md'
-        - Iniciativas: 'modelagem/iniciativas_extras.md'
+        - Iniciativas Extras: 'modelagem/iniciativas_extras.md'
     
     
