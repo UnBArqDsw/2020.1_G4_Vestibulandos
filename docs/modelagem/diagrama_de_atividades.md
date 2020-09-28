@@ -4,12 +4,12 @@
 
 |   Data   | Versão |Descrição| Autor(es)|
 |:--------:|:------:|:---------------------:|:--------------:|
-|18/09/2020|   0.1 | Adicionado o documento | [Guilherme Leal](https://github.com/gleal17) |
+|28/09/2020|   0.1 | Adicionado o documento | [Guilherme Leal](https://github.com/gleal17) |
 
 
 ### Introdução
 
-<p align="justify"> O diagrama de classe oferece recursos para evidenciar fluxos de ações e seus resultados. O foco é capturar ações de numa instância de um obejto e seus resultados das mudanças de estado.
+<p align="justify"> O diagrama de classe oferece recursos para evidenciar fluxos de ações e seus resultados. O foco é capturar ações de numa instância de um obejto e seus resultados das mudanças de estado.</p>
 
 
 ### Diagrama
