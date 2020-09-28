@@ -23,7 +23,8 @@ Cálculo do valor: benefício relativo * peso do benefício + penalidade relativ
 
 Cálculo da prioridade: valor(%) / (custo(%) * peso do custo relativo + risco(%) * peso do risco relativo)
 
-US #|Benefício relativo (2) |Penalidade Relativa (1) |Valor total |Valor (%) |Custo Relativo (1)|Custo (%)|Risco relativo (0.5) |Risco(%) |Prioridade|
+## Resultado
+US #|Benefício relativo |Penalidade Relativa |Valor total |Valor (%) |Custo Relativo |Custo (%)|Risco relativo |Risco(%) |Prioridade|
 |--|---|---|---|---|---|---|---|---|---|
 |01| 9| 9| 27| 6,2068| 3| 5,8823| 3| 3,7037| 0,80251869953388543|
 |02| 7| 5| 19| 4,3678| 3| 5,8823| 3| 3,7037| 0,56474208542632353|
@@ -48,3 +49,6 @@ US #|Benefício relativo (2) |Penalidade Relativa (1) |Valor total |Valor (%) |C
 |21| 7| 6| 20| 4,5977| 4| 7,8431| 5| 6,1728| 0,42066883206002104|
 |22| 8| 6| 22| 5,0574| 2| 3,9215| 3| 3,7037| 0,87599054275247473|
 **Total**| 157| 121| 435| 100| 51| 100| 81| | --|
+
+## Referências
+- First Things First: Prioritizing Requirements. Karl E. Wiegers, 1999. Disponível em <https://www.processimpact.com/articles/prioritizing.pdf>. Último acesso em 28/09/2020.
