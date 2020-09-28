@@ -14,6 +14,7 @@ nav:
             - RichPicture: 'base/pre_rastreabilidade/rich_picture.md'
             - 5W2H: 'base/pre_rastreabilidade/5W2H.md'
             - Mapa Mental: 'base/pre_rastreabilidade/mapa_mental.md'
+            - Protótipos: 'base/iniciativas_extras/prototipos.md'
         - Elicitação de requisitos : 
             - Brainstorm: 'base/elicitacao/brainstorming.md'
             - Entrevista: 'base/elicitacao/entrevista.md'
@@ -22,20 +23,19 @@ nav:
             - Requisitos Elicitados: 'base/elicitacao/requisitos_elicitados.md'
         - Iniciativas Extras: 
             - Identidade visual: 'base/iniciativas_extras/id_visual.md'
-            - Protótipos: 'base/iniciativas_extras/prototipos.md'
             - Especificação Suplementar: 'base/iniciativas_extras/especificacao_suplementar.md'
             - Priorização MOSCOW: 'base/priorizacao/moscow.md'
     - Modelagem:
         - Backlog: 'modelagem/backlog.md'
         - Diagramas Estáticos:
-            - Diagrama de Componentes: 'modelagem/diagrama_de_componentes.md'
-            - Diagrama de Classes: 'modelagem/diagrama_de_classe.md'
-            - Diagrama de Pacotes: 'modelagem/diagrama_de_pacotes.md'
+            - Diagrama de Componentes: 'modelagem/diagramas_estaticos/diagrama_de_componentes.md'
+            - Diagrama de Classes: 'modelagem/diagramas_estaticos/diagrama_de_classe.md'
+            - Diagrama de Pacotes: 'modelagem/diagramas_estaticos/diagrama_de_pacotes.md'
         - Diagramas Dinâmicos:
-            - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
-            - Diagrama de Estados: 'modelagem/diagrama_de_estados.md'
-            - Diagrama de Sequencia: 'modelagem/diagrama_de_sequencia.md'
-            - Diagrama de Atividades: 'modelagem/diagrama_de_atividades.md'
+            - Diagrama de Atividades: 'modelagem/diagramas_dinamicos/diagrama_de_atividades.md'
+            - Diagrama de Comunicação: 'modelagem/diagramas_dinamicos/diagrama_de_comunicacao.md'
+            - Diagrama de Estados: 'modelagem/diagramas_dinamicos/diagrama_de_estados.md'
+            - Diagrama de Sequencia: 'modelagem/diagramas_dinamicos/diagrama_de_sequencia.md'
         - Lexico: 'modelagem/lexico.md'
         - Iniciativas Extras: 'modelagem/iniciativas_extras.md'
     - Reuniões:
