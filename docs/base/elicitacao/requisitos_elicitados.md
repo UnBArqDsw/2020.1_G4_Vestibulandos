@@ -29,7 +29,7 @@
 |**RF14**| As opções de jogo no modo ranqueado serão um usuário cadastrado contra outro. | [Brainstorming](./brainstorming.md) |
 |**RF15**| No modo ranqueado a vitória fará com que o usuário ganhe pontos e a derrota fará com que perca-os. | [Brainstorming](./brainstorming.md) |
 |**RF16**| O jogo terá um ranking do modo ranqueado. | [Brainstorming](./brainstorming.md) |
-|**RF17**| O usuário cadastrado poderá jogar um modo treino. | [Brainstorming](./brainstorming.md) |
+|**RF17**| O usuário cadastrado poderá jogar no modo treino. | [Brainstorming](./brainstorming.md) |
 |**RF18**| O usuário cadastrado poderá desafiar outros usuário cadastrados. | [Brainstorming](./brainstorming.md) |
 |**RF19**| As questões criadas por usuário serão disponibilizadas após avaliação de algum membro da staff. | [Brainstorming](./brainstorming.md) |
 |**RF20**| O usuário poderá reportar questões. | [Brainstorming](./brainstorming.md) |
