@@ -31,6 +31,14 @@ Esta técnica foi realizado na primeira reunião em que todo o grupo estava pres
 |**BR14**| As questões criadas por usuário serão disponibilizadas após avaliação de algum membro da staff. |
 |**BR15**| O usuário poderá reportar questões. |
 |**BR16**| O usuário cadastrado poderá visualizar o ranking. |
+|**BR17**| O aplicativo deve ser prático e simples de ser utilizado. |
+|**BR18**| O aplicativo deve ser intuitivo. |
+|**BR19**| O aplicativo deve funcionar 24/7. |
+|**BR20**| O aplicativo deve funcionar em várias plataformas. |
+|**BR21**| O aplicativo deve manter os dados em segurança. |
+|**BR22**| O aplicativo deve manter os dados em backup. |
+|**BR23**| O aplicativo deve manter certos dados com confidencialidade e privacidade. |
+|**BR24**| O aplicativo deve fazer uso minímo possivel da banda de internet. |
 
 ## 4. Referências
 - INTERACTION DESIGN, Foundation. Brainstorming. Disponível em: <https://www.interaction-design.org/literature/topics/brainstorming>. Último acesso em: 10/09/2020.
