@@ -6,4 +6,6 @@
 
 - Criado o documento de [Backlog](./backlog.md).
 
-- Adicionado equipe no Gitpages. 
+- Adicionado equipe no Gitpages e foto da equipe no ReadMe.
+
+- Adicionado Especificação Suplementar
