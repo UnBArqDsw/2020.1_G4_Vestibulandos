@@ -43,7 +43,11 @@ O XP tem como seus princípios básicos o feedback rápido, a simplicidade, a id
 | Versionamento  |  Github | Onde será publicado todo o escopo do projeto e código fonte |
 | Editor | Visual Studio Code, Atom, MEditor | Usado para escrever as documentações, requisitos do projeto |
 
+### BPMN da metodologia
+![BPMNMetodologia](./../img/bpmn/metodologia_bpmn.png)
+
+
 ### Referências
-**SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides.** Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+**SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides.** Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
 **DevMedia**, Agile Development: XP e Scrum em uma Abordagem Comparativa. Disponível em: <https://www.devmedia.com.br/agile-development-xp-e-scrum-em-uma-abordagem-comparativa/30808.>. Acesso em: 11, Setembro e 2020.
