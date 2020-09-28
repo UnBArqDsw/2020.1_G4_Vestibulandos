@@ -30,6 +30,7 @@ nav:
         - Diagramas Dinâmicos:
             - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
             - Diagrama de Estados: 'modelagem/diagrama_de_estados.md'
+            - Diagrama de Sequencia: 'modelagem/diagrama_de_sequencia.md'
         - Lexico: 'modelagem/lexico.md'
         - Iniciativas: 'modelagem/iniciativas_extras.md'
     
