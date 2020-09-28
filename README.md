@@ -14,5 +14,5 @@
 | 13/0132233 | [Ricardo Canela](https://github.com/ricardocanela)|
 
 ## Sobre 
-Um jogo de perguntas e respostas para criar melhor interação com estudantes que estão se preparando para os vestibulares. Proporcionar para os vestibulando uma experiência em treinar para o vestibular de forma fácil, interativa e divertida.
+O Vestibulandos é um jogo de perguntas e respostas com o intuito de tornar divertido a forma como o vestibulando estuda. Há uma interação entre vestibulandos onde podem desafiar entre si para ver quem tem maior domínio em uma ou várias áreas de conhecimento. Proporcionar para os vestibulando uma experiência em treinar para o vestibular de forma fácil, interativa e divertida.
 

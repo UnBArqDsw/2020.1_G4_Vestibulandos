@@ -12,7 +12,7 @@ Trata-se de especificar as metologias nas quais serão utilizadas ao projeto do 
 
 ### Scrum
 
-![Scrum](/img/scrum.jpg)
+![Scrum](./../img/scrum.jpg)
 
 O Scrum é uma metodologia ágil de trabalho onde é usada para estabelecer conjuntos de regras e práticas de gestão para conseguir o sucesso de um projeto. Com o foco no trabalho em equipe, ocorre uma melhora na comunicação e maximiza o apoio de todos, fazendo com que todos do time se esforcem e se sintam bem com que estão fazendo e isso acaba gerando mais para frente um aumento de produtividade.
 
@@ -25,7 +25,7 @@ O Scrum é uma metodologia ágil de trabalho onde é usada para estabelecer conj
 
 ### XP
 
-![Scrum](/img/xp.jpg)
+![Scrum](./../img/xp.jpg)
 
 O XP é uma metodologia ágil de desenvolvimento de softwares focada na agilidade de equipes e na qualidade dos projetos e tem como seus valores a simplicidade, o feedback, a comunicação, a coragem, o respeito.
 
@@ -43,7 +43,11 @@ O XP tem como seus princípios básicos o feedback rápido, a simplicidade, a id
 | Versionamento  |  Github | Onde será publicado todo o escopo do projeto e código fonte |
 | Editor | Visual Studio Code, Atom, MEditor | Usado para escrever as documentações, requisitos do projeto |
 
+### BPMN da metodologia
+![BPMNMetodologia](./../img/bpmn/metodologia_bpmn.png)
+
+
 ### Referências
-**SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides.** Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+**SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides.** Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
 **DevMedia**, Agile Development: XP e Scrum em uma Abordagem Comparativa. Disponível em: <https://www.devmedia.com.br/agile-development-xp-e-scrum-em-uma-abordagem-comparativa/30808.>. Acesso em: 11, Setembro e 2020.

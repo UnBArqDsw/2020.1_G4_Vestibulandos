@@ -18,21 +18,21 @@ Para uma maior reunião de ideias, o grupo decidiu que cada membro criaria um ri
 ## 3. Rich Pictures criados pelos integrantes do grupo
 
 ## Autor: [Lucas Silva](https://github.com/lucasgomesgs0)
-![Rich Picture - Lucas Silva](./img/rich_picture/RP_LucasSilva.png)
+![Rich Picture - Lucas Silva](../../img/rich_picture/RP_LucasSilva.png)
 
 ## Autor: [Julio Litwin](https://github.com/juliolitwin)
-![Rich Picture - Julio Litwin](./img/rich_picture/RP_JulioLitwin.jpg)
+![Rich Picture - Julio Litwin](../../img/rich_picture/RP_JulioLitwin.jpg)
 
 ## Autor: [Guilherme Leal](https://github.com/gleal17)
-![Rich Picture - Guilherme Leal](./img/rich_picture/RP_Guilherme.jpg)
+![Rich Picture - Guilherme Leal](../../img/rich_picture/RP_Guilherme.jpg)
 
 ## Autor: [João Pedro Martins](https://github.com/gleal17)
-![Rich Picture - João Pedro Martins](./img/rich_picture/RP_JoaoPedro.jpg)
+![Rich Picture - João Pedro Martins](../../img/rich_picture/RP_JoaoPedro.jpg)
 
 ## 4. Rich Pictures criados pelo grupo
 
 ## Versão 1
-![Rich Picture - Versão 1](./img/rich_picture/RP_Grupo_v1.jpg)
+![Rich Picture - Versão 1](../../img/rich_picture/RP_Grupo_v1.jpg)
 
 ## 5. Referências
 - Material complementar da disciplina Arquitetura e Desenho de Software. VideoAula 02c - DSW - Base - RichPicture. Professora Milene Serrano. Universidade de Brasília.

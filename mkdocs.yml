@@ -6,24 +6,33 @@ theme:
 
 nav:
     - Home: index.md
-    - Design Sprint: design_sprint.md
-    - Metodologia: metodologia.md
-    - Pré-Rastreabilidade: 
-      - RichPicture: rich_picture.md
-      - 5W2H: 5W2H.md
-    - Elicitação de requisitos : 
-        - Brainstorm: brainstorming.md
-        - Entrevista: entrevista.md
-        - Introspecção: introspeccao.md
-        - Lexico: lexico.md
-        - Mapa Mental: mapa_mental.md
-        - Storyboard: storyboard.md
-        - Requisitos Elicitados: requisitos_elicitados.md
-        
-    - Plano de Análise de Riscos: plano_de_risco.md
-    - Iniciativas Extras: 
-        - Identidade visual: id_visual.md
-        - Protótipos: prototipos.md
+    - Base:
+        - Design Sprint: 'base/design_sprint.md'
+        - Metodologia: 'base/metodologia.md'
+        - Plano de Análise de Riscos: 'base/plano_de_risco.md'
+        - Pré-Rastreabilidade: 
+            - RichPicture: 'base/pre_rastreabilidade/rich_picture.md'
+            - 5W2H: 'base/pre_rastreabilidade/5W2H.md'
+            - Mapa Mental: 'base/pre_rastreabilidade/mapa_mental.md'
+        - Elicitação de requisitos : 
+            - Brainstorm: 'base/elicitacao/brainstorming.md'
+            - Entrevista: 'base/elicitacao/entrevista.md'
+            - Introspecção: 'base/elicitacao/introspeccao.md'
+            - Storyboard: 'base/elicitacao/storyboard.md'
+            - Requisitos Elicitados: 'base/elicitacao/requisitos_elicitados.md'
+        - Iniciativas Extras: 
+            - Identidade visual: 'base/iniciativas_extras/id_visual.md'
+            - Protótipos: 'base/iniciativas_extras/prototipos.md'
+    - Modelagem:
+        - Backlog: 'modelagem/backlog.md'
+        - Diagramas Estáticos:
+            - Diagrama de Classes: 'modelagem/diagrama_de_classe.md'
+            - Diagrama de Pacotes: '/modelagem/diagrama_de_pacotes.md'
+        - Diagramas Dinâmicos:
+            - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
+            - Diagrama de Estados: 'modelagem/diagrama_de_estados.md'
+            - Diagrama de Sequencia: 'modelagem/diagrama_de_sequencia.md'
+        - Lexico: 'modelagem/lexico.md'
+        - Iniciativas: 'modelagem/iniciativas_extras.md'
     
-
-      
+    

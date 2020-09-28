@@ -27,7 +27,7 @@
 |SB00| O app deve auxiliar os estudos|
 |SB01| O usuário deve ser capaz de utilizar o app sem acompanhamento|
 |SB02| O app deve animar/estimular o usuário a estudar|
-|SB03|O app deve ser acessível por dispositivos móveis |
+|SB03| O app deve ser acessível por dispositivos móveis |
 
 ## Referêcias
 

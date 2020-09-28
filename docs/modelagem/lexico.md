@@ -26,7 +26,7 @@ De acordo com o slide, na qual é explicado o questionário a ser realizado:
 | Jogar | Exercitar, Praticar, Treinar | Inicializar uma partida de perguntas | O usuário i´ra inicializar a partida do jogo. | Verbo
 | Pergunta | Questão | Questão com um problema a ser resolvido. | Questão que envolva um problema na qual é necessário a ser resolvido | Objeto
 | Ranking | Classificação | Estatísticas dos jogadores | Classificação de vários de jogadores que obtiveram pontuações e ordenado. | Objeto
-| Experiência | Prática | Pontos ganhos a cada partida | Pontos ganhos e usados para poder upar no Vestibulandos | Verbo
+| Ganhar Experiência | Prática | Pontos ganhos a cada partida | Pontos ganhos e usados para poder upar no Vestibulandos | Verbo
 | Upar | Level UP | Nível dos jogador é elevado | O usuário irá progredindo durante as partidas e treinos, onde será utilizado os pontos no ranking. | Verbo
 | Logado | Online | Tipo de estado atualmente do usuário | O usuário quando loga na plataforma do Vestibulandos e se torna um usuário online | Estado
 | Não Logado | Offline | Tipo de estado atualmente do usuário | O usuário quando desloga na plataforma do Vestibulandos e se torna um usuário offline | Estado
