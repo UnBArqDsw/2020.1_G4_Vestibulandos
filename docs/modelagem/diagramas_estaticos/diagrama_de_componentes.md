@@ -6,9 +6,10 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 28/09/2020 | 0.1 | Criado o documento | Lucas Gomes |
 | 28/09/2020 | 0.2 | Adicionou diagrama de componentes versão 0 | Lucas Gomes |
+| 28/09/2020 | 0.3 | Adicionou introdução ao documento | Julio Litwin |
 
 ## 1. Introdução
-
+O Diagrama de Componentes é um diagrama estático que auxilia a equipe de desenvolvimento entender a estrutura de implementação do sistema e quais componentes irá compor cada sistema. Nele, mostra os relacionamentos entre diferentes sistemas e componentes que irá compor a aplicação.
 
 ## 2 Diagrama de Componentes
 
