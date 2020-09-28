@@ -38,4 +38,13 @@
 
 ## 3. Requisitos não funcionais
 | ID | Descrição | Rastreabilidade | 
-|--------|-----------|------------|
+|----|------|---------|
+| RNF01 | O aplicativo deve ser interativo. | [Brainstorming](./brainstorming.md) |
+| RNF02 | O aplicativo deve funcionar 24/7. | [Brainstorming](./brainstorming.md) |
+| RNF03 | O aplicativo deve ser multiplataforma | [Brainstorming](./brainstorming.md) |
+| RNF04 | O aplicativo deve guardar dados criptografados | [Brainstorming](./brainstorming.md) |
+| RNF05 | O aplicativo deve permitir uso por dados móveis e ser de baixo custo para o pacote de dados | [Brainstorming](./brainstorming.md) |
+| RNF06 | O aplicativo deve ter uma boa responsividade em todas as plataformas igualmente | [Brainstorming](./brainstorming.md) |
+| RNF07 | Confidencialidade e privacidade dos dados | [Brainstorming](./brainstorming.md) |
+| RNF08 | O aplicativo deve manter um backup dos meus dados | [Brainstorming](./brainstorming.md) |
+| RNF09 | A aplicação deve ser prática e simples de utilizar, além de direcionar o usuário em como utilizar | [Brainstorming](./brainstorming.md) |
