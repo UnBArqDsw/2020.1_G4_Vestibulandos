@@ -35,7 +35,7 @@ nav:
             - Diagrama de Sequencia: 'modelagem/diagrama_de_sequencia.md'
         - Lexico: 'modelagem/lexico.md'
         - Iniciativas Extras: 'modelagem/iniciativas_extras.md'
-    - Ata de Reuniões:
+    - Reuniões:
         - Ata 1: 'reunioes/ata_1.md'
         - Ata 2: 'reunioes/ata_2.md'
         - Ata 3: 'reunioes/ata_3.md'
