@@ -23,6 +23,8 @@ nav:
         - Iniciativas Extras: 
             - Identidade visual: 'base/iniciativas_extras/id_visual.md'
             - Protótipos: 'base/iniciativas_extras/prototipos.md'
+            - Especificação Suplementar: 'base/iniciativas_extras/especificacao_suplementar.md'
+            - Priorização MOSCOW: 'base/priorizacao/moscow.md'
     - Modelagem:
         - Backlog: 'modelagem/backlog.md'
         - Diagramas Estáticos:
@@ -33,6 +35,7 @@ nav:
             - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
             - Diagrama de Estados: 'modelagem/diagrama_de_estados.md'
             - Diagrama de Sequencia: 'modelagem/diagrama_de_sequencia.md'
+            - Diagrama de Atividades: 'modelagem/diagrama_de_atividades.md'
         - Lexico: 'modelagem/lexico.md'
         - Iniciativas Extras: 'modelagem/iniciativas_extras.md'
     - Reuniões:

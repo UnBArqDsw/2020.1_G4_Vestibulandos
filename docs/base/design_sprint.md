@@ -22,7 +22,7 @@ No primeiro dia, o grupo realizou a técnica de brainstorm para poder realizar o
 
 **Artefato(s)**:
 * <em>[Brainstorming](./elicitacao/brainstorming.md)</em>
-* <em>[5w2h](./pre_rastreabilidade/5w2h.md)</em>
+* <em>[5w2h](./pre_rastreabilidade/5W2H.md)</em>
 
 ### Dia 2: Sketch (Divergência)
 Essa é a fase mais parecida com o tradicional brainstorming, sendo que a diferença está no foco em divergência. Em vez de a equipe se reunir para jogar e debater ideias, cada participante é incentivado a buscar soluções separadamente para o problema.

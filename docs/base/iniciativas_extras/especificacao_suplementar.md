@@ -50,7 +50,7 @@ O sistema deve dar feedbacks ao usuário, de forma que o usuário seja sempre in
 
 ### Disponibilidade
 
-Os servidores devem estar sempre disponíveis(24 horas por dia, 7 dias da semana).
+Os servidores devem estar sempre disponíveis (24 horas por dia, 7 dias da semana).
 
 ## Integridade dos Dados
 Os dados mostrados na aplicação devem estar condizentes com o que está no banco de dados da aplicação.

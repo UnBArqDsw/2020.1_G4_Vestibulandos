@@ -6,6 +6,7 @@
 | 27/09/2020| 0.1 | Criação do documento | Lucas Gomes |
 | 27/09/2020| 0.2 | Adição da prioridade dos primeiros requisitos elicitados pelo Braimstorming e Introspecção | Lucas Gomes, Guilherme Leal |
 | 28/09/2020| 0.3 | Editou a introdução | Lucas Gomes |
+| 28/09/2020| 0.4 | Revisão de prioridades e adição de RNF | Guilherme Leal |
 
 ## 1. Introdução
 MoSCoW é uma técnica de priorização com o objetivo de definir a importância dos requisitos elicitados de acordo com seu impacto na aplicação e no valor de mercado. Assim, sabendo a prioridade de cada requisito, é possível escolher a ordem em que serão implementados na aplicação. MoSCoW é um acrônimo para as prioridades possíveis nessa técnica e é dada pela seguinte ordem de prioridade:
@@ -44,6 +45,13 @@ MoSCoW é uma técnica de priorização com o objetivo de definir a importância
 ## 2.2 Requisitos Não Funcionais
 | Requisito | Descrição | Prioridade |
 | :-------: | :-------: | :--------: |
-|  |  |  |
+|**RNF00**| Baixo consumo de dados| Should |
+|**RNF01**| Alta adesão de estudantes| Should|
+|**RNF02**| Praticidade: o sistema deve ter uma abordagem prática e intuitiva|Must|
+|**RNF03**| Boa reputação e aceitação de estudantes e instituições de ensino|Must|
+|**RNFSB04**| O app deve auxiliar os estudos|
+|**RNFSB05**| O usuário deve ser capaz de utilizar o app sem acompanhamento|
+|**RNFSB06**| O app deve animar/estimular o usuário a estudar|
+|**RNF07**| O app deve ser acessível por dispositivos móveis |
 
 ## 3. Referências
