@@ -22,6 +22,9 @@
 
 ## Requisitos Elicitados
 
+
+### Requisitos não funcionais
+
 | Código | Descrição |
 |--------|-----------|
 |SB00| O app deve auxiliar os estudos|
