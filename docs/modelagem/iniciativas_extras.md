@@ -9,3 +9,11 @@
 - Adicionado equipe no Gitpages e foto da equipe no ReadMe.
 
 - Adicionado Especificação Suplementar
+
+- Adicionado requisitos elicitados em Entrevista.
+
+- Corrigido o menu de reuniões com as atas.
+
+- Corrigido o léxico de experiência para "ganhar experiência".
+
+- Adicionado RNF's no Brainstoming.
