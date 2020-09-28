@@ -22,6 +22,8 @@ Será utilizada a entrevista de forma "fechada", na qual são perguntas definida
 
 ## Entrevista 1
 
+Entrevista realizada no parque do condomínio. Foi escolhido o Douglas a partir julgando pela a idade.
+
 - **Julio**: Olá, você teria um minutinho para poder responder algumas perguntas?
 - **Douglas**: Claro pô, como posso ajudar?
 - **Julio**: Então, seguindo o script aqui do papel, estarei fazendo 5 perguntas, tudo bem?
