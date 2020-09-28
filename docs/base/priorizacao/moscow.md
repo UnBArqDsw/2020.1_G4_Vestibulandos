@@ -5,20 +5,18 @@
 | :--: | :----: | :-------: | :-------: |
 | 27/09/2020| 0.1 | Criação do documento | Lucas Gomes |
 | 27/09/2020| 0.2 | Adição da prioridade dos primeiros requisitos elicitados pelo Braimstorming e Introspecção | Lucas Gomes, Guilherme Leal |
+| 28/09/2020| 0.3 | Editou a introdução | Lucas Gomes |
 
 ## 1. Introdução
-MoSCoW é uma técnica de priorização com o objetivo de definir a importância dos requisitos elicitados de acordo com seu impacto na aplicação e no valor de mercado. Assim, sabendo a prioridade de cada requisito, é possível escolher a ordem em que serão implementados na aplicação.
-
-## 2. Metodologia
-MoSCoW é um acrônimo para as prioridades possíveis nessa técnica e é dada pela seguinte ordem de prioridade:
+MoSCoW é uma técnica de priorização com o objetivo de definir a importância dos requisitos elicitados de acordo com seu impacto na aplicação e no valor de mercado. Assim, sabendo a prioridade de cada requisito, é possível escolher a ordem em que serão implementados na aplicação. MoSCoW é um acrônimo para as prioridades possíveis nessa técnica e é dada pela seguinte ordem de prioridade:
 1. <b>M</b> - must have 
 2. <b>S</b> - should have
 3. <b>C</b> - could have 
 4. <b>W</b> - won't have
 
-## 3. Priorização
+## 2. Priorização
 
-## 3.1 Requisitos Funcionais
+## 2.1 Requisitos Funcionais
 | Requisito | Descrição | Prioridade |
 | :-------: | :-------: | :--------: |
 | **RF01** | O usuário deve ser capaz de se cadastrar e realizar o login | Must |
@@ -43,9 +41,9 @@ MoSCoW é um acrônimo para as prioridades possíveis nessa técnica e é dada p
 | **RF20** | O usuário deverá ter a possibilidade de reportar questões. | Must |
 | **RF21** | O usuário cadastrado deverá ter a possibilidade de visualizar o ranking. | Should |
 
-## 3.2 Requisitos Não Funcionais
+## 2.2 Requisitos Não Funcionais
 | Requisito | Descrição | Prioridade |
 | :-------: | :-------: | :--------: |
 |  |  |  |
 
-## 4. Referências
+## 3. Referências

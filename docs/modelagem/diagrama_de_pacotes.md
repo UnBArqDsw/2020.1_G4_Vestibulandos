@@ -17,6 +17,6 @@ Um diagrama de pacotes são frequentemente utilizados para representar subsistem
 
 ### 2.2 Diagrama de Pacotes - Casos de uso
 #### Versão 0 - Autor: [João Pedro](https://github.com/jpmartins201)
-![DiagramaPacotesCasosDeUso](./../img/diagramas/diagrama_de_pacotes_use_cases.jpg)
+![DiagramaPacotesCasosDeUso](./../img/diagramas/diagrama_pacotes_use_cases.jpg)
 
 

@@ -26,6 +26,7 @@ nav:
     - Modelagem: 
         - Diagramas Estáticos:
             - Diagrama de Classes: 'modelagem/diagrama_de_classe.md'
+            - Diagrama de Pacotes: '/modelagem/diagrama_de_pacotes.md'
         - Diagramas Dinâmicos:
             - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
             - Diagrama de Estados: 'modelagem/diagrama_de_estados.md'
