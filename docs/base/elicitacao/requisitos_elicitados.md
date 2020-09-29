@@ -48,12 +48,12 @@
 |****RNF02****| O aplicativo deve funcionar 24/7. | [BR19](./brainstorming.md) |
 |****RNF03****| O aplicativo deve ser multiplataforma | [BR20](./brainstorming.md) |
 |****RNF04****| O aplicativo deve guardar dados criptografados | [BR21](./brainstorming.md) |
-| **RNF05** | O aplicativo deve permitir uso por dados móveis e ser de baixo custo para o pacote de dados | [BR24](./brainstorming.md), [ESPS00](docs/base/iniciativas_extras/especificacao_suplementar.md) |
+| **RNF05** | O aplicativo deve permitir uso por dados móveis e ser de baixo custo para o pacote de dados | [BR24](./brainstorming.md), [ESPS00](./../iniciativas_extras/especificacao_suplementar.md) |
 |****RNF05****| O aplicativo deve permitir uso por dados móveis e ser de baixo custo para o pacote de dados | [BR24](./brainstorming.md) |
 |****RNF06****| O aplicativo deve ter uma boa responsividade em todas as plataformas igualmente | [BR18](./brainstorming.md) |
 |****RNF07****| Confidencialidade e privacidade dos dados | [BR23](./brainstorming.md) |
 |****RNF08****| O aplicativo deve manter um backup dos meus dados | [BR22](./brainstorming.md) |
 |****RNF09****| A aplicação deve ser prática e simples de utilizar, além de direcionar o usuário em como utilizar | [BR18](./brainstorming.md) |
-| **RNF10**| Alta adesão de estudantes|[ESPS01](docs/base/iniciativas_extras/especificacao_suplementar.md) |
-| **RNF11**| Praticidade: o sistema deve ter uma abordagem prática e intuitiva|[ESPS02](docs/base/iniciativas_extras/especificacao_suplementar.md) |
-| **RNF12**| Boa reputação e aceitação de estudantes e instituições de ensino|[ESPS03](docs/base/iniciativas_extras/especificacao_suplementar.md) |
+| **RNF10**| Alta adesão de estudantes|[ESPS01](./../iniciativas_extras/especificacao_suplementar.md) |
+| **RNF11**| Praticidade: o sistema deve ter uma abordagem prática e intuitiva|[ESPS02](./../iniciativas_extras/especificacao_suplementar.md) |
+| **RNF12**| Boa reputação e aceitação de estudantes e instituições de ensino|[ESPS03](./../iniciativas_extras/especificacao_suplementar.md) |
