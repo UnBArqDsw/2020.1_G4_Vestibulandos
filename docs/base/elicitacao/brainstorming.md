@@ -12,7 +12,7 @@ O Brainstorming é um método em que as equipes criam ideias para resolver probl
 ## 2. Metodologia
 Esta técnica foi realizado na primeira reunião em que todo o grupo estava presente. O objetivo foi definir o escopo do projeto e levantar ideias para o seu desenvolvimento, onde cada componente do grupo expressou suas ideias e opiniões, gerando discussões a respeito do projeto até ser formada uma decisão "final" sobre cada ideia dada. Como a reunião foi gravada, foi possível escutar todas as ideias novamente para não correr o risco de estar deixando algo relevante para trás.
 
-## 3. ideias elicitadas
+## 3. Ideias elicitadas
 | Índice | Descrição |
 | :----: | :-------: |
 |**BR01**| O usuário poderá fazer seu cadastro no jogo. |
@@ -25,12 +25,20 @@ Esta técnica foi realizado na primeira reunião em que todo o grupo estava pres
 |**BR08**| As opções de jogo no modo ranqueado serão um usuário cadastrado contra outro. |
 |**BR09**| No modo ranqueado a vitória fará com que o usuário ganhe pontos e a derrota fará com que perca-os. |
 |**BR10**| O jogo terá um ranking do modo ranqueado. |
-|**BR11**| O usuário cadastrado poderá jogar um modo treino. |
+|**BR11**| O usuário cadastrado poderá jogar no modo treino. |
 |**BR12**| O usuário cadastrado poderá desafiar outros usuário cadastrados. |
 |**BR13**| O usuário cadastrado poderá criar questões. |
 |**BR14**| As questões criadas por usuário serão disponibilizadas após avaliação de algum membro da staff. |
 |**BR15**| O usuário poderá reportar questões. |
 |**BR16**| O usuário cadastrado poderá visualizar o ranking. |
+|**BR17**| O aplicativo deve ser prático e simples de ser utilizado. |
+|**BR18**| O aplicativo deve ser intuitivo. |
+|**BR19**| O aplicativo deve funcionar 24/7. |
+|**BR20**| O aplicativo deve funcionar em várias plataformas. |
+|**BR21**| O aplicativo deve manter os dados em segurança. |
+|**BR22**| O aplicativo deve manter os dados em backup. |
+|**BR23**| O aplicativo deve manter certos dados com confidencialidade e privacidade. |
+|**BR24**| O aplicativo deve fazer uso minímo possivel da banda de internet. |
 
 ## 4. Referências
 - INTERACTION DESIGN, Foundation. Brainstorming. Disponível em: <https://www.interaction-design.org/literature/topics/brainstorming>. Último acesso em: 10/09/2020.

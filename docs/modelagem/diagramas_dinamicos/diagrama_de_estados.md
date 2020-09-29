@@ -15,12 +15,12 @@ O Diagrama de Estados é um tipo de diagrama comportamental que mostra transiç�
 ### 2.1 Diagrama de Estados - Partida
 
 #### Versão 0 - Autor: [Lucas Gomes](https://github.com/lucasgomesgs0)
-![DiagramaEstadosPartida](./../img/diagramas/diagrama_de_estados_partida.jpg)
+![DiagramaEstadosPartida](../../img/diagramas/diagrama_de_estados_partida.jpg)
 
 ### 2.2 Diagrama de Estados - Questão
 
 #### Versão 0 - Autor: [Lucas Gomes](https://github.com/lucasgomesgs0)
-![DiagramaEstadosQuestao](./../img/diagramas/diagrama_de_estados_questao.jpg)
+![DiagramaEstadosQuestao](../../img/diagramas/diagrama_de_estados_questao.jpg)
 
 
 ## 3. Referências

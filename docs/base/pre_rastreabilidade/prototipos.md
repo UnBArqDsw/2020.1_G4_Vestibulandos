@@ -7,8 +7,8 @@
 
 ## Protótipo de Baixa fidelidade
 
-![Protótipo Baixa](./../img/prototipos/prototipo_baixafidelidade_v1.jpg)
+![Protótipo Baixa](../../img/prototipos/prototipo_baixafidelidade_v1.jpg)
 
 ## Protótipo de Alta fidelidade
 
-![Protótipo Baixa](./../img/prototipos/prototipo_altafidelidade_v1.jpeg)
+![Protótipo Baixa](../../img/prototipos/prototipo_altafidelidade_v1.jpeg)

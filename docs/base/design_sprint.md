@@ -21,8 +21,8 @@ O primeiro dia de um Design Sprint é voltado para identificação e alinhamento
 No primeiro dia, o grupo realizou a técnica de brainstorm para poder realizar o levantamento do escopo ao projeto, sendo discutido vários temas, dificuldades e dentre outros. Também foi realizado outras técnicas tais como 5w2h.
 
 **Artefato(s)**:
-* <a href="https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/brainstorming/"><em>Brainstorming</em></a>
-* <a href="https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/5W2H/"><em>5w2h</em></a>
+* <em>[Brainstorming](./elicitacao/brainstorming.md)</em>
+* <em>[5w2h](./pre_rastreabilidade/5W2H.md)</em>
 
 ### Dia 2: Sketch (Divergência)
 Essa é a fase mais parecida com o tradicional brainstorming, sendo que a diferença está no foco em divergência. Em vez de a equipe se reunir para jogar e debater ideias, cada participante é incentivado a buscar soluções separadamente para o problema.
@@ -32,7 +32,7 @@ Dessa forma, a tendência é que cada um analise e solucione a questão baseada 
 No segundo dia, o grupo entrou em um consenso maior com o tema definido ao projeto, foi solicitado para cada integrante realizar um esboço para poder realizar uma versão final, foi utilizado RichPicture.
 
 **Artefato(s)**:
-* <a href="https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/richpicture/"><em>RichPicture</em></a>
+* <em>[RichPicture](./pre_rastreabilidade/rich_picture.md)</em>
 
 ### Dia 3: Decide (Decisão)
 Esse é o dia mais crítico do Design Sprint e não dá para perder muito tempo debatendo todas as ideias propostas. O foco precisa estar na previsão de retorno de cada sugestão em relação ao problema apresentado e, claro, a viabilidade de prototipar e testar a ideia antes que o prazo termine.

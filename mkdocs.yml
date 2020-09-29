@@ -14,25 +14,39 @@ nav:
             - RichPicture: 'base/pre_rastreabilidade/rich_picture.md'
             - 5W2H: 'base/pre_rastreabilidade/5W2H.md'
             - Mapa Mental: 'base/pre_rastreabilidade/mapa_mental.md'
+            - Protótipos: 'base/pre_rastreabilidade/prototipos.md'
         - Elicitação de requisitos : 
             - Brainstorm: 'base/elicitacao/brainstorming.md'
             - Entrevista: 'base/elicitacao/entrevista.md'
             - Introspecção: 'base/elicitacao/introspeccao.md'
             - Storyboard: 'base/elicitacao/storyboard.md'
             - Requisitos Elicitados: 'base/elicitacao/requisitos_elicitados.md'
+        - Priorização de requisitos:
+            - MoSCoW: 'base/priorizacao/moscow.md'
+            - First Things First: 'base/priorizacao/first_things_first.md'
         - Iniciativas Extras: 
             - Identidade visual: 'base/iniciativas_extras/id_visual.md'
-            - Protótipos: 'base/iniciativas_extras/prototipos.md'
     - Modelagem:
         - Backlog: 'modelagem/backlog.md'
         - Diagramas Estáticos:
-            - Diagrama de Classes: 'modelagem/diagrama_de_classe.md'
-            - Diagrama de Pacotes: '/modelagem/diagrama_de_pacotes.md'
+            - Diagrama de Classes: 'modelagem/diagramas_estaticos/diagrama_de_classe.md'
+            - Diagrama de Componentes: 'modelagem/diagramas_estaticos/diagrama_de_componentes.md'
+            - Diagrama de Pacotes: 'modelagem/diagramas_estaticos/diagrama_de_pacotes.md'
         - Diagramas Dinâmicos:
-            - Diagrama de Comunicação: 'modelagem/diagrama_de_comunicacao.md'
-            - Diagrama de Estados: 'modelagem/diagrama_de_estados.md'
-            - Diagrama de Sequencia: 'modelagem/diagrama_de_sequencia.md'
+            - Diagrama de Atividades: 'modelagem/diagramas_dinamicos/diagrama_de_atividades.md'
+            - Diagrama de Comunicação: 'modelagem/diagramas_dinamicos/diagrama_de_comunicacao.md'
+            - Diagrama de Estados: 'modelagem/diagramas_dinamicos/diagrama_de_estados.md'
+            - Diagrama de Sequencia: 'modelagem/diagramas_dinamicos/diagrama_de_sequencia.md'
         - Lexico: 'modelagem/lexico.md'
-        - Iniciativas: 'modelagem/iniciativas_extras.md'
+        - Iniciativas Extras: 
+            - Registro de Iniciativas Extras: 'modelagem/iniciativas_extras.md'
+            - Especificação Suplementar: 'base/iniciativas_extras/especificacao_suplementar.md'
+    - Reuniões:
+        - Ata 1: 'reunioes/ata_1.md'
+        - Ata 2: 'reunioes/ata_2.md'
+        - Ata 3: 'reunioes/ata_3.md'
+        - Ata 4: 'reunioes/ata_4.md'
+        - Ata 5: 'reunioes/ata_5.md'
+        - Ata 6: 'reunioes/ata_6.md'
     
     

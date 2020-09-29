@@ -22,10 +22,12 @@ Será utilizada a entrevista de forma "fechada", na qual são perguntas definida
 
 ## Entrevista 1
 
+Entrevista realizada no parque do condomínio. Foi escolhido o Douglas a partir julgando pela a idade.
+
 - **Julio**: Olá, você teria um minutinho para poder responder algumas perguntas?
 - **Douglas**: Claro pô, como posso ajudar?
 - **Julio**: Então, seguindo o script aqui do papel, estarei fazendo 5 perguntas, tudo bem?
-- **Julio**: Eu mesmo Julio e sou um estudante da UnB, e vendo a partir da sua idade, acredito que você esteja no ensino médio ou mesmo já finalizou, correto?
+- **Julio**: Eu me chamo Julio e sou um estudante da UnB, e vendo a partir da sua idade, acredito que você esteja no ensino médio ou já finalizou, correto?
 - **Douglas**: Eu estou no último ano do ensino médio *risos*.
 - **Julio**: Show de bola, então, estamos com um projeto dentro do nosso curso de desenvolver uma plataforma, digamos que um jogo, e querendo gameficar o jogo voltado para vestibulares. Basicamente você se diverte passando tempo respondendo questões de vestibulares anteriores a partir do nosso banco de dados e trabalhando com rankings, competições e dentre outros.
 - **Douglas**: Caramba, bastante interessante o jogo *risos*.
@@ -38,6 +40,15 @@ Será utilizada a entrevista de forma "fechada", na qual são perguntas definida
 - **Julio**: Compreendo *risos*. A próxima pergunta seria relacionado a algo que poderia ser adicionado ao jogo, até para persistir na sua atenção dentro do jogo, querer continuando e não tornar algo cansativo, você gostaria de dizer sobre?
 - **Douglas**: Hmmm, realmente eu não faço ideia, só se adicionassem um "MOBA" dentro do jogo mesmo, então creio que a minha ideia não seria tão útil assim *risos*.
 - **Julio**: *risos*, realmente. Desde já, muito obrigado pelo o seu tempo Douglas e sucesso no seus estudos!
+
+## Requisitos Elicitados
+| Código | Descrição |
+|--------|-----------|
+| ENT00 | Gamificação ao projeto | 
+| ENT01 | Desafios diários | 
+| ENT02 | Tornar não repetitivo/enjoativo | 
+| ENT03 | Tentar engajar todo tipo de usuários | 
+| ENT04 | Usar linguajar "juvenil", da atualidade entre os "jovens" | 
 
 ##  Referências
 Duolingo, 2019. Disponível em: https://requisitos-de-software.github.io/2019.2-Duolingo/elicitacao/Entrevista/. Acesso em: 10, Setembro e 2020.

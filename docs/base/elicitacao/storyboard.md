@@ -13,14 +13,17 @@
 
 ## 2.1 Storyboard 1
 
-![Storyboard 1](./img/storyboard/story1.jpg)
+![Storyboard 1](../../img/storyboard/story1.jpg)
 
 
 ## 2.2 Storyboard 2
 
-![Storyboard 2](./img/storyboard/story2.jpg)
+![Storyboard 2](../../img/storyboard/story2.jpg)
 
 ## Requisitos Elicitados
+
+
+### Requisitos não funcionais
 
 | Código | Descrição |
 |--------|-----------|

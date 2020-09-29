@@ -14,7 +14,7 @@ Os diagramas de comunicação ou de colaboração são de cunho dinâmico que mo
 
 #### Versão: 0
 
-![DiagramaComunicacao](./../img/diagramas/diagrama_de_comunicacao.jpg)
+![DiagramaComunicacao](../../img/diagramas/diagrama_de_comunicacao.jpg)
 
 ### Referências
 **monitoriadeengenhariadesoftware**. Disponível em: <https://monitoriadeengenhariadesoftware.wordpress.com/2016/03/20/diagrama-de-comunicacao/>. Acesso em: 27 de Setembro 2020.
