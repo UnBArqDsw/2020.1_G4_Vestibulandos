@@ -7,7 +7,7 @@
 | 27/09/2020| 0.1 | Criação do documento | Lucas Gomes, Julio Litwin |
 | 27/09/2020| 0.2 | Adição de Rastro | Julio Litwin |
 | 28/09/2020| 0.3 | Adição de rastros nos requisitos funcionais | [Lucas Gomes](https://github.com/lucasgomesgs0) |
-| 28/09/2020| 0.4 | Correção de rastro RNF's | [Guilherme Lima Matos Leal](https://github.com/gleal17) |
+| 28/09/2020| 0.4 | Correção de rastro RNF's e adição de requisitos de entrevista| [Guilherme Lima Matos Leal](https://github.com/gleal17) |
 
 ## 1. Introdução
 
@@ -35,7 +35,11 @@
 |**RF19**| As questões criadas por usuário serão disponibilizadas após avaliação de algum membro da staff. | [BR14](./brainstorming.md) |
 |**RF20**| O usuário poderá reportar questões. | [BR15](./brainstorming.md) |
 |**RF21**| O usuário cadastrado poderá visualizar o ranking. | [BR16](./brainstorming.md) |
-
+| **RF22** | Gamificação ao projeto | [ENT00](./entrevista.md)| 
+| **RF23** | Desafios diários | [ENT01](./entrevista.md)|
+| **RF24** | Tornar não repetitivo/enjoativo | [ENT02](./entrevista.md)|
+| **RF25** | Tentar engajar todo tipo de usuários | [ENT03](./entrevista.md)|
+| **RF26** | Usar linguajar "juvenil", da atualidade entre os "jovens" | [ENT04](./entrevista.md)|
 
 ## 3. Requisitos não funcionais
 | ID | Descrição | Rastreabilidade | 
