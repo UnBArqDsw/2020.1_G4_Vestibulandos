@@ -12,12 +12,12 @@
 ## Cálculo
 Os atributos relativos foram pontuados de 1 a 9, sendo os pesos atribuídos para efeitos de cálculo das porcentagens e prioridade representados na tabela a seguir.
 
-Atributo | Peso
-|--------| --|
-|Benefício relativo| 2|
-|Penalidade relativa| 1|
-|Custo relativo| 1|
-|Risco relativo| 0.5|
+Atributo | Peso |
+|--------| -- |
+|Benefício relativo| 2 |
+|Penalidade relativa| 1 |
+|Custo relativo| 1 |
+|Risco relativo| 0.5 |
 
 Cálculo do valor: benefício relativo * peso do benefício + penalidade relativa * peso da penalidade
 

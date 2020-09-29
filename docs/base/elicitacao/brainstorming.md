@@ -25,7 +25,7 @@ Esta técnica foi realizado na primeira reunião em que todo o grupo estava pres
 |**BR08**| As opções de jogo no modo ranqueado serão um usuário cadastrado contra outro. |
 |**BR09**| No modo ranqueado a vitória fará com que o usuário ganhe pontos e a derrota fará com que perca-os. |
 |**BR10**| O jogo terá um ranking do modo ranqueado. |
-|**BR11**| O usuário cadastrado poderá jogar um modo treino. |
+|**BR11**| O usuário cadastrado poderá jogar no modo treino. |
 |**BR12**| O usuário cadastrado poderá desafiar outros usuário cadastrados. |
 |**BR13**| O usuário cadastrado poderá criar questões. |
 |**BR14**| As questões criadas por usuário serão disponibilizadas após avaliação de algum membro da staff. |
