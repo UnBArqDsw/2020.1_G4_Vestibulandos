@@ -99,5 +99,3 @@ Interface de cominicação: Wifi ou redes móveis.
 |ESPS02| Praticidade: o sistema deve ter uma abordagem prática e intuitiva|
 |ESPS03| Boa reputação e aceitação de estudantes e instituições de ensino|
 
-
-

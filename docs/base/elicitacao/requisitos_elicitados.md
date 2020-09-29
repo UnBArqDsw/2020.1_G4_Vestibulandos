@@ -1,11 +1,11 @@
-# Brainstorming
+# Requisitos Elicitados
 
 ## Histórico de versão
 | Data | Versão | Descrição | Autor(es) |
 | :--: | :----: | :-------: | :-------: |
-| 09/09/2020| 0.1 | Criação do documento | [Guilherme Leal](https://github.com/gleal17) |
-| 10/09/2020| 0.2 | Adição de requisitos elicitados pela Introspecção | [Guilherme Lima Matos Leal](https://github.com/gleal17) |
-| 11/09/2020| 0.3 | Adição de requisitos elicitados pelo Brainstorming | [Lucas Silva](https://github.com/lucasgomesgs0) |
+| 27/09/2020| 0.1 | Criação do documento | Lucas Gomes, Julio Litwin |
+| 27/09/2020| 0.2 | Adição de Rastro | Julio Litwin |
+
 
 ## 1. Introdução
 
@@ -43,8 +43,11 @@
 | RNF02 | O aplicativo deve funcionar 24/7. | [Brainstorming](./brainstorming.md) |
 | RNF03 | O aplicativo deve ser multiplataforma | [Brainstorming](./brainstorming.md) |
 | RNF04 | O aplicativo deve guardar dados criptografados | [Brainstorming](./brainstorming.md) |
-| RNF05 | O aplicativo deve permitir uso por dados móveis e ser de baixo custo para o pacote de dados | [Brainstorming](./brainstorming.md) |
+| RNF05 | O aplicativo deve permitir uso por dados móveis e ser de baixo custo para o pacote de dados | [Brainstorming](./brainstorming.md), [Especificação Suplementar](docs/base/iniciativas_extras/especificacao_suplementar.md) |
 | RNF06 | O aplicativo deve ter uma boa responsividade em todas as plataformas igualmente | [Brainstorming](./brainstorming.md) |
 | RNF07 | Confidencialidade e privacidade dos dados | [Brainstorming](./brainstorming.md) |
 | RNF08 | O aplicativo deve manter um backup dos meus dados | [Brainstorming](./brainstorming.md) |
 | RNF09 | A aplicação deve ser prática e simples de utilizar, além de direcionar o usuário em como utilizar | [Brainstorming](./brainstorming.md) |
+| RNF10| Alta adesão de estudantes|[Especificação Suplementar](docs/base/iniciativas_extras/especificacao_suplementar.md) |
+| RNF11| Praticidade: o sistema deve ter uma abordagem prática e intuitiva|[Especificação Suplementar](docs/base/iniciativas_extras/especificacao_suplementar.md) |
+| RNF12| Boa reputação e aceitação de estudantes e instituições de ensino|[Especificação Suplementar](docs/base/iniciativas_extras/especificacao_suplementar.md) |
