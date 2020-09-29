@@ -8,11 +8,7 @@
 
 - Adicionado equipe no Gitpages e foto da equipe no ReadMe.
 
-<<<<<<< HEAD
 - Adicionado [Especificação Suplementar](../base/iniciativas_extras/especificacao_suplementar.md)
-=======
-- Adicionado [Especificação Suplementar](../base/iniciativas_extras/especificacao_suplementar.md).
->>>>>>> e177b8fa7ffc9b4c975b161ab11697e0c9186b48
 
 - Adicionado requisitos elicitados em [Entrevista](../base/elicitacao/entrevista.md).
 
