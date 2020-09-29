@@ -6,6 +6,7 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 10/09/20 | 0.1 | Adicionado o documento | Julio Litwin |
 | 11/09/20 | 0.2 | Adicionado a primeira entrevista | Julio Litwin |
+| 28/09/20 | 0.3 | Adicionado requisitos elicitados | Julio Litwin |
 
 ## Introdução
 

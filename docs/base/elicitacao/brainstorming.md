@@ -5,6 +5,7 @@
 | :--: | :----: | :-------: | :-------: |
 | 10/09/2020| 0.1 | Criação do documento | Lucas Gomes |
 | 10/09/2020| 0.2 | Adição dos primeiros tópicos sobre o Brainstorming | Lucas Gomes |
+| 28/09/2020| 0.3 | Adição de mais elicitações. | Julio Litwin|
 
 ## 1. Introdução
 O Brainstorming é um método em que as equipes criam ideias para resolver problemas definidos previamente. Por ser um ambiente de pensamento livre, todos os integrantes podem dar suas ideias acerca do problema. O problema geralmente parte de uma pergunta que é iniciada com "Como poderíamos...". Essa técnica produz uma grande quantidade de ideias de diferentes pessoas e estabelecem ligações entre elas para encontrar soluções para o problema.

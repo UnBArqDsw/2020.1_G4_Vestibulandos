@@ -3,11 +3,10 @@
 ## Histórico de versão
 | Data | Versão | Descrição | Autor(es) |
 | :--: | :----: | :-------: | :-------: |
-
 | 27/09/2020| 0.1 | Criação do documento | Lucas Gomes, Julio Litwin |
 | 27/09/2020| 0.2 | Adição de Rastro | Julio Litwin |
-| 28/09/2020| 0.3 | Adição de rastros nos requisitos funcionais | [Lucas Gomes](https://github.com/lucasgomesgs0) |
-| 28/09/2020| 0.4 | Correção de rastro RNF's e adição de requisitos de entrevista| [Guilherme Lima Matos Leal](https://github.com/gleal17) |
+| 28/09/2020| 0.3 | Adição de rastros nos requisitos funcionais | Lucas Gomes |
+| 28/09/2020| 0.4 | Correção de rastro RNF's e adição de requisitos de entrevista| Guilherme Lima |
 
 ## 1. Introdução
 
