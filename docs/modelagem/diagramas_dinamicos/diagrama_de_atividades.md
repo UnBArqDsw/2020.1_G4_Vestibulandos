@@ -16,9 +16,9 @@
 
 #### Versão: 0
 
-![Diagrama de Autenticação](./../img/diagramas/diagrama_de_autenticacao.jpg)
+![Diagrama de Autenticação](../../img/diagramas/diagrama_de_autenticacao.jpg)
 
-![Diagrama de Atividades](./../img/diagramas/diagrama_de_atividades.jpg)
+![Diagrama de Atividades](../../img/diagramas/diagrama_de_atividades.jpg)
 
 ### Referências
 
