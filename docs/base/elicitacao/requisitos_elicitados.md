@@ -1,25 +1,15 @@
-<<<<<<< HEAD
 # Requisitos Elicitados
-=======
-# Requisitos elicitados
->>>>>>> e177b8fa7ffc9b4c975b161ab11697e0c9186b48
 
 ## Histórico de versão
 | Data | Versão | Descrição | Autor(es) |
 | :--: | :----: | :-------: | :-------: |
-<<<<<<< HEAD
+
 | 27/09/2020| 0.1 | Criação do documento | Lucas Gomes, Julio Litwin |
 | 27/09/2020| 0.2 | Adição de Rastro | Julio Litwin |
-
-=======
-| 09/09/2020| 0.1 | Criação do documento | [Guilherme Leal](https://github.com/gleal17) |
-| 10/09/2020| 0.2 | Adição de requisitos elicitados pela Introspecção | [Guilherme Lima Matos Leal](https://github.com/gleal17) |
-| 11/09/2020| 0.3 | Adição de requisitos elicitados pelo Brainstorming | [Lucas Gomes](https://github.com/lucasgomesgs0) |
-| 28/09/2020| 0.4 | Adição de rastros nos requisitos funcionais | [Lucas Gomes](https://github.com/lucasgomesgs0) |
->>>>>>> e177b8fa7ffc9b4c975b161ab11697e0c9186b48
+| 28/09/2020| 0.3 | Adição de rastros nos requisitos funcionais | [Lucas Gomes](https://github.com/lucasgomesgs0) |
+| 28/09/2020| 0.4 | Correção de rastro RNF's | [Guilherme Lima Matos Leal](https://github.com/gleal17) |
 
 ## 1. Introdução
-
 
 ## 2. Requisitos funcionais
 | ID | Descrição | Rastreabilidade | 
@@ -63,6 +53,3 @@
 | **RNF10**| Alta adesão de estudantes|[ESPS01](docs/base/iniciativas_extras/especificacao_suplementar.md) |
 | **RNF11**| Praticidade: o sistema deve ter uma abordagem prática e intuitiva|[ESPS02](docs/base/iniciativas_extras/especificacao_suplementar.md) |
 | **RNF12**| Boa reputação e aceitação de estudantes e instituições de ensino|[ESPS03](docs/base/iniciativas_extras/especificacao_suplementar.md) |
-
-
-
