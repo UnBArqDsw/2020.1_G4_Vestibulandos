@@ -26,7 +26,6 @@ nav:
             - First Things First: 'base/priorizacao/first_things_first.md'
         - Iniciativas Extras: 
             - Identidade visual: 'base/iniciativas_extras/id_visual.md'
-            - Especificação Suplementar: 'base/iniciativas_extras/especificacao_suplementar.md'
     - Modelagem:
         - Backlog: 'modelagem/backlog.md'
         - Diagramas Estáticos:
@@ -39,7 +38,9 @@ nav:
             - Diagrama de Estados: 'modelagem/diagramas_dinamicos/diagrama_de_estados.md'
             - Diagrama de Sequencia: 'modelagem/diagramas_dinamicos/diagrama_de_sequencia.md'
         - Lexico: 'modelagem/lexico.md'
-        - Iniciativas Extras: 'modelagem/iniciativas_extras.md'
+        - Iniciativas Extras: 
+            - Registro de Iniciativas Extras: 'modelagem/iniciativas_extras.md'
+            - Especificação Suplementar: 'base/iniciativas_extras/especificacao_suplementar.md'
     - Reuniões:
         - Ata 1: 'reunioes/ata_1.md'
         - Ata 2: 'reunioes/ata_2.md'
