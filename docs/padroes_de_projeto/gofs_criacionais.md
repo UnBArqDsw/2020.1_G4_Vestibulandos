@@ -20,6 +20,8 @@ Fazendo um paralelo com o mundo real, uma empresa automobilística quando precis
 
 - **Baeldung**, Introduction to Creational Design Patterns. Disponível em: <https://www.baeldung.com/creational-design-patterns>. Acesso em: 24 de Setembro 2020.
 
+- **REFACTORING . GURU**, reational Design Patterns. Disponível em: <https://refactoring.guru/design-patterns/creational-patterns>. Acesso em: 24 de Setembro 2020.
+
 - **TreinaWeb**, Padrões de projeto: o que são e o que resolvem. Disponível em: <https://www.treinaweb.com.br/blog/padroes-de-projeto-o-que-sao-e-o-que-resolvem/>. Acesso em: 24 de Setembro 2020.
 
 - **Wikipedia**, Padrão de projeto de software. Disponível em: <https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software>. Acesso em: 24 de Setembro 2020.
