@@ -113,3 +113,8 @@ ex: trecho de código correspondente
 
 ### Referências
 
+- **Medium**, Padrões GRASP — Padrões de Atribuir Responsabilidades. Disponível em: <https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204>. Acesso em: 26 de Outubro 2020.
+
+- **Facom**, Padrões GRASP. Disponível em: <http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf>. Acesso em: 26 de Outubro 2020.
+
+- **Wikipedia**, GRASP (padrão orientado a objetos). Disponível em: <https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)#:~:text=Os%20diferentes%20padr%C3%B5es%20e%20princ%C3%ADpios,protected%20variations%20(varia%C3%A7%C3%B5es%20protegidas).>. Acesso em: 26 de Outubro 2020.
