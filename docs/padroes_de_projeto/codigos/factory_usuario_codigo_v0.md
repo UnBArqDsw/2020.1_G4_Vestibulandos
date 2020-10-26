@@ -40,11 +40,6 @@ public class Usuario : IUsuarioFactory
         Email = email;
         TipoUsuario = tipoUsuario;
     }
-
-    public bool DeletarUsuario(int id)
-    {
-        return true;
-    }
 }
 ```
 
@@ -65,59 +60,6 @@ public class Jogador : Usuario, IJogador
     {
         Apelido = apelido;
     }
-
-    public void AtualizarNivel()
-    {
-        Nivel++;
-    }
-
-    public void AtualizarExperiencia(int experiencia)
-    {
-        Experiencia += experiencia;
-    }
-
-    public void AtualizarVitoria()
-    {
-        Vitoria++;
-    }
-
-    public void AtualizarDerrota()
-    {
-        Derrota++;
-    }
-
-    public void AtualizarAcertoQuestao()
-    {
-        AcertoQuestao++;
-    }
-    public void AtualizarErroQuestao()
-    {
-        ErroQuestao++;
-    }
-
-    public int ObterTotalPartidas()
-    {
-        return AcertoQuestao + ErroQuestao;
-    }
-
-    public int ObterClassificacao()
-    {
-        return 1;
-    }
-
-    public void ReactNotify()
-    {
-        Console.WriteLine($"Player {Id}: Reacted to the event.");
-    }
-
-    public bool Ação(int id)
-    {
-        Console.WriteLine($"Ação do jogador {id}");
-        Partida.Notify();
-
-        return true;
-    }
-
 }
 ```
 
@@ -129,17 +71,6 @@ public class Monitor : Usuario
     {
 
     }
-
-    public Questao CriarQuestao()
-    {
-        return new Questao();
-    }
-
-    public bool ValidarQuestao(Questao questao, bool aprovado)
-    {
-        return true;
-    }
-
 }
 ```
 
@@ -151,11 +82,5 @@ public class Administrador : Monitor
     {
 
     }
-
-    public void TrocaTipoUsuario(Usuario usuario)
-    {
-
-    }
-
 }
 ```

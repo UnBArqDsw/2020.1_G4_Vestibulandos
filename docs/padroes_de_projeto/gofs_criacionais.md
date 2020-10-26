@@ -30,7 +30,7 @@ Foi utilizado esse método pela facilidade de criação de novas subclasses sem 
 
 ![FactoryPartidaDiagrama](../img/diagramas/factory_method_partida_v0.png)
 
-> [Implementação em código - Versão 0](./factory_partida_codigo_v0.md)
+> [Implementação em código - Versão 0](./codigos/factory_partida_codigo_v0.md)
 
 
 ### Factory method para Usuário
@@ -39,7 +39,7 @@ Foi utilizado esse método pela facilidade de criação de novas subclasses sem 
 
 ![FactoryPartidaDiagrama](../img/diagramas/factory_method_usuario_v0.png)
 
-> [Implementação em código - Versão 0](./factory_usuario_codigo_v0.md)
+> [Implementação em código - Versão 0](./codigos/factory_usuario_codigo_v0.md)
 
 
 ## Referências
