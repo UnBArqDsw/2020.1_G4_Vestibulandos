@@ -6,7 +6,7 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 25/10/2020 | 0.2 | Adicionado padrão Mediator de Partida | Lucas Gomes, Julio Litwin |
-| 26/10/2020 | 0.3 |  | João Pedro |
+| 26/10/2020 | 0.3 | Refatorando padrão Mediator | João Pedro, Lucas Gomes|
 
 ## Introdução
 
