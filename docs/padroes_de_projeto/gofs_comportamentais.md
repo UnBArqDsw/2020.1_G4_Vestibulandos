@@ -6,19 +6,23 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 25/10/2020 | 0.2 | Adicionado padrão Mediator de Partida | Lucas Gomes, Julio Litwin |
+| 26/10/2020 | 0.3 |  | João Pedro |
 
 ## Introdução
 
 Os Padrões Comportamentais atuam sobre como responsabilidades são atribuídas as entidades, ou seja, qual o comportamento das entidades. Estes padrões facilitam a comunicação entre os objetos, distribuindo as responsabilidades e definindo a comunicação interna.
 
 ## Mediator
-Este padrão tem como objetivo reduzir o acoplamento entre os objetos de um programa. Assim, restringe a comunicação direta entre os objetos, permitindo-os se comunicarem de forma indireta por meio de um objeto mediador.
+Este padrão tem como objetivo reduzir o acoplamento entre os objetos de um programa. Assim, restringe a comunicação direta entre os objetos, permitindo-os se comunicarem de forma indireta via um objeto mediador.
 
 Os objetos serão registrados no objeto mediador e qualquer ação que fizerem, haverá a notificação de todos os objetos registrados. 
 
 Esse padrão facilitará a implementação do projeto pela facilidade de ocorrer uma ação (jogador responder uma questão) e o mediador (partida) notificar o outro jogador presente na partida, caso tenha.
 
-Para realizar a implementação foi utilizado algumas idéias do padrão Observer, como o subject notificar os observer e acontecer um update logo em seguida. Na implementação a partida notificará o jogador e assim reagir a notificação.
+Para realizar a implementação foi utilizado algumas idéias do padrão Observer, como o subject notificar os observer e acontecer um update logo em seguida. Na implementação a partida notificará o jogador e assim este poderá reagir a notificação.
+
+Problema: Como permitir que um grupo de objetos de Jogador se comunique entre si sem que haja acomplamento entre eles?
+Solução: Introduzir uma classe que encapsule a comunicação (cada objeto participante conhece o mediador mas ignora a existência dos outros objetos).
 
 ### Mediator para Partida
 #### Diagrama representando o padrão no projeto
@@ -27,6 +31,7 @@ Para realizar a implementação foi utilizado algumas idéias do padrão Observe
 ![MediatorPartidaDiagrama](../img/diagramas/mediator_pattern_partida_v0.png)
 
 > [Implementação em código - Versão 0](./codigos/mediator_partida_codigo_v0.md)
+
 
 ## Referências
 
