@@ -7,6 +7,7 @@
 | 26/10/2020 | 0.1 | Adicionado o documento | Ricardo Lima Canela |
 | 26/10/2020 | 0.2 | Adicionado Criador | Ricardo Lima Canela e Julio Litwin |
 | 26/10/2020 | 0.3 | Adicionado Especialista | Ricardo Lima Canela |
+| 26/10/2020 | 0.4 | Adicionado Alta Coesão e Baixo Acoplamento | Ricardo Lima Canela |
 
 ### Introdução
 
@@ -38,13 +39,6 @@ No projeto Vestibulando podemos destacar:
 
 #### Detalhamento do Padrão no nível de Implementação
 ex: trecho de código correspondente
-#### Rastreamento
-rastro para código
-rastro para as decisões da equipe
-rastros para outros artefatos
-
-#### Reflexões acerca do Padrão
-justificativas, prós e contras, pertinência e outras reflexões
 
 ### Especialista
 
@@ -59,41 +53,18 @@ Por isso, A relação das entidades Partida, Questão e Alternativa é dada como
 
 #### Detalhamento do Padrão no nível de Implementação
 ex: trecho de código correspondente
-#### Rastreamento
-rastro para código
-rastro para as decisões da equipe
-rastros para outros artefatos
-
-#### Reflexões acerca do Padrão
-justificativas, prós e contras, pertinência e outras reflexões
 
 ### Alta Coesão
 
-#### Detalhamento do Padrão no nível de Modelagem
-ex: modelo de classes correspondente
-#### Detalhamento do Padrão no nível de Implementação
-ex: trecho de código correspondente
-#### Rastreamento
-rastro para código
-rastro para as decisões da equipe
-rastros para outros artefatos
+Alta coesão é atribuir de forma coerente as responsabilidades da classe. Existe uma alta coesão para as classes Partida, Questão e Alternativa já que cada uma tem sua responsabilidade bem definida conforme evidenciado na explicação do GRASP Especialista, que ao ser implementado garantiu ao sistema uma alta coesão nas classes citadas. Nesse caso, os GRASPs Especialista e Alta Coesão foram satisfeitos ao declarar responsabilidades específicas para cada uma das classes citadas (Partida, Questão e Alternativa).
 
-#### Reflexões acerca do Padrão
-justificativas, prós e contras, pertinência e outras reflexões
+O detalhamento a nível de Modelagem e de Implementação são os mesmos do Padrão Especialista
 
 ### Baixo Acoplamento
 
-#### Detalhamento do Padrão no nível de Modelagem
-ex: modelo de classes correspondente
-#### Detalhamento do Padrão no nível de Implementação
-ex: trecho de código correspondente
-#### Rastreamento
-rastro para código
-rastro para as decisões da equipe
-rastros para outros artefatos
+O Baixo Acoplamento se dá quando uma classe está coesa e possui baixa conexão ou dependência com outras classes. Um caso de alto acoplamento seria fazer com que Partida tivesse que interagir com Questão e Alternativa. Para manter um baixo acoplamento, Partida conversa apenas com Questão, que por sua vez conversa com Alternativa. Baixo Acoplamento anda de mãos dadas com Alta Coesão.
 
-#### Reflexões acerca do Padrão
-justificativas, prós e contras, pertinência e outras reflexões
+O detalhamento a nível de Modelagem e de Implementação são os mesmos do Padrão Especialista
 
 ### Polimorfismo
 
