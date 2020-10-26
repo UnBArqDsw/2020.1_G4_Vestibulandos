@@ -24,15 +24,15 @@ Para realizar a proposta dos Padrões GRASP's de correta atribuição de respons
 ### Criador
 
 Problema: Quem deve ser responsável por criar uma nova instância de uma classe?
-Solução: Atribua à classe B a responsabilidade de criar uma instância de A se pelo menos um desses for verdadeiro (quanto mais melhor):
-• B contém ou agrega A
-• B registra a existência de A
-• B usa A
-• B tem os dados necessários para a inicialização de A que serão passados ao construtor de A
+Solução: Atribua à classe B a responsabilidade de criar uma instância de A se pelo menos um desses for verdadeiro (quanto mais melhor):  
+• B contém ou agrega A  
+• B registra a existência de A  
+• B usa A  
+• B tem os dados necessários para a inicialização de A que serão passados ao construtor de A  
 
-No projeto Vestibulando podemos destacar:
+No projeto Vestibulando podemos destacar:  
 
-- Jogador(TODO) é responsável pela criação das Partidas(PARTES)  
+- Jogador(TODO) é responsável pela criação das Partidas(PARTES)    
 - Partida(TODO) é responsável pela criação das Questões(PARTES)  
 - Questão(TODO) é responsável pela criação das Alternativa(PARTES)  
 
