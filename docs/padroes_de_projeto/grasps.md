@@ -11,6 +11,7 @@
 | 26/10/2020 | 0.5 | Adicionado Polimorfismo | Ricardo Lima Canela e Julio Litwin |
 | 26/10/2020 | 0.6 | Adicionado Controlador | Ricardo Lima Canela e Julio Litwin |
 | 26/10/2020 | 0.7 | Adicionado Fabricacao | Ricardo Lima Canela |
+| 26/10/2020 | 0.8 | Corrigindo Indireção | Ricardo Lima Canela |
 
 ### Introdução
 
