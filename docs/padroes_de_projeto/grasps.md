@@ -12,6 +12,7 @@
 | 26/10/2020 | 0.6 | Adicionado Controlador | Ricardo Lima Canela e Julio Litwin |
 | 26/10/2020 | 0.7 | Adicionado Fabricacao | Ricardo Lima Canela |
 | 26/10/2020 | 0.8 | Corrigindo Indireção | Ricardo Lima Canela |
+| 26/10/2020 | 0.9 | Adicionando Exemplos em Código | Ricardo Lima Canela |
 
 ### Introdução
 
@@ -24,15 +25,15 @@ Para realizar a proposta dos Padrões GRASP's de correta atribuição de respons
 ### Criador
 
 Problema: Quem deve ser responsável por criar uma nova instância de uma classe?
-Solução: Atribua à classe B a responsabilidade de criar uma instância de A se pelo menos um desses for verdadeiro (quanto mais melhor):
-• B contém ou agrega A
-• B registra a existência de A
-• B usa A
-• B tem os dados necessários para a inicialização de A que serão passados ao construtor de A
+Solução: Atribua à classe B a responsabilidade de criar uma instância de A se pelo menos um desses for verdadeiro (quanto mais melhor):  
+• B contém ou agrega A  
+• B registra a existência de A  
+• B usa A  
+• B tem os dados necessários para a inicialização de A que serão passados ao construtor de A  
 
-No projeto Vestibulando podemos destacar:
+No projeto Vestibulando podemos destacar:  
 
-- Jogador(TODO) é responsável pela criação das Partidas(PARTES)  
+- Jogador(TODO) é responsável pela criação das Partidas(PARTES)    
 - Partida(TODO) é responsável pela criação das Questões(PARTES)  
 - Questão(TODO) é responsável pela criação das Alternativa(PARTES)  
 
@@ -42,7 +43,7 @@ No projeto Vestibulando podemos destacar:
 
 
 #### Detalhamento do Padrão no nível de Implementação
-ex: trecho de código correspondente
+[Jogador criando Partida](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/develop/GameServer/Entities/Jogador.cs)
 
 ### Especialista
 
@@ -56,7 +57,7 @@ Por isso, A relação das entidades Partida, Questão e Alternativa é dada como
 ![ModelagemEspecialista](../img/diagramas/diagrama_grasp_especialista.png)
 
 #### Detalhamento do Padrão no nível de Implementação
-ex: trecho de código correspondente
+[Questão com anunciado e Lista de Alternativas](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Frontend/blob/dev/Vestibulandos/Assets/Scripts/Quest%C3%A3o/Quest%C3%A3oC.cs)
 
 ### Alta Coesão
 
@@ -81,7 +82,7 @@ As classes derivadas de Partida são Treino e Classificada e de Questão são Qu
 ![ModelagemPolimorfismo](../img/diagramas/diagrama_grasp_polimorfismo.png)
 
 #### Detalhamento do Padrão no nível de Implementação
-ex: trecho de código correspondente
+[QuestaoC implementando IQuestao](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Frontend/blob/dev/Vestibulandos/Assets/Scripts/Quest%C3%A3o/Quest%C3%A3oC.cs)
 
 ### Indireção
 
@@ -93,7 +94,7 @@ Foi realizado a implementação do Padrão de Projeto GoF Mediator. Essa decisã
 ![MediatorPartidaDiagrama](../img/diagramas/mediator_pattern_partida_v0.png)
 
 #### Detalhamento do Padrão no nível de Implementação
-ex: trecho de código correspondente
+[Implementação do Mediator](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/develop/GameServer/Interfaces/IPartidaMediator.cs)
 
 ### Fabricação ou Invenção Pura
 
@@ -108,7 +109,7 @@ Várias outras classes no projeto também terão de salvar dados como Questões 
 ![MediatorPartidaDiagrama](../img/diagramas/diagrama_grasp_fabricacao.png)
 
 #### Detalhamento do Padrão no nível de Implementação
-ex: trecho de código correspondente
+Banco de Dados ainda não implementado.
 
 
 ### Referências
