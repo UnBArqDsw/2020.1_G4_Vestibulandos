@@ -9,8 +9,8 @@
 | 26/10/2020 | 0.3 | Adicionado Especialista | Ricardo Lima Canela |
 | 26/10/2020 | 0.4 | Adicionado Alta Coesão e Baixo Acoplamento | Ricardo Lima Canela |
 | 26/10/2020 | 0.5 | Adicionado Polimorfismo | Ricardo Lima Canela e Julio Litwin |
-| 26/10/2020 | 0.5 | Adicionado Controlador | Ricardo Lima Canela e Julio Litwin |
-| 26/10/2020 | 0.5 | Adicionado Fabricacao | Ricardo Lima Canela |
+| 26/10/2020 | 0.6 | Adicionado Controlador | Ricardo Lima Canela e Julio Litwin |
+| 26/10/2020 | 0.7 | Adicionado Fabricacao | Ricardo Lima Canela |
 
 ### Introdução
 
@@ -82,10 +82,10 @@ As classes derivadas de Partida são Treino e Classificada e de Questão são Qu
 #### Detalhamento do Padrão no nível de Implementação
 ex: trecho de código correspondente
 
-### Controlador
+### Indireção
 
-Atribui a responsabilidade de lidar com os eventos do sistema para uma classe que representa a um cenário de caso de uso do sistema global.  
-Foi realizado a implementação do Padrão de Projeto GoF Mediator. Essa decisão garantiu ao sistema um GRASP Controlador, que controla interação entre Jogadores e Partida.
+O objeto intermediário cria uma camada de indireção entre os dois componentes que não mais dependem um do outro: ambos dependem da indireção
+Foi realizado a implementação do Padrão de Projeto GoF Mediator. Essa decisão garantiu ao sistema um GRASP Indireção, que gerencia a interação entre Jogadores e Partida.
 
 #### Detalhamento do Padrão no nível de Modelagem
 
