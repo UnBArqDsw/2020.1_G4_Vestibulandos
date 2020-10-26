@@ -5,6 +5,7 @@
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
+| 25/10/2020 | 0.2 | Adicionado Factory Method de Partida | Lucas Gomes, Julio Litwin |
 
 ## Introdução
 
@@ -16,12 +17,27 @@ Os Padrões de Criação tratam desse problema separando inteiramente o cliente 
 
 Fazendo um paralelo com o mundo real, uma empresa automobilística quando precisa de amortecedores, ela terceiriza (solicita-os) e então os instala em seus carros, sem se preocupar com o todo envolvido na criação desse componente.
 
-### Referências
+## Factory Method
+É um padrão criacional que permite a superclasse "adiar" a criação de objetos para suas subclasses assim dando a possibilidade das subclasses alterar o tipo de objeto que será criado. Isso é feito instanciando um objeto da superclasse e chamando o método que retorna um objeto de determinada classe solicitada no parâmetro do método. 
 
-- **Baeldung**, Introduction to Creational Design Patterns. Disponível em: <https://www.baeldung.com/creational-design-patterns>. Acesso em: 24 de Setembro 2020.
+Foi utilizado esse método pela facilidade de criação de novas subclasses sem quebrar o código já em produção além de facilitar a manutenção do código já que cada classe tem responsabilidades únicas.
 
-- **REFACTORING . GURU**, reational Design Patterns. Disponível em: <https://refactoring.guru/design-patterns/creational-patterns>. Acesso em: 24 de Setembro 2020.
+### Factory method para Partida
+#### Diagrama representando o padrão no projeto
+- Versão 0
 
-- **TreinaWeb**, Padrões de projeto: o que são e o que resolvem. Disponível em: <https://www.treinaweb.com.br/blog/padroes-de-projeto-o-que-sao-e-o-que-resolvem/>. Acesso em: 24 de Setembro 2020.
+![FactoryPartidaDiagrama](../img/diagramas/factory_method_partida_v0.png)
 
-- **Wikipedia**, Padrão de projeto de software. Disponível em: <https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software>. Acesso em: 24 de Setembro 2020.
+> [Implementação em código](./factory_partida_codigo.md)
+
+## Referências
+
+- **Baeldung**, Introduction to Creational Design Patterns. Disponível em: <https://www.baeldung.com/creational-design-patterns>. Acesso em: 24 de Outubro 2020.
+
+- **REFACTORING . GURU**, reational Design Patterns. Disponível em: <https://refactoring.guru/design-patterns/creational-patterns>. Acesso em: 24 de Outubro 2020.
+
+- **TreinaWeb**, Padrões de projeto: o que são e o que resolvem. Disponível em: <https://www.treinaweb.com.br/blog/padroes-de-projeto-o-que-sao-e-o-que-resolvem/>. Acesso em: 24 de Outubro 2020.
+
+- **Wikipedia**, Padrão de projeto de software. Disponível em: <https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software>. Acesso em: 24 de Outubro 2020.
+
+- Material complementar da disciplina Arquitetura e Desenho de Software. VideoAula 08a - Vídeo-Aula - DSW - GoFs - Criacionais. Professora Milene Serrano. Universidade de Brasília.
