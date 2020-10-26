@@ -10,6 +10,7 @@
 | 26/10/2020 | 0.4 | Adicionado Alta Coesão e Baixo Acoplamento | Ricardo Lima Canela |
 | 26/10/2020 | 0.5 | Adicionado Polimorfismo | Ricardo Lima Canela e Julio Litwin |
 | 26/10/2020 | 0.5 | Adicionado Controlador | Ricardo Lima Canela e Julio Litwin |
+| 26/10/2020 | 0.5 | Adicionado Fabricacao | Ricardo Lima Canela |
 
 ### Introdução
 
@@ -95,17 +96,19 @@ ex: trecho de código correspondente
 
 ### Fabricação ou Invenção Pura
 
+É uma classe que não representa nenhum conceito no domínio do problema, ela apenas funciona como uma classe prestadora de serviços, e é projetada para que possamos ter um baixo acoplamento e alta coesão no sistema.
+O backend necessita realizar a persistência dos dados em um Banco de Dados. Para isso será desenvolvido uma classe PersistentStorage para que não necessite que cada classe tenha em si o método de interagir com o Banco de Dados.
+
+Exemplo: Salvar um objeto no Banco de Dados implica em uma série de operações não relacionadas ao conceito de Partida. A classe Partida tem de ser associada à interface do banco de dados relacional.
+Várias outras classes no projeto também terão de salvar dados como Questões e Alternativas. Todas irão utilizar a classe PersistentStorage para isso.
+
 #### Detalhamento do Padrão no nível de Modelagem
-ex: modelo de classes correspondente
+
+![MediatorPartidaDiagrama](../img/diagramas/diagrama_grasp_fabricacao.png)
+
 #### Detalhamento do Padrão no nível de Implementação
 ex: trecho de código correspondente
-#### Rastreamento
-rastro para código
-rastro para as decisões da equipe
-rastros para outros artefatos
 
-#### Reflexões acerca do Padrão
-justificativas, prós e contras, pertinência e outras reflexões
 
 ### Referências
 
