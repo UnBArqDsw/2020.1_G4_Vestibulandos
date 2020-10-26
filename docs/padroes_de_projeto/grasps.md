@@ -5,7 +5,8 @@
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 26/10/2020 | 0.1 | Adicionado o documento | Ricardo Lima Canela |
-
+| 26/10/2020 | 0.2 | Adicionado Criador | Ricardo Lima Canela e Julio Litwin |
+| 26/10/2020 | 0.3 | Adicionado Especialista | Ricardo Lima Canela |
 
 ### Introdução
 
@@ -22,16 +23,19 @@ Solução: Atribua à classe B a responsabilidade de criar uma instância de A s
 • B contém ou agrega A
 • B registra a existência de A
 • B usa A
-• B tem os dados necessários para a inicialização de A que
-serão passados ao construtor de A
+• B tem os dados necessários para a inicialização de A que serão passados ao construtor de A
 
 No projeto Vestibulando podemos destacar:
 
-- Jogador é uma Composição de Usuário, um caso em que TODO é responsável pela criação da PARTE  
+- Jogador(TODO) é responsável pela criação das Partidas(PARTES)  
+- Partida(TODO) é responsável pela criação das Questões(PARTES)  
 - Questão(TODO) é responsável pela criação das Alternativa(PARTES)  
 
 #### Detalhamento do Padrão no nível de Modelagem
-ex: modelo de classes correspondente
+
+![ModelagemCriador](../img/diagramas/diagrama_grasp_criador.png)
+
+
 #### Detalhamento do Padrão no nível de Implementação
 ex: trecho de código correspondente
 #### Rastreamento
@@ -44,8 +48,15 @@ justificativas, prós e contras, pertinência e outras reflexões
 
 ### Especialista
 
+A diferença entre criador e especialista é que o especialista não só é o melhor para criar a instância do objeto da outra classe como também é o melhor em desempenhar uma função específica do sistema (Quem é a melhor entidade para calcular algo? Quem é a melhor entidade para ordenar algo? Quem é a melhor entidade para cadastrar algo?)
+
+Por isso, A relação das entidades Partida, Questão e Alternativa é dada como especialistas pois cada uma desempenha uma função específica no sistema. Partida é especialista em gerenciar os dados de pontuação. Questão gerencia as informações relacionadas a pergunta a ser respondida. Alternativa da a descrição de cada alternativa. Cada um tem sua responsabilidade. Seria possível porém menos elegante se partida gerenciasse sozinha as questões e as alternativas.
+
+
 #### Detalhamento do Padrão no nível de Modelagem
-ex: modelo de classes correspondente
+
+![ModelagemEspecialista](../img/diagramas/diagrama_grasp_especialista.png)
+
 #### Detalhamento do Padrão no nível de Implementação
 ex: trecho de código correspondente
 #### Rastreamento
