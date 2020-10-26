@@ -8,6 +8,7 @@
 | 25/10/2020 | 0.2 | Adicionado Factory Method de Partida | Lucas Gomes, Julio Litwin |
 | 25/10/2020 | 0.3 | Correção da seta de Treino e Raqueada no diagrama | Lucas Gomes |
 | 25/10/2020 | 0.4 | Adicionado Factory Method de Usuário | Lucas Gomes, Julio Litwin |
+| 26/10/2020 | 0.5 | Adicionado Singleton | Julio Litwin |
 
 ## Introdução
 
@@ -41,6 +42,80 @@ Foi utilizado esse método pela facilidade de criação de novas subclasses sem 
 
 > [Implementação em código - Versão 0](./codigos/factory_usuario_codigo_v0.md)
 
+
+## Singleton
+
+O Singleton é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
+
+### Prós 
+- Você pode ter certeza de que uma classe possui apenas uma única instância.
+- Você ganha um ponto de acesso global para essa instância.
+- O objeto singleton é inicializado apenas quando é solicitado pela primeira vez.
+
+### Contras
+- Viola o princípio da responsabilidade única. O padrão resolve dois problemas no momento.
+- O padrão Singleton pode mascarar um projeto ruim, por exemplo, quando os componentes do programa sabem muito sobre os outros.
+- O padrão requer tratamento especial em um ambiente multithread para que vários threads não criem um objeto singleton várias vezes.
+
+### Aplicabilidade
+Mesmo o Singleton sendo um padrão com mais contras do que pós, ainda é visível de o quanto ainda é usado ainda no mundo real. No Vestibulandos, será utilizado no back e no front, com todos os cuidados possíveis, principalmente com Threads, para não haver violações, tais como deadlocks. Entretando, os singletons são utilizados mais em classes internas, tais como estruturas: 
+
+- NetworkManager(back/front)
+- AudioManager(front)
+- GameManager(back/front)
+- ResourceManager(front)
+
+Dentro do projeto, principalmente no Front, foi adicionado uma classe para auxiliar na criação rápida de Singleton, em seguida, é possível verificar o código.
+
+### Código
+
+```
+public class Singleton<T> where T : new()
+{
+    private static T s_instance;
+
+    public static T GetInstance()
+    {
+        if (s_instance == null) 
+            s_instance = new T();
+
+        return s_instance;
+    }
+
+    public static void Destroy()
+    {
+        s_instance = default;
+    }
+
+    public static bool IsCreated()
+    {
+        return (s_instance != null);
+    }
+}
+```
+
+### Exemplo de Uso
+Como exemplo, iremos utilizar um trecho de código do NetworkManager.
+
+```
+public class NetworkingManager
+{
+        /// <summary>
+        /// Singleton.
+        /// </summary>
+        public static NetworkingManager Instance => Singleton<NetworkingManager>.GetInstance();
+}
+```
+
+Para o acesso do Singleton, basta apenas chamar como:
+
+```
+NetworkingManager.Instance.*
+```
+
+O *** (asterisco)** é referente a qualquer acesso, tais como funções, variaveis e dentre outros.
+
+Caso **Instance**, seja chamada pela a primeira vez, a classe será inicializada e criada, depois definida como a instância principal a ser utilizada.
 
 ## Referências
 
