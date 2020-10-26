@@ -9,6 +9,7 @@
 | 26/10/2020 | 0.3 | Adicionado Especialista | Ricardo Lima Canela |
 | 26/10/2020 | 0.4 | Adicionado Alta Coesão e Baixo Acoplamento | Ricardo Lima Canela |
 | 26/10/2020 | 0.5 | Adicionado Polimorfismo | Ricardo Lima Canela e Julio Litwin |
+| 26/10/2020 | 0.5 | Adicionado Controlador | Ricardo Lima Canela e Julio Litwin |
 
 ### Introdução
 
@@ -82,17 +83,15 @@ ex: trecho de código correspondente
 
 ### Controlador
 
+Atribui a responsabilidade de lidar com os eventos do sistema para uma classe que representa a um cenário de caso de uso do sistema global.  
+Foi realizado a implementação do Padrão de Projeto GoF Mediator. Essa decisão garantiu ao sistema um GRASP Controlador, que controla interação entre Jogadores e Partida.
+
 #### Detalhamento do Padrão no nível de Modelagem
-ex: modelo de classes correspondente
+
+![MediatorPartidaDiagrama](../img/diagramas/mediator_pattern_partida_v0.png)
+
 #### Detalhamento do Padrão no nível de Implementação
 ex: trecho de código correspondente
-#### Rastreamento
-rastro para código
-rastro para as decisões da equipe
-rastros para outros artefatos
-
-#### Reflexões acerca do Padrão
-justificativas, prós e contras, pertinência e outras reflexões
 
 ### Fabricação ou Invenção Pura
 
