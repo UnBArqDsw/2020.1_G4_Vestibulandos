@@ -8,6 +8,7 @@
 | 26/10/2020 | 0.2 | Adicionado Criador | Ricardo Lima Canela e Julio Litwin |
 | 26/10/2020 | 0.3 | Adicionado Especialista | Ricardo Lima Canela |
 | 26/10/2020 | 0.4 | Adicionado Alta Coesão e Baixo Acoplamento | Ricardo Lima Canela |
+| 26/10/2020 | 0.5 | Adicionado Polimorfismo | Ricardo Lima Canela e Julio Litwin |
 
 ### Introdução
 
@@ -68,17 +69,16 @@ O detalhamento a nível de Modelagem e de Implementação são os mesmos do Padr
 
 ### Polimorfismo
 
+Polimorfismo diz que as responsabilidades devem ser atribuídas a abstrações e não a objetos concretos, permitindo que eles possam variar conforme a necessidade.
+Possuimos as interfaces Partida e Questão que conferem polimorfismo, gerando classes com mesmos métodos e diferentes comportamentos. 
+As classes derivadas de Partida são Treino e Classificada e de Questão são QuestãoA, QuestãoB, QuestãoC. 
+
 #### Detalhamento do Padrão no nível de Modelagem
-ex: modelo de classes correspondente
+
+![ModelagemPolimorfismo](../img/diagramas/diagrama_grasp_polimorfismo.png)
+
 #### Detalhamento do Padrão no nível de Implementação
 ex: trecho de código correspondente
-#### Rastreamento
-rastro para código
-rastro para as decisões da equipe
-rastros para outros artefatos
-
-#### Reflexões acerca do Padrão
-justificativas, prós e contras, pertinência e outras reflexões
 
 ### Controlador
 
