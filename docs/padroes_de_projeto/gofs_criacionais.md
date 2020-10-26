@@ -7,6 +7,7 @@
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 25/10/2020 | 0.2 | Adicionado Factory Method de Partida | Lucas Gomes, Julio Litwin |
 | 25/10/2020 | 0.3 | Correção da seta de Treino e Raqueada no diagrama | Lucas Gomes |
+| 25/10/2020 | 0.4 | Adicionado Factory Method de Usuário | Lucas Gomes, Julio Litwin |
 
 ## Introdução
 
@@ -30,6 +31,16 @@ Foi utilizado esse método pela facilidade de criação de novas subclasses sem 
 ![FactoryPartidaDiagrama](../img/diagramas/factory_method_partida_v0.png)
 
 > [Implementação em código - Versão 0](./factory_partida_codigo_v0.md)
+
+
+### Factory method para Usuário
+#### Diagrama representando o padrão no projeto
+- Versão 0
+
+![FactoryPartidaDiagrama](../img/diagramas/factory_method_usuario_v0.png)
+
+> [Implementação em código - Versão 0](./factory_usuario_codigo_v0.md)
+
 
 ## Referências
 
