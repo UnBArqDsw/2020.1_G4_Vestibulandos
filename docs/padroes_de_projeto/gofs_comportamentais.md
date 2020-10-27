@@ -9,6 +9,7 @@
 | 26/10/2020 | 0.3 | Refatorando padrão Mediator | João Pedro, Lucas Gomes|
 | 26/10/2020 | 0.4 | Adicionado padrão State | Julio Litwin |
 | 26/10/2020 | 0.5 | Adicionado padrão Template Method | Guilherme Leal |
+| 26/10/2020 | 0.5 | Adicionado padrão Command | Julio Litwin |
 
 ## Introdução
 
@@ -66,7 +67,7 @@ Neste padrão, Subject é o objeto que será observado e Observer é o objeto qu
 > [Implementação em código - Versão 0](./codigos/observer_questao_codigo_v0.md)
 
 
-# Template Method
+## Template Method
 O Template Method é um padrão de projeto comportamental que define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura.
 
 **Problema:** Em algum momento você percebeu que algumas classes tem muito código parecido. Embora o código para lidar com vários formatos seja inteiramente diferente em todas as classes, o código para processamento de dados e análise é quase idêntico. Esse padrão foi observado para diferentes tipos de partidas que podem existir no nosso sistema.
@@ -78,7 +79,27 @@ O Template Method é um padrão de projeto comportamental que define o esqueleto
 
 **Observação**: Em desenvolvimento a Implementação que exemplifica o Template Method.
 
+## Command
 
+O Command é um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte operações que não podem ser feitas.
+
+### Prós
+- Princípio de responsabilidade única. Você pode desacoplar classes que invocam operações de classes que fazem essas operações.
+- Princípio aberto/fechado. Você pode introduzir novos comandos na aplicação sem quebrar o código cliente existente.
+- Você pode implementar desfazer/refazer.
+- Você pode implementar a execução adiada de operações.
+- Você pode montar um conjunto de comandos simples em um complexo.
+
+### Contras
+- O código pode ficar mais complicado uma vez que você está introduzindo uma nova camada entre remetentes e destinatários.
+
+### Aplicabilidade
+
+Em desenvolvimento em dois pontos do projeto. Será implementado na estrutura de Banco de Dados e na parte de Networking.
+
+Em ambos, será feito uma requisição para uma Fila, onde será mantida a requisição e futuramente processada e caso necessário, será retornado o valor, caso haja.
+
+Sendo assim, em ambas partes nas quais serão utilizadas, entre todos os prós, a maior vantagem é poder evitar o deadlock e/ou race conditions entre as threads, logo se tornando seguro para os processamento das requisições.
 
 ## Referências
 
