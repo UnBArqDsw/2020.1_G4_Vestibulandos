@@ -76,7 +76,7 @@ O Template Method é um padrão de projeto comportamental que define o esqueleto
 
 ![MediatorPartidaDiagrama](../img/diagramas/template_methodl.jpg)
 
-**Observação**: Ainda não há Implementação.
+**Observação**: Em desenvolvimento a Implementação que exemplifica o Template Method.
 
 
 
