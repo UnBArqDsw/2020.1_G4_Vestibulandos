@@ -8,7 +8,8 @@
 | 25/10/2020 | 0.2 | Adicionado padrão Mediator de Partida | Lucas Gomes, Julio Litwin |
 | 26/10/2020 | 0.3 | Refatorando padrão Mediator | João Pedro, Lucas Gomes|
 | 26/10/2020 | 0.4 | Adicionado padrão State | Julio Litwin |
-| 26/10/2020 | 0.5 | Adicionado padrão State | Julio Litwin |
+| 26/10/2020 | 0.5 | Adicionado padrão Template Method | Guilherme Leal |
+
 ## Introdução
 
 Os Padrões Comportamentais atuam sobre como responsabilidades são atribuídas as entidades, ou seja, qual o comportamento das entidades. Estes padrões facilitam a comunicação entre os objetos, distribuindo as responsabilidades e definindo a comunicação interna.
