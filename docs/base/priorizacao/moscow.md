@@ -7,7 +7,7 @@
 | 27/09/2020| 0.2 | Adição da prioridade dos primeiros requisitos elicitados pelo Braimstorming e Introspecção | Lucas Gomes, Guilherme Leal |
 | 28/09/2020| 0.3 | Editou a introdução | Lucas Gomes |
 | 28/09/2020| 0.4 | Revisão de prioridades e adição de RNF | Guilherme Leal |
-| 28/09/2020| 0.5 | Adição de rastro RNF's| Guilherme Leal |
+| 26/10/2020| 0.5 | Adição de rastro RNF's| Guilherme Leal |
 
 
 ## 1. Introdução
@@ -21,6 +21,7 @@ MoSCoW é uma técnica de priorização com o objetivo de definir a importância
 ## 2. Priorização
 
 ## 2.1 Requisitos Funcionais
+
 | Requisito | Descrição | Prioridade |
 | :-------: | :-------: | :--------: |
 | **RF01** | O usuário deve ser capaz de se cadastrar e realizar o login | Must |
@@ -57,6 +58,13 @@ MoSCoW é uma técnica de priorização com o objetivo de definir a importância
 |**RNFSB05**| O usuário deve ser capaz de utilizar o app sem acompanhamento|Could|
 |**RNFSB06**| O app deve animar/estimular o usuário a estudar|Should|
 |**RNF07**| O app deve ser acessível por dispositivos móveis |Must|
+
+
+### Rastreabilidade
+
+Os requisitos Priorizados estão disponíveis em: [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md)
+
+
 
 ## 3. Referências
 
