@@ -46,6 +46,7 @@ nav:
         - GOFs Criacionais: 'padroes_de_projeto/gofs_criacionais.md'
         - GOFs Estruturais: 'padroes_de_projeto/gofs_estruturais.md'
         - GOFs Comportamentais: 'padroes_de_projeto/gofs_comportamentais.md'
+        
     - Reuniões:
         - Ata 1: 'reunioes/ata_1.md'
         - Ata 2: 'reunioes/ata_2.md'

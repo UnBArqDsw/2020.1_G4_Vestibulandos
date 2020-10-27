@@ -7,6 +7,7 @@
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 26/10/2020 | 0.2 | Adicionado o padrão Flyweight | Julio Litwin |
 | 26/10/2020 | 0.3 | Adicionado o padrão Flyweight do som | Julio Litwin |
+| 26/10/2020 | 0.4 | Adicionado o padrão Facade | Guilherme Leal |
 
 ## Introdução
 
@@ -109,12 +110,38 @@ public class ObjectPool : MonoBehaviour
 
 O objeto na qual será reutilizado, é definido em **Prefab**. Sempre que for necessário obter o objeto, é chamado o **GetObject()**, na qual irá verificar se há disponibilidade de objeto, caso não, irá instanciar um novo objeto para ser utilizado e adicionado numa stack.
 
+
+##  Facade
+O Facade é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
+
+Uma fachada é uma classe que fornece uma interface simples para um subsistema complexo que contém muitas partes que se movem. Uma fachada pode fornecer funcionalidades limitadas em comparação com trabalhar com os subsistemas diretamente. Contudo, ela inclui apenas aquelas funcionalidades que o cliente se importa.
+
+Ter uma fachada é útil quando você precisa integrar sua aplicação com uma biblioteca sofisticada que tem dúzias de funcionalidades, mas você precisa de apenas um pouquinho delas.
+
+## Relação com Flyweight
+
+O Flyweight mostra como fazer vários pequenos objetos, enquanto o Facade mostra como fazer um único objeto que represente um subsistema inteiro.
+
+### Prós
+
+Você pode isolar seu código da complexidade de um subsistema.
+
+### Contras
+
+Uma fachada pode se tornar um objeto global acoplado a todas as classes de uma aplicação.
+
+### Aplicabilidade
+
+**Observação**: A classe MonoBehaviour ja descrita no Padrão Flyweight como uma classe da própria Unity 3D fornece um atalho para as funcionalidades usadas do subsistema
+
 ### Referências
 
 - **Baeldung**, Proxy, Decorator, Adapter and Bridge Patterns. Disponível em: <https://www.baeldung.com/java-structural-design-patterns>. Acesso em: 24 de Setembro 2020.
 
 - **REFACTORING . GURU**, Structural Design Patterns. Disponível em: <https://refactoring.guru/design-patterns/structural-patterns>. Acesso em: 24 de Setembro 2020.
 
+- **REFACTORING . GURU**, Structural Design Patterns. Disponível em: <https://refactoring.guru/pt-br/design-patterns/facade>. Acesso em: 24 de Setembro 2020.
+- 
 - **TreinaWeb**, Padrões de projeto: o que são e o que resolvem. Disponível em: <https://www.treinaweb.com.br/blog/padroes-de-projeto-o-que-sao-e-o-que-resolvem/>. Acesso em: 24 de Setembro 2020.
 
 - **Wikipedia**, Padrão de projeto de software. Disponível em: <https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software>. Acesso em: 24 de Setembro 2020.
