@@ -27,7 +27,13 @@ Será utlizado um "Object Pool" na parte do Front, na qual tais como na estrutur
 Na linguagem net core, o object pool é muito útil por conta do Garbage Collection, é reduzido drasticamente as inicializações e destruições de objetos, pois estão sendo reutilizados ao invés de instanciando. 
 
 #### Diagrama
+
+##### Diagrama de UI: Botão
 ![FlyweightDiagrama](../img/diagramas/flyweight_ui_button.png)
+
+
+##### Diagrama do Som
+![FlyweightSomDiagrama](../img/diagramas/flyweight_som.png)
 
 #### Código
 
