@@ -6,6 +6,7 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 26/10/2020 | 0.2 | Adicionado o padrão Flyweight | Julio Litwin |
+| 26/10/2020 | 0.3 | Adicionado o padrão Flyweight do som | Julio Litwin |
 
 ## Introdução
 
