@@ -8,6 +8,7 @@
 | 26/10/2020 | 0.2 | Adicionado o padrão Flyweight | Julio Litwin |
 | 26/10/2020 | 0.3 | Adicionado o padrão Flyweight do som | Julio Litwin |
 | 26/10/2020 | 0.4 | Adicionado o padrão Facade | Guilherme Leal |
+| 26/10/2020 | 0.5 | Complementado o padrão Facade | Guilherme Leal |
 
 ## Introdução
 
@@ -117,6 +118,34 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 Uma fachada é uma classe que fornece uma interface simples para um subsistema complexo que contém muitas partes que se movem. Uma fachada pode fornecer funcionalidades limitadas em comparação com trabalhar com os subsistemas diretamente. Contudo, ela inclui apenas aquelas funcionalidades que o cliente se importa.
 
 Ter uma fachada é útil quando você precisa integrar sua aplicação com uma biblioteca sofisticada que tem dúzias de funcionalidades, mas você precisa de apenas um pouquinho delas.
+
+### Prós
+- Você pode isolar seu código da complexidade de um subsistema.
+
+### Contras
+- Uma fachada pode se tornar um objeto deus acoplado a todas as classes de uma aplicação.
+
+### Aplicabilidade
+
+O Facade será utilizado como no Logger e na parte de Network, também é pensando pelo o MonoBehaviour da própria Unity 3D. Toda a estrutura e lógica serão feito por separados e apenas fornecido como públicos apenas as funções que realmente serão usadas pelo o usuário (desenvolvedor).
+
+No Logger, é utilizado é pensado na questão de ter uma biblioteca relacionado ao Logger, sendo também apto para serem utilizado outros loggers sem ser necessário reescrever toda a estrutura, mas apenas fazendo um wrapper dos logs.
+
+### Diagrama
+#### Logger
+![FacadeLoggerDiagrama](../img/diagramas/facade_logger.png)
+
+#### Networking
+![FacadeNetworkingDiagrama](../img/diagramas/facade_networking.png)
+
+
+### Código
+
+Pode se encontrar em LoggerManager.cs.
+
+> [Implementação em código - Versão 0](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Logging/LoggerManager.cs./codigos/mediator_partida_codigo_v0.md)
+
+O NetworkManager ainda não foi implementado no código.
 
 ## Relação com Flyweight
 
