@@ -8,7 +8,7 @@
 | 25/10/2020 | 0.2 | Adicionado padrão Mediator de Partida | Lucas Gomes, Julio Litwin |
 | 26/10/2020 | 0.3 | Refatorando padrão Mediator | João Pedro, Lucas Gomes|
 | 26/10/2020 | 0.4 | Adicionado padrão State | Julio Litwin |
-
+| 26/10/2020 | 0.5 | Adicionado padrão State | Julio Litwin |
 ## Introdução
 
 Os Padrões Comportamentais atuam sobre como responsabilidades são atribuídas as entidades, ou seja, qual o comportamento das entidades. Estes padrões facilitam a comunicação entre os objetos, distribuindo as responsabilidades e definindo a comunicação interna.
@@ -65,6 +65,20 @@ Neste padrão, Subject é o objeto que será observado e Observer é o objeto qu
 > [Implementação em código - Versão 0](./codigos/observer_questao_codigo_v0.md)
 
 
+# Template Method
+O Template Method é um padrão de projeto comportamental que define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura.
+
+**Problema:** Em algum momento você percebeu que algumas classes tem muito código parecido. Embora o código para lidar com vários formatos seja inteiramente diferente em todas as classes, o código para processamento de dados e análise é quase idêntico. Esse padrão foi observado para diferentes tipos de partidas que podem existir no nosso sistema.
+
+**Solução:** O padrão do Template Method sugere que você quebre um algoritmo em uma série de etapas, transforme essas etapas em métodos, e coloque uma série de chamadas para esses métodos dentro de um único método padrão. As etapas podem ser tanto abstratas, ou ter alguma implementação padrão. Para usar o algoritmo, o cliente deve fornecer sua própria subclasse, implementar todas as etapas abstratas, e sobrescrever algumas das opcionais se necessário (mas não o próprio método padrão).
+
+
+![MediatorPartidaDiagrama](../img/diagramas/template_methodl.jpg)
+
+**Observação**: Ainda não há Implementação.
+
+
+
 ## Referências
 
 - **Brizeno**, Classificação dos Padrões de Projeto GoF. Disponível em: <https://brizeno.wordpress.com/2011/12/12/classificacao-dos-padroes-de-projeto-gof/>. Acesso em: 24 de Setembro 2020.
@@ -72,6 +86,8 @@ Neste padrão, Subject é o objeto que será observado e Observer é o objeto qu
 - **TreinaWeb**, Padrões de projeto: o que são e o que resolvem. Disponível em: <https://www.treinaweb.com.br/blog/padroes-de-projeto-o-que-sao-e-o-que-resolvem/>. Acesso em: 24 de Setembro 2020.
 
 - **Wikipedia**, Padrão de projeto de software. Disponível em: <https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software>. Acesso em: 24 de Setembro 2020.
+
+- **Template Method**, Padrão Comportamental Template Method. Disponível em: <https://refactoring.guru/pt-br/design-patterns/template-method>. Acesso em 26/10/2020.
 
 - Material complementar da disciplina Arquitetura e Desenho de Software. VideoAula 10a - Vídeo-Aula - DSW - GoFs - Comportamentais. Professora Milene Serrano. Universidade de Brasília.
 
