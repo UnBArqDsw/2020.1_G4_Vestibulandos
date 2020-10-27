@@ -34,8 +34,9 @@ Esse padrão facilitará a implementação do projeto pela facilidade de ocorrer
 
 Para realizar a implementação foi utilizado algumas idéias do padrão Observer, como o subject notificar os observer e acontecer um update logo em seguida. Na implementação a partida notificará o jogador e assim este poderá reagir a notificação.
 
-Problema: Como permitir que um grupo de objetos de Jogador se comunique entre si sem que haja acomplamento entre eles?
-Solução: Introduzir uma classe que encapsule a comunicação (cada objeto participante conhece o mediador mas ignora a existência dos outros objetos).
+**Problema:** Como permitir que um grupo de objetos de Jogador se comunique entre si sem que haja acomplamento entre eles?
+
+**Solução:** Introduzir uma classe que encapsule a comunicação (cada objeto participante conhece o mediador mas ignora a existência dos outros objetos).
 
 ### Mediator para Partida
 #### Diagrama representando o padrão no projeto
@@ -44,6 +45,24 @@ Solução: Introduzir uma classe que encapsule a comunicação (cada objeto part
 ![MediatorPartidaDiagrama](../img/diagramas/mediator_pattern_partida_v0.png)
 
 > [Implementação em código - Versão 0](./codigos/mediator_partida_codigo_v0.md)
+
+
+## Observer
+É um padrão que tem como objetivo principal notificar objetos que se anexaram ao subject quando ocorrer um evento interno. Assim, quando ocorre qualquer evento no objeto que estão observando, todos os objetos que estão anexados ao subject serão notificados. Com este padrão, é possível criar uma relação de um para muitos entre o subject e os observers anexados.
+
+Neste padrão, Subject é o objeto que será observado e Observer é o objeto que será anexado ao Subject e receberá as notificações.
+
+**Problema:** Ao criar uma Questão, como o Monitor será notificado quando acontecer qualquer alteração no estado da Questão, caso tenha sido aprovada ou reprovada?
+
+**Solução:** Implementar uma classe do Monitor capaz de observar qualquer alteração no estado da Questão.
+
+### Observer para Questão e Monitor
+#### Diagrama representando o padrão no projeto
+- Versão 0
+
+![MediatorPartidaDiagrama](../img/diagramas/observer_pattern_questao_v0.png)
+
+> [Implementação em código - Versão 0](./codigos/observer_questao_codigo_v0.md)
 
 
 ## Referências
