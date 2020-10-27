@@ -6,19 +6,36 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 25/10/2020 | 0.2 | Adicionado padrão Mediator de Partida | Lucas Gomes, Julio Litwin |
+| 26/10/2020 | 0.3 | Refatorando padrão Mediator | João Pedro, Lucas Gomes|
+| 26/10/2020 | 0.4 | Adicionado padrão State | Julio Litwin |
 
 ## Introdução
 
 Os Padrões Comportamentais atuam sobre como responsabilidades são atribuídas as entidades, ou seja, qual o comportamento das entidades. Estes padrões facilitam a comunicação entre os objetos, distribuindo as responsabilidades e definindo a comunicação interna.
 
+## State
+O State é um padrão de projeto comportamental que permite que um objeto altere seu comportamento quando seu estado interno muda. Parece como se o objeto mudasse de classe.
+
+A ideia principal é que, em qualquer dado momento, há um número finito de estados que um programa possa estar. Dentro de qualquer estado único, o programa se comporta de forma diferente, e o programa pode ser trocado de um estado para outro instantaneamente. Contudo, dependendo do estado atual, o programa pode ou não trocar para outros estados. Essas regras de troca, chamadas transições, também são finitas e pré determinadas.
+
+### Aplicabilidade
+Foi adicionado no back a classe de FSM, na qual irá gerenciar todo o state do Jogador. Atualmente há o FSM do JogadorFSM. Na qual ele irá verificar atual State do Jogador e será processado a partir do momento na qual se encontra.
+
+Tal como: Quando o jogador estiver no State de PLAYING por exemplo, será processado o tempo de partida, questões sendo processadas e dentre outros, agora por exemplo quando estiver apenas no State de CONNECTED, não há necessidade de processamento, além de verificação se o jogador ainda persiste online.
+
+> [Implementação em código - Versão 0](./codigos/state_codigo_v0.md)
+
 ## Mediator
-Este padrão tem como objetivo reduzir o acoplamento entre os objetos de um programa. Assim, restringe a comunicação direta entre os objetos, permitindo-os se comunicarem de forma indireta por meio de um objeto mediador.
+Este padrão tem como objetivo reduzir o acoplamento entre os objetos de um programa. Assim, restringe a comunicação direta entre os objetos, permitindo-os se comunicarem de forma indireta via um objeto mediador.
 
 Os objetos serão registrados no objeto mediador e qualquer ação que fizerem, haverá a notificação de todos os objetos registrados. 
 
 Esse padrão facilitará a implementação do projeto pela facilidade de ocorrer uma ação (jogador responder uma questão) e o mediador (partida) notificar o outro jogador presente na partida, caso tenha.
 
-Para realizar a implementação foi utilizado algumas idéias do padrão Observer, como o subject notificar os observer e acontecer um update logo em seguida. Na implementação a partida notificará o jogador e assim reagir a notificação.
+Para realizar a implementação foi utilizado algumas idéias do padrão Observer, como o subject notificar os observer e acontecer um update logo em seguida. Na implementação a partida notificará o jogador e assim este poderá reagir a notificação.
+
+Problema: Como permitir que um grupo de objetos de Jogador se comunique entre si sem que haja acomplamento entre eles?
+Solução: Introduzir uma classe que encapsule a comunicação (cada objeto participante conhece o mediador mas ignora a existência dos outros objetos).
 
 ### Mediator para Partida
 #### Diagrama representando o padrão no projeto
@@ -27,6 +44,7 @@ Para realizar a implementação foi utilizado algumas idéias do padrão Observe
 ![MediatorPartidaDiagrama](../img/diagramas/mediator_pattern_partida_v0.png)
 
 > [Implementação em código - Versão 0](./codigos/mediator_partida_codigo_v0.md)
+
 
 ## Referências
 

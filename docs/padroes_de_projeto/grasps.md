@@ -13,6 +13,7 @@
 | 26/10/2020 | 0.7 | Adicionado Fabricacao | Ricardo Lima Canela |
 | 26/10/2020 | 0.8 | Corrigindo Indireção | Ricardo Lima Canela |
 | 26/10/2020 | 0.9 | Adicionando Exemplos em Código | Ricardo Lima Canela |
+| 26/10/2020 | 0.9.1 | Refatorando especialista | João Pedro Martins |
 
 ### Introdução
 
@@ -47,9 +48,12 @@ No projeto Vestibulando podemos destacar:
 
 ### Especialista
 
+Problema: durante a definição das interações entre os objetos, é preciso fazer escolhas sobre a atribuição de responsabilidades a classes. 
+Solução: atribuir uma responsabilidade ao especialista de informação: classe que possui a informação necessária para cumprí-la. 
+
 A diferença entre criador e especialista é que o especialista não só é o melhor para criar a instância do objeto da outra classe como também é o melhor em desempenhar uma função específica do sistema (Quem é a melhor entidade para calcular algo? Quem é a melhor entidade para ordenar algo? Quem é a melhor entidade para cadastrar algo?)
 
-Por isso, A relação das entidades Partida, Questão e Alternativa é dada como especialistas pois cada uma desempenha uma função específica no sistema. Partida é especialista em gerenciar os dados de pontuação. Questão gerencia as informações relacionadas a pergunta a ser respondida. Alternativa da a descrição de cada alternativa. Cada um tem sua responsabilidade. Seria possível porém menos elegante se partida gerenciasse sozinha as questões e as alternativas.
+Por isso, a relação das entidades Partida, Questão e Alternativa é dada como especialistas pois cada uma desempenha uma função específica no sistema. Partida é especialista em gerenciar os dados de pontuação. Questão gerencia as informações relacionadas a pergunta a ser respondida. Alternativa da a descrição de cada alternativa. Cada um tem sua responsabilidade. Seria possível porém menos elegante se partida gerenciasse sozinha as questões e as alternativas.
 
 
 #### Detalhamento do Padrão no nível de Modelagem
