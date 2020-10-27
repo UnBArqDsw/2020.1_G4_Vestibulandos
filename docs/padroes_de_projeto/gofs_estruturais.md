@@ -170,7 +170,7 @@ Uma fachada pode se tornar um objeto global acoplado a todas as classes de uma a
 - **REFACTORING . GURU**, Structural Design Patterns. Disponível em: <https://refactoring.guru/design-patterns/structural-patterns>. Acesso em: 24 de Setembro 2020.
 
 - **REFACTORING . GURU**, Structural Design Patterns. Disponível em: <https://refactoring.guru/pt-br/design-patterns/facade>. Acesso em: 24 de Setembro 2020.
-- 
+
 - **TreinaWeb**, Padrões de projeto: o que são e o que resolvem. Disponível em: <https://www.treinaweb.com.br/blog/padroes-de-projeto-o-que-sao-e-o-que-resolvem/>. Acesso em: 24 de Setembro 2020.
 
 - **Wikipedia**, Padrão de projeto de software. Disponível em: <https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software>. Acesso em: 24 de Setembro 2020.
