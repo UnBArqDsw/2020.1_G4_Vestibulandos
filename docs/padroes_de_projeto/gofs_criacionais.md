@@ -9,6 +9,7 @@
 | 25/10/2020 | 0.3 | Correção da seta de Treino e Raqueada no diagrama | Lucas Gomes |
 | 25/10/2020 | 0.4 | Adicionado Factory Method de Usuário | Lucas Gomes, Julio Litwin |
 | 26/10/2020 | 0.5 | Adicionado Singleton | Julio Litwin |
+| 26/10/2020 | 0.6 | Refatorando documento | João Pedro |
 
 ## Introdução
 
@@ -21,9 +22,13 @@ Os Padrões de Criação tratam desse problema separando inteiramente o cliente 
 Fazendo um paralelo com o mundo real, uma empresa automobilística quando precisa de amortecedores, ela terceiriza (solicita-os) e então os instala em seus carros, sem se preocupar com o todo envolvido na criação desse componente.
 
 ## Factory Method
-É um padrão criacional que permite a superclasse "adiar" a criação de objetos para suas subclasses assim dando a possibilidade das subclasses alterar o tipo de objeto que será criado. Isso é feito instanciando um objeto da superclasse e chamando o método que retorna um objeto de determinada classe solicitada no parâmetro do método. 
+É um padrão criacional que permite a superclasse "adiar" a criação de objetos para suas subclasses, assim dando a possibilidade das subclasses alterarem o tipo de objeto a ser criado. Isso é feito instanciando um objeto da superclasse e chamando o método que retorna um objeto de determinada classe solicitada no parâmetro do método. 
 
 Foi utilizado esse método pela facilidade de criação de novas subclasses sem quebrar o código já em produção além de facilitar a manutenção do código já que cada classe tem responsabilidades únicas.
+
+Problema: Acoplamento forte em classes com código de criação de instância além da lógica de negócio própria.
+Solução: Adicionar uma interface para a criação de grupos de objetos correlatos/dependentes, uma forma de desenvolver objetos que são responsáveis pela criação de outros objetos.
+
 
 ### Factory method para Partida
 #### Diagrama representando o padrão no projeto
