@@ -99,3 +99,11 @@ Interface de cominicação: Wifi ou redes móveis.
 |ESPS02| Praticidade: o sistema deve ter uma abordagem prática e intuitiva|
 |ESPS03| Boa reputação e aceitação de estudantes e instituições de ensino|
 
+
+### Referências
+
+> Acesso em 26/10/2020:  https://requisitos-de-software.github.io/2019.2-Waze/EspSuplementar/
+
+>Chaves, Fernanda Cardoso
+(C398e) Especificação e documentação de requisitos: um modelo
+aplicável à análise da infonnação utilizando "casos de uso" I Fernanda Cardoso Chaves-- Campinas, [S.P. :s.n.], 2005.  Disponível em (acesso 26/10/2020): http://repositorio.unicamp.br/jspui/handle/REPOSIP/276315

@@ -5,6 +5,7 @@
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 28/09/2020 | 0.1 | Adicionado o documento | João Pedro |
+| 26/10/2020 | 0.2 | Adicionado link para rastreabilidade | Guilherme Leal |
 
 ## Introdução
 "First Things First" uma ferramenta que pode ajudar a tomar decisões de troca de requisitos, quando se avaliam novas necessidades. Estimando a prioridade usando o modelo já preenchido para o projeto, podemos verificar como as novas necessidades se comportam em relação aos requisitos existentes. Com isso, podemos escolher a sequência de implementação apropriada.
@@ -49,6 +50,10 @@ US #|Benefício relativo |Penalidade Relativa |Valor total |Valor (%) |Custo Rel
 |21| 7| 6| 20| 4,5977| 4| 7,8431| 5| 6,1728| 0,42066883206002104|
 |22| 8| 6| 22| 5,0574| 2| 3,9215| 3| 3,7037| 0,87599054275247473|
 **Total**| 157| 121| 435| 100| 51| 100| 81| | --|
+
+### Rastreabilidade
+
+Os requisitos Priorizados estão disponíveis em: [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md)
 
 ## Referências
 - First Things First: Prioritizing Requirements. Karl E. Wiegers, 1999. Disponível em <https://www.processimpact.com/articles/prioritizing.pdf>. Último acesso em 28/09/2020.

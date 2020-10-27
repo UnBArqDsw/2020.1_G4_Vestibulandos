@@ -41,6 +41,12 @@ nav:
         - Iniciativas Extras: 
             - Registro de Iniciativas Extras: 'modelagem/iniciativas_extras.md'
             - Especificação Suplementar: 'base/iniciativas_extras/especificacao_suplementar.md'
+    - Padrões de Projeto:
+        - GRASP: 'padroes_de_projeto/grasps.md'
+        - GOFs Criacionais: 'padroes_de_projeto/gofs_criacionais.md'
+        - GOFs Estruturais: 'padroes_de_projeto/gofs_estruturais.md'
+        - GOFs Comportamentais: 'padroes_de_projeto/gofs_comportamentais.md'
+        
     - Reuniões:
         - Ata 1: 'reunioes/ata_1.md'
         - Ata 2: 'reunioes/ata_2.md'
@@ -48,5 +54,8 @@ nav:
         - Ata 4: 'reunioes/ata_4.md'
         - Ata 5: 'reunioes/ata_5.md'
         - Ata 6: 'reunioes/ata_6.md'
+        - Ata 7: 'reunioes/ata_7.md'
+        - Ata 8: 'reunioes/ata_8.md'
+        - Ata 9: 'reunioes/ata_9.md'
     
     
