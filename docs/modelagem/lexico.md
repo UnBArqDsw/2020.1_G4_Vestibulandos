@@ -23,7 +23,7 @@ De acordo com o slide, na qual é explicado o questionário a ser realizado:
 
 | Definição | Sinônimo(s) | Noção | Impacto | Classificação |
 |-----|---------|------|---------|---------|
-| Jogar | Exercitar, Praticar, Treinar | Inicializar uma partida de perguntas | O usuário i´ra inicializar a partida do jogo. | Verbo
+| Jogar | Exercitar, Praticar, Treinar | Inicializar uma partida de perguntas | O usuário irá inicializar a partida do jogo. | Verbo
 | Pergunta | Questão | Questão com um problema a ser resolvido. | Questão que envolva um problema na qual é necessário a ser resolvido | Objeto
 | Ranking | Classificação | Estatísticas dos jogadores | Classificação de vários de jogadores que obtiveram pontuações e ordenado. | Objeto
 | Ganhar Experiência | Prática | Pontos ganhos a cada partida | Pontos ganhos e usados para poder upar no Vestibulandos | Verbo
