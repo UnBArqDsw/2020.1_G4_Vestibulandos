@@ -34,8 +34,9 @@ Esse padrão facilitará a implementação do projeto pela facilidade de ocorrer
 
 Para realizar a implementação foi utilizado algumas idéias do padrão Observer, como o subject notificar os observer e acontecer um update logo em seguida. Na implementação a partida notificará o jogador e assim este poderá reagir a notificação.
 
-Problema: Como permitir que um grupo de objetos de Jogador se comunique entre si sem que haja acomplamento entre eles?
-Solução: Introduzir uma classe que encapsule a comunicação (cada objeto participante conhece o mediador mas ignora a existência dos outros objetos).
+**Problema:** Como permitir que um grupo de objetos de Jogador se comunique entre si sem que haja acomplamento entre eles?
+
+**Solução:** Introduzir uma classe que encapsule a comunicação (cada objeto participante conhece o mediador mas ignora a existência dos outros objetos).
 
 ### Mediator para Partida
 #### Diagrama representando o padrão no projeto
