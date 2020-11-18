@@ -39,6 +39,13 @@ Foi utilizado esse método pela facilidade de criação de novas subclasses sem 
 
 > [Implementação em código - Versão 0](./codigos/factory_partida_codigo_v0.md)
 
+#### Links para o código implementado
+- [IPartidaFactory](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Interfaces/IPartidaFactory.cs)
+- [PartidaFactory](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Patterns/PartidaFactory.cs)
+- [Partida](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Partida.cs)
+- [Treino](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Treino.cs)
+- [Ranqueada](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Ranqueada.cs)
+
 
 ### Factory method para Usuário
 #### Diagrama representando o padrão no projeto
@@ -48,6 +55,13 @@ Foi utilizado esse método pela facilidade de criação de novas subclasses sem 
 
 > [Implementação em código - Versão 0](./codigos/factory_usuario_codigo_v0.md)
 
+#### Links para o código implementado
+- [IUsuarioFactory](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Interfaces/IUsuarioFactory.cs)
+- [UsuarioFactory](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Patterns/UsuarioFactory.cs)
+- [Usuario](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Usuario.cs)
+- [Jogador](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Jogador.cs)
+- [Monitor](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Monitor.cs)
+- [Administrador](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Administrador.cs)
 
 ## Singleton
 
@@ -99,6 +113,10 @@ public class Singleton<T> where T : new()
     }
 }
 ```
+
+#### Links para o código implementado
+- [Singleton](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Frontend/blob/master/Vestibulandos/Assets/Scripts/Utils/Singletons/Singleton.cs)
+- [MonoSingleton](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Frontend/blob/master/Vestibulandos/Assets/Scripts/Utils/Singletons/MonoSingleton.cs)
 
 ### Exemplo de Uso
 Como exemplo, iremos utilizar um trecho de código do NetworkManager.
