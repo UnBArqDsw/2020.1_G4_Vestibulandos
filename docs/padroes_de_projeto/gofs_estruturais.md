@@ -143,7 +143,7 @@ No Logger, é utilizado é pensado na questão de ter uma biblioteca relacionado
 
 Pode se encontrar em LoggerManager.cs.
 
-> [Implementação em código - Versão 0](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Logging/LoggerManager.cs./codigos/mediator_partida_codigo_v0.md)
+> [Implementação em código - Versão 0](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Logging/LoggerManager.cs)
 
 O NetworkManager ainda não foi implementado no código.
 
