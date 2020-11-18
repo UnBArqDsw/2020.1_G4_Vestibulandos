@@ -7,9 +7,10 @@
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 25/10/2020 | 0.2 | Adicionado padrão Mediator de Partida | Lucas Gomes, Julio Litwin |
 | 26/10/2020 | 0.3 | Refatorando padrão Mediator | João Pedro, Lucas Gomes|
-| 26/10/2020 | 0.4 | Adicionado padrão State | Julio Litwin |
-| 26/10/2020 | 0.5 | Adicionado padrão Template Method | Guilherme Leal |
-| 26/10/2020 | 0.5 | Adicionado padrão Command | Julio Litwin |
+| 26/10/2020 | 0.4 | Adicionado padrão Observer | Lucas Gomes|
+| 26/10/2020 | 0.5 | Adicionado padrão State | Julio Litwin |
+| 26/10/2020 | 0.6 | Adicionado padrão Template Method | Guilherme Leal |
+| 26/10/2020 | 0.7 | Adicionado padrão Command | Julio Litwin |
 
 ## Introdução
 
