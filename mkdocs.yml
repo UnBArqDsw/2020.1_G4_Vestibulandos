@@ -47,6 +47,10 @@ nav:
         - GOFs Estruturais: 'padroes_de_projeto/gofs_estruturais.md'
         - GOFs Comportamentais: 'padroes_de_projeto/gofs_comportamentais.md'
         - Iniciativas Extras: 'padroes_de_projeto/iniciativas_extras.md'
+    - Arquitetura de Software & Reutilização de Software:
+        - Documento de Arquitetura: 'arquitetura_e_reutilizacao/documento_de_arquitetura.md'
+        - Reutilização de Software: 'arquitetura_e_reutilizacao/doc_reutilização_de_software.md'
+        - Iniciativas Extras: 'arquitetura_e_reutilizacao/iniciativas_extras.md'
         
     - Reuniões:
         - Ata 1: 'reunioes/ata_1.md'
