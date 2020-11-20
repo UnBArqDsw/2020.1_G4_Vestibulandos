@@ -1,5 +1,7 @@
 # Iniciativas extras
 
+- Adicionado atas das reuniões.
+
 ### Evolução e revisão dos documentos sobre Padrões de Projeto:
 
 - Adicionado links para o código implementado dos GoFs Criacionais:

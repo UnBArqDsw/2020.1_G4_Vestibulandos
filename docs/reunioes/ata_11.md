@@ -1,24 +1,23 @@
-# ATA DA REUNIÃO 10
+# ATA DA REUNIÃO 11
 
 ## Histórico de Versões
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| 12/11/20 | 0.1 | Adicionado o documento | Julio Litwin |
+| 19/11/20 | 0.1 | Adicionado o documento | Julio Litwin |
 
 ## Informações
 
-- **Data**: 12/11/2020
+- **Data**: 20/11/2020
 - **Horário**: 21:00 PM
 
 ## Participante(s)
 
 - Julio
 - Lucas
-- Ricardo
 
 ## Assunto(s)
 
-- Discutido sobre o último tópico da matéria.
-- Discutido sobre iniciativas extras.
-- Discutido sobre DAS.
+- Discutido sobre os participantes, pela a falta de interesse
+- Discutido sobre as prioridades para o máximo da finalização do projeto
+- Distutido a distribuição das tarefas
