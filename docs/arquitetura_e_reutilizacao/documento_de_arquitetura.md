@@ -19,6 +19,8 @@
 | 20/11/2020 | 1.3 | Adicionado diagrama casos de uso, tabela de atores de caso de uso e rastreabilidade | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.4 | Adicionado visão de implementação | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.5 | Adicionado visão lógica | Ricardo Canela e Joao Pedro |
+| 20/11/2020 | 1.6 | Adicionado diagrama de pacotes | Ricardo Canela e Joao Pedro |
+
 
 ## Introdução
 
@@ -138,6 +140,10 @@ A visão lógica do sistema pode ser evidenciada, no ponto de vista de arquitetu
 
 
 ![Diagrama de pacotes](../img/diagramas/diagrama_de_componentes.jpg)
+
+Para uma visão mais detalhada do sistema, a documentação possui também a representação por pacotes, conforme o diagrama abaixo.
+
+![Diagrama de pacotes](../img/diagramas/diagrama_pacotes_v1.jpg)
 
 
 ## Qualidade
