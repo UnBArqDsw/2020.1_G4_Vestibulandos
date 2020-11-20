@@ -12,6 +12,7 @@
 | 20/11/2020 | 0.6 | Adicionado as metas da arquitetura | Julio Litwin |
 | 20/11/2020 | 0.7 | Adicionado as restrições da arquitetura | Julio Litwin |
 | 20/11/2020 | 0.8 | Adicionado mais tecnologias utilizadas. | Julio Litwin |
+| 20/11/2020 | 0.9 | Adicionado tamanho e desempenho. | Julio Litwin |
 
 # Introdução
 
@@ -56,5 +57,29 @@ A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-
 - Conexão: é necessário o uso da internet para desfruir da aplicação.
 - Idioma: aplicativo apenas foi elaborado com textos em português.
 - Escalabilidade: o backend foi desenvolvido com o princípio de monolito, então desde já a ideia de escalabilidade se tornou inviável em relação a interação entre amigos.
+
+### Tamanho e Desempenho
+
+Descrição das principais características de tamanho do software que afetam a arquiettura, como as restrições de desempenho.
+
+#### Requisitos mínimos
+##### Frontend
+- Sistema operacional
+-- Windows 7 ou superior
+-- Linux
+-- Android 10.0 ou superior
+-- iOS 11.0 ou superior
+- Espaço minímo disponível de 100 MB
+- Conexão com internet
+- Unity 3D (para desenvolvimento)
+
+##### Backend
+- Sistema operacional
+-- Windows 7 ou superior
+-- Linux
+- Visual Studio 2019
+- C# -> net core 3.1
+- MSSQL 2019
+- Espaço minímo de 20 GB (incluindo instalações e armazenamento de banco)
 
 ## Referências
