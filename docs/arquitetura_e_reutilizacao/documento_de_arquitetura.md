@@ -6,6 +6,7 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 19/11/2020 | 0.1 | Criado o documento | Lucas Gomes |
 | 19/11/2020 | 0.2 | Adicionando introdução | João Pedro |
+| 19/11/2020 | 0.3 | Adicionando imagem do visão geral da arquitetura | Julio Litwin |
 
 
 # Introdução
@@ -19,5 +20,9 @@ Este documento foi construído sobre a visão arquitetural utilizada na implemen
 
 
 ## Representação Arquitetural
+
+### Visão Geral
+
+![Arquitetura](../img/arquitetura/representacao_arquitetural.png)
 
 ## Referências
