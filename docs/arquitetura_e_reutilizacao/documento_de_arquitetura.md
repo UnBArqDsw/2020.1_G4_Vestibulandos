@@ -9,7 +9,10 @@
 | 19/11/2020 | 0.3 | Adicionado imagem do visão geral da arquitetura | Julio Litwin |
 | 19/11/2020 | 0.4 | Adicionado tecnologias utilizadas | Julio Litwin |
 | 19/11/2020 | 0.5 | Adicionado representação arquitetural | João Pedro e Rodrigo Canela |
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 
 # Introdução
 
@@ -23,7 +26,10 @@ Este documento foi construído sobre a visão arquitetural utilizada na implemen
 
 # Representação Arquitetural
 A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-Servidor, sendo o responsável pela manutenção das informações (servidor) provenientes da plataforma onde ocorrem as partidas e a inserção de novas questões (cliente).
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 
 ### Visão Geral
 
