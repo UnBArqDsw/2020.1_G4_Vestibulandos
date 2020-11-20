@@ -20,6 +20,7 @@
 | 20/11/2020 | 1.4 | Adicionado visão de implementação | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.5 | Adicionado visão lógica | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.6 | Adicionado diagrama de pacotes | Ricardo Canela e Joao Pedro |
+| 20/11/2020 | 1.7 | Adicionado diagrama de classe | Ricardo Canela e Joao Pedro |
 
 
 ## Introdução
@@ -134,17 +135,29 @@ A arquitetura cliente-servidor é composta por duas partes interligadas entre si
 
 ## Visão Lógica
 
-#### Visão Geral
+### Visão Geral
 
 A visão lógica do sistema pode ser evidenciada, no ponto de vista de arquitetura de software, em forma de divisão de componentes, conforme apresentado no diagrama a seguir.
 
 
-![Diagrama de pacotes](../img/diagramas/diagrama_de_componentes.jpg)
+![Diagrama de componentes](../img/diagramas/diagrama_de_componentes.jpg)
+
+
+### Diagrama de pacotes
 
 Para uma visão mais detalhada do sistema, a documentação possui também a representação por pacotes, conforme o diagrama abaixo.
 
 ![Diagrama de pacotes](../img/diagramas/diagrama_pacotes_v1.jpg)
 
+
+### Diagrama de Classes
+
+O diagrama de classes está representado na imagem abaixo. Para melhor visualização, clique 
+[aqui](https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/img/diagramas/diagrama_de_classe_v0.png
+) 
+
+
+![Diagrama de classes](../img/diagramas/diagrama_de_classe_v1.png)
 
 ## Qualidade
 
