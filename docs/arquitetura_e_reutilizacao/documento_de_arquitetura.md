@@ -15,6 +15,7 @@
 | 20/11/2020 | 0.9 | Adicionado tamanho e desempenho. | Julio Litwin |
 | 20/11/2020 | 1.0 | Adicionado qualidade. | Julio Litwin |
 | 20/11/2020 | 1.1 | Adicionado definições, acrônimos e abreviações | Ricardo Canela e Joao Pedro |
+| 20/11/2020 | 1.2 | Adicionado casos de uso | Ricardo Canela e Joao Pedro |
 
 ## Introdução
 
@@ -93,6 +94,17 @@ Descrição das principais características de tamanho do software que afetam a 
 - C# -> net core 3.1
 - MSSQL 2019
 - Espaço minímo de 20 GB (incluindo instalações e armazenamento de banco)
+
+## Visão dos Casos de Uso
+Estão listados abaixo os casos de uso do sistema
+
+- Realizar Cadastro
+- Jogar Ranqueada
+  - Visualizar Ranking
+- Jogar Treino
+- Propor Novas Questões
+- Reportar Questão
+- Revisar Questão
 
 ## Qualidade
 
