@@ -6,6 +6,7 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 18/09/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 24/10/2020 | 0.2 | Atualização e correção do diagrama | Lucas Gomes |
+| 19/11/2020 | 0.3 | Inserindo rastreabilidade de requisitos e decisão da equipe | Ricardo Canela |
 
 
 ### Introdução
@@ -20,7 +21,7 @@ Os diagramas de classes são os principais blocos de construção de todos os m�
 ![DiagramaClasse](../../img/diagramas/diagrama_de_classe_v1.png)
 
 
-#### Rastreabilidade de Requisitos
+### Rastreabilidade de Requisitos
 
 |Épico|Requisito| Descrição |
 |-------|-----|------|
@@ -34,6 +35,10 @@ Os diagramas de classes são os principais blocos de construção de todos os m�
 | US04| RF16| Partida Rankeada|
 | US07| RF05| Área de conhecimento|
 | US05, US06, US07, US08, US15 | RF, 04RF05,RF06,RF10,RF13, RF19| Questão|
+
+### Rastreabilidade de decisão da equipe
+
+[Ata 6](../reunioes/ata_6.md)
 
 
 ### Referências
