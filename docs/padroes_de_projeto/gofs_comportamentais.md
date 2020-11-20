@@ -7,9 +7,10 @@
 | 24/10/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 25/10/2020 | 0.2 | Adicionado padrão Mediator de Partida | Lucas Gomes, Julio Litwin |
 | 26/10/2020 | 0.3 | Refatorando padrão Mediator | João Pedro, Lucas Gomes|
-| 26/10/2020 | 0.4 | Adicionado padrão State | Julio Litwin |
-| 26/10/2020 | 0.5 | Adicionado padrão Template Method | Guilherme Leal |
-| 26/10/2020 | 0.5 | Adicionado padrão Command | Julio Litwin |
+| 26/10/2020 | 0.4 | Adicionado padrão Observer | Lucas Gomes|
+| 26/10/2020 | 0.5 | Adicionado padrão State | Julio Litwin |
+| 26/10/2020 | 0.6 | Adicionado padrão Template Method | Guilherme Leal |
+| 26/10/2020 | 0.7 | Adicionado padrão Command | Julio Litwin |
 
 ## Introdução
 
@@ -48,6 +49,13 @@ Para realizar a implementação foi utilizado algumas idéias do padrão Observe
 
 > [Implementação em código - Versão 0](./codigos/mediator_partida_codigo_v0.md)
 
+#### Links para o código implementado
+- [IPartidaMediator](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Interfaces/IPartidaMediator.cs)
+- [Partida](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Partida.cs)
+- [IJogador](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Interfaces/IJogador.cs)
+- [Jogador](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Jogador.cs)
+
+
 
 ## Observer
 É um padrão que tem como objetivo principal notificar objetos que se anexaram ao subject quando ocorrer um evento interno. Assim, quando ocorre qualquer evento no objeto que estão observando, todos os objetos que estão anexados ao subject serão notificados. Com este padrão, é possível criar uma relação de um para muitos entre o subject e os observers anexados.
@@ -65,6 +73,13 @@ Neste padrão, Subject é o objeto que será observado e Observer é o objeto qu
 ![MediatorPartidaDiagrama](../img/diagramas/observer_pattern_questao_v0.png)
 
 > [Implementação em código - Versão 0](./codigos/observer_questao_codigo_v0.md)
+
+#### Links para o código implementado
+
+- [IQuestaoSubject](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Interfaces/IQuestaoSubject.cs)
+- [Questao](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Questao.cs)
+- [IMonitorObserver](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Interfaces/IMonitorObserver.cs)
+- [Monitor](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/blob/master/GameServer/Entities/Monitor.cs)
 
 
 ## Template Method
