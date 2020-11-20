@@ -51,7 +51,6 @@ nav:
         - Documento de Arquitetura: 'arquitetura_e_reutilizacao/documento_de_arquitetura.md'
         - Reutilização de Software: 'arquitetura_e_reutilizacao/doc_reutilização_de_software.md'
         - Iniciativas Extras: 'arquitetura_e_reutilizacao/iniciativas_extras.md'
-        
     - Reuniões:
         - Ata 1: 'reunioes/ata_1.md'
         - Ata 2: 'reunioes/ata_2.md'
@@ -62,5 +61,7 @@ nav:
         - Ata 7: 'reunioes/ata_7.md'
         - Ata 8: 'reunioes/ata_8.md'
         - Ata 9: 'reunioes/ata_9.md'
+        - Ata 10: 'reunioes/ata_10.md'
+        - Ata 11: 'reunioes/ata_11.md'
     
     
