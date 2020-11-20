@@ -6,7 +6,7 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 18/09/2020 | 0.1 | Adicionado o documento | Julio Litwin |
 | 24/10/2020 | 0.2 | Atualização e correção do diagrama | Lucas Gomes |
-| 19/11/2020 | 0.3 | Inserindo rastreabilidade de requisitos e decisão da equipe | Ricardo Canela |
+| 19/11/2020 | 0.3 | Inserindo rastreabilidade de requisitos e decisão da equipe | Ricardo Canela e Joao Pedro |
 
 
 ### Introdução
