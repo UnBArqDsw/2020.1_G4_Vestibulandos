@@ -7,6 +7,7 @@
 | 19/11/2020 | 0.1 | Criado o documento | Lucas Gomes |
 | 19/11/2020 | 0.2 | Adicionado Introdução e Referências ao documento | Lucas Gomes |
 | 19/11/2020 | 0.3 | Adicionado informações sobre o ServerFramework e Core ao documento | Lucas Gomes |
+| 20/11/2020 | 0.4 | Adicionado informações sobre o MessagePack | Lucas Gomes |
 
 
 ## Introdução
@@ -30,6 +31,10 @@ Algumas funcionalidades presentes neste framework:
 - Possui uma classe para leitura de arquivos de configurações;
 - Gerenciamento de banco de dados;
 - Possui classes auxiliadoras, tais como classes extensoras de collections, random e singleton, por exemplo.
+
+### 3. <a href="https://github.com/neuecc/MessagePack-CSharp"> MessagePack </a>
+
+No Vestibulandos, é utilizaod o MessagePack para serialização de pacotes, nas quais são trocados envios e recebimentos de buffer/data entre clientes e servidores. Nisto, foi escolhido o MessagePack para fazer a serialização e desserialização dos dados. MessagePack é um framework do tipo Caixa Branca.
 
 ## Referências
 - Vídeo-aula da disciplina Arquitetura e Desenho de Software. 16 - Vídeo-Aula - ARQ - Reutilização de Software & Framework. Professora Milene Serrano. Universidade de Brasília.
