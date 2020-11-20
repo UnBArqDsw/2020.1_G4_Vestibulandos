@@ -46,7 +46,7 @@ Diagramas de pacotes são diagramas estruturais usados para mostrar, em uma form
 
 ### Rastreabilidade de decisão da equipe
 
-[Ata 6](../reunioes/ata_6.md)
+[Ata 6](https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/reunioes/ata_6/)
 
 
 ### Referências

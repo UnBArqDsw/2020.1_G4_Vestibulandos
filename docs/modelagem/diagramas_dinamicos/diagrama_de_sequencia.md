@@ -37,8 +37,7 @@ Os diagramas de Sequencia representam a sequência de processos num programa de 
 
 ### Rastreabilidade de decisão da equipe
 
-[Ata 6](../reunioes/ata_6.md)
-
+[Ata 6](https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/reunioes/ata_6/)
 
 ### Referências
 **LucidChart**. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml>. Acesso em: 28 de Setembro 2020.

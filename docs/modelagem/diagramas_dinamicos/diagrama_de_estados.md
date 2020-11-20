@@ -37,7 +37,7 @@ O Diagrama de Estados é um tipo de diagrama comportamental que mostra transiç�
 
 ### Rastreabilidade de decisão da equipe
 
-[Ata 6](../reunioes/ata_6.md)
+[Ata 6](https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/reunioes/ata_6/)
 
 ## 3. Referências
 - BLAHA, Michael; RUMBAUGH, James. Modelagem e projetos baseados em objetos com UML 2. 2. ed. rev. [S. l.]: Elsevier, 2006. cap. 5, p. 93-109.

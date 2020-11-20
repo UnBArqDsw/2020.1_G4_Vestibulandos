@@ -38,7 +38,7 @@ Os diagramas de classes são os principais blocos de construção de todos os m�
 
 ### Rastreabilidade de decisão da equipe
 
-[Ata 6](../reunioes/ata_6.md)
+[Ata 6](https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/reunioes/ata_6/)
 
 
 ### Referências
