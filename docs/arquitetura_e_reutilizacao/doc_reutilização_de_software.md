@@ -11,6 +11,7 @@
 | 20/11/2020 | 0.5 | Adicionado informações sobre o Logging | Julio Litwin |
 | 20/11/2020 | 0.6 | Adicionado informações sobre o Security | Julio Litwin |
 | 20/11/2020 | 0.7 | Adicionado as vantagens na reutilização | Julio Litwin |
+| 20/11/2020 | 0.8 | Corrigido erro de português | Lucas Gomes |
 
 ## Introdução
 A reutilização de sofware é o uso de um sofware pré-elaboradas para a criação de um novo sofware, com o intuíto de melhorar a qualidade do sofware e diminuir o tempo de desenvolvimento. Este software pré-elaborado pode ser conceitos, módulos de um projeto, arquitetura e código fonte.  
@@ -34,7 +35,7 @@ Os principais benefícios da reutilização, aceita pela maioria dos autores, s�
 
 
 ## Reutilizações de Software no Vestibulandos
-Foi utilizado códigos já desenvolvidos em projetos pessoais e que se encaixam no contexto de desenvolvimento do Vestibulandos. Assim, essa reutilização aumentou reduziu significamente o tempo de desenvolvimento de alguns recursos da aplicação.
+Foi utilizado códigos já desenvolvidos em projetos pessoais e que se encaixam no contexto de desenvolvimento do Vestibulandos. Assim, essa reutilização reduziu significamente o tempo de desenvolvimento de alguns recursos da aplicação.
 
 ### 1. <a href="https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/tree/master/Libs/ServerFramework"> ServerFramework </a>
 
