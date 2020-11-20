@@ -10,6 +10,7 @@
 | 19/11/2020 | 0.4 | Adicionado tecnologias utilizadas | Julio Litwin |
 | 19/11/2020 | 0.5 | Adicionado representação arquitetural | João Pedro e Rodrigo Canela |
 | 20/11/2020 | 0.6 | Adicionado as metas da arquitetura | Julio Litwin |
+| 20/11/2020 | 0.7 | Adicionado as restrições da arquitetura | Julio Litwin |
 
 # Introdução
 
@@ -45,5 +46,10 @@ A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-
 - Multiplataforma: o frontend foi elaborado no princípio a utilização da Unity 3D, na qual além de facilitar todo o trabalho a ser escrito do zero, além da preocupação da interface e também da compilação cujos são bastante críticos.
 - Linguagem de programação: utilizar apenas uma linguagem para facilitar o desenvolvimento, a linguagem usada é C# (net core).
 - Monolito: o backend terá a arquitetura de monolito, cujo pelo prazo de entrega e facilidade do desenvolvimento.
+
+#### Restrições
+- Conexão: é necessário o uso da internet para desfruir da aplicação.
+- Idioma: aplicativo apenas foi elaborado com textos em português.
+- Escalabilidade: o backend foi desenvolvido com o princípio de monolito, então desde já a ideia de escalabilidade se tornou inviável em relação a interação entre amigos.
 
 ## Referências
