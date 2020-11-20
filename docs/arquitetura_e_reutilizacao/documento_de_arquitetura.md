@@ -18,6 +18,7 @@
 | 20/11/2020 | 1.2 | Adicionado casos de uso | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.3 | Adicionado diagrama casos de uso, tabela de atores de caso de uso e rastreabilidade | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.4 | Adicionado visão de implementação | Ricardo Canela e Joao Pedro |
+| 20/11/2020 | 1.5 | Adicionado visão lógica | Ricardo Canela e Joao Pedro |
 
 ## Introdução
 
@@ -128,6 +129,15 @@ A arquitetura cliente-servidor é composta por duas partes interligadas entre si
 ##### Banco de Dados
 - **MSSQL**: É um banco de dados relacional, desenvolvido pela Sybase em parceria com a Microsft. Visando utilizar tabelas e procedures, com conexões realizadas pelo LoginServer e o GameServer. Para manter dados salvos, tais como contas de usuários, questões e dentre outros. 
 
+
+## Visão Lógica
+
+#### Visão Geral
+
+A visão lógica do sistema pode ser evidenciada, no ponto de vista de arquitetura de software, em forma de divisão de componentes, conforme apresentado no diagrama a seguir.
+
+
+![Diagrama de pacotes](../img/diagramas/diagrama_de_componentes.jpg)
 
 
 ## Qualidade
