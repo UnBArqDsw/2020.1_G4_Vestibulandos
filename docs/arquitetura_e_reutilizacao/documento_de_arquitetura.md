@@ -15,56 +15,56 @@
 | 20/11/2020 | 0.9 | Adicionado tamanho e desempenho. | Julio Litwin |
 | 20/11/2020 | 1.0 | Adicionado qualidade. | Julio Litwin |
 
-# Introdução
+## Introdução
 
-## Finalidade
+### Finalidade
 
 A finalidade deste artefato é evidenciar as decisões pertinentes à arquitetura do software. Englobando desde escolhas de alto nível, tecnologias e componentes, até o nível de código. 
 
-## Escopo
+### Escopo
 Este documento foi construído sobre a visão arquitetural utilizada na implementação do Vestibulandos. Nele serão expostas as visões de caso de uso, lógica, dados e implementação. 
 
-# Representação Arquitetural
+## Representação Arquitetural
 A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-Servidor, sendo o responsável pela manutenção das informações (servidor) provenientes da plataforma onde ocorrem as partidas e a inserção de novas questões (cliente).
 
-### Visão Geral
+#### Visão Geral
 
 ![Arquitetura](../img/arquitetura/representacao_arquitetural.png)
 
-### Tecnologias
+#### Tecnologias
 
-#### Backend
+##### Backend
 - **Logging/Log4Net**: Gerencimento de logs no backend, tais como mostrar logs no próprio Console e/ou salvamento em arquivos. Também considerado como thread-safe, não tendo que se preocupar com race-conditions.
 - **MessagePack**: Framework utilizado para serialização de dados, a serem enviados/recebidos via socket/tcp.
 - **Socket/TCP**: Protoclo de controle de transmissão usado no Vestibulandos, o gerenciamento de sessões, controle de envio e recebimentos se encontra no pacote do Core.
 
-#### Frontend
+##### Frontend
 - **Unity 3D**: Game Engine utilizada para o desenvolvimento do Vestibulandos, facilitando bastante o tempo e o uso de muitos bibliotecas, como renderizações de imagens, modelos, sons e muito mais. 
 - **MessagePack**: Framework utilizado para serialização de dados, a serem enviados/recebidos via socket/tcp.
 - **Socket/TCP**: Protoclo de controle de transmissão usado no Vestibulandos, o gerenciamento de sessões, controle de envio e recebimentos.
 
-#### Banco de Dados
+##### Banco de Dados
 - **MSSQL**: É um banco de dados relacional, desenvolvido pela Sybase em parceria com a Microsft. Visando utilizar tabelas e procedures, com conexões realizadas pelo LoginServer e o GameServer. Para manter dados salvos, tais como contas de usuários, questões e dentre outros. 
 
-### Metas e Restrições da Arquitetura
+## Metas e Restrições da Arquitetura
 
-#### Metas
+### Metas
 - Segurança: manter as informações em segurança, tais como no próprio banco de dados e no envio/recebimento na troca de dados entre sockets.
 - Multiplataforma: o frontend foi elaborado no princípio a utilização da Unity 3D, na qual além de facilitar todo o trabalho a ser escrito do zero, além da preocupação da interface e também da compilação cujos são bastante críticos.
 - Linguagem de programação: utilizar apenas uma linguagem para facilitar o desenvolvimento, a linguagem usada é C# (net core).
 - Monolito: o backend terá a arquitetura de monolito, cujo pelo prazo de entrega e facilidade do desenvolvimento.
 
-#### Restrições
+### Restrições
 - Conexão: é necessário o uso da internet para desfruir da aplicação.
 - Idioma: aplicativo apenas foi elaborado com textos em português.
 - Escalabilidade: o backend foi desenvolvido com o princípio de monolito, então desde já a ideia de escalabilidade se tornou inviável em relação a interação entre amigos.
 
-### Tamanho e Desempenho
+## Tamanho e Desempenho
 
 Descrição das principais características de tamanho do software que afetam a arquiettura, como as restrições de desempenho.
 
-#### Requisitos mínimos
-##### Frontend
+### Requisitos mínimos
+#### Frontend
 - Sistema operacional
 -- Windows 7 ou superior
 -- Linux
@@ -74,7 +74,7 @@ Descrição das principais características de tamanho do software que afetam a 
 - Conexão com internet
 - Unity 3D (para desenvolvimento)
 
-##### Backend
+#### Backend
 - Sistema operacional
 -- Windows 7 ou superior
 -- Linux
@@ -83,7 +83,7 @@ Descrição das principais características de tamanho do software que afetam a 
 - MSSQL 2019
 - Espaço minímo de 20 GB (incluindo instalações e armazenamento de banco)
 
-### Qualidade
+## Qualidade
 
 Descrição de como a arquitetura do software contribui para todos os recursos (exceto a funcionalidade) do sistema: extensibilidade, confiabilidade, portabilidade e assim por diante. Se essas características tiverem significado especial, como implicações de proteção, segurança ou privacidade, elas devem ser claramente delineadas.
 
