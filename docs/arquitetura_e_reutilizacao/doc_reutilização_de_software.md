@@ -9,6 +9,7 @@
 | 19/11/2020 | 0.3 | Adicionado informações sobre o ServerFramework e Core ao documento | Lucas Gomes |
 | 20/11/2020 | 0.4 | Adicionado informações sobre o MessagePack | Julio Litwin |
 | 20/11/2020 | 0.5 | Adicionado informações sobre o Logging | Julio Litwin |
+| 20/11/2020 | 0.6 | Adicionado informações sobre o Security | Julio Litwin |
 
 ## Introdução
 A reutilização de sofware é o uso de um sofware pré-elaboradas para a criação de um novo sofware, com o intuíto de melhorar a qualidade do sofware e diminuir o tempo de desenvolvimento. Este software pré-elaborado pode ser conceitos, módulos de um projeto, arquitetura e código fonte.  
@@ -47,6 +48,12 @@ Utilizado no Frontend e no Backend.
 Logging é um pacote relacionado a log's dentro do projeto. A visão do pacote é facilitar toda a configuração, instanciamento e dentre outros relacionado ao log, na qual apenas a preocupação será apenas chamar as funções de logs a serem impressos e/ou salvos dentro do projeto. É um frameowrk do tipo Caixa Branca.
 
 Utilizado apenas no Backend.
+
+### 5. <a href="https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Backend/tree/master/Libs/Security"> Security </a>
+
+Security é um pacote relacionado a segurança de pacotes entre troca de dados pelos sockets. A ideia é que após a serialização pelo MessagePack, é adicionado mais uma camada de segurança, para dificultar a interceptação/recepção dos dados, terem alteração ou qualquer outra má intenção.
+
+Utilizado no Frontend e no Backend.
 
 ## Referências
 - Vídeo-aula da disciplina Arquitetura e Desenho de Software. 16 - Vídeo-Aula - ARQ - Reutilização de Software & Framework. Professora Milene Serrano. Universidade de Brasília.
