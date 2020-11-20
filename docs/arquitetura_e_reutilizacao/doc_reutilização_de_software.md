@@ -10,11 +10,28 @@
 | 20/11/2020 | 0.4 | Adicionado informações sobre o MessagePack | Julio Litwin |
 | 20/11/2020 | 0.5 | Adicionado informações sobre o Logging | Julio Litwin |
 | 20/11/2020 | 0.6 | Adicionado informações sobre o Security | Julio Litwin |
+| 20/11/2020 | 0.7 | Adicionado as vantagens na reutilização | Julio Litwin |
 
 ## Introdução
 A reutilização de sofware é o uso de um sofware pré-elaboradas para a criação de um novo sofware, com o intuíto de melhorar a qualidade do sofware e diminuir o tempo de desenvolvimento. Este software pré-elaborado pode ser conceitos, módulos de um projeto, arquitetura e código fonte.  
 
 Então, basicamente, reutilização de software é a reaplicação de informações e artefatos de uma aplicação já criada anteriormente em uma aplicação que usa conceitos semelhantes.
+
+#### Vantagens e benefícios da reutilização
+
+A reutilização otimiza as quatro variáveis que determinam o sucesso dos projetos de software: qualidade, custo, tempo e produtividade.
+
+A prática da reutilização resulta na retenção do conhecimento na empresa e a coloca numa posição de maior competitividade na medida em que ela passa a conseguir desenvolver projetos de qualidade, no tempo acordado e com menores custos.
+
+Um software que incorpora componentes reutilizados apresenta uma estrutura mais flexível o que facilita a manutenção e a evolução.
+
+Os principais benefícios da reutilização, aceita pela maioria dos autores, são citados a seguir:
+
+- Aumento da produção com a redução no esforço do desenvolvimento. 
+- Redução dos custos e do prazo de entrega, pois se o esforço de desenvolvimento diminui logo o tempo de entrega também diminui e a quantidade de homens hora necessária a ser paga também.
+- Como as soluções aplicadas foram anteriormente testadas e validadas, a probabilidade de que esteja correta é ainda maior, portanto temos um aumento da qualidade do produto final.
+- Padronização dos produtos desenvolvidos pela empresa, pois como as soluções reusáveis foram desenvolvidas segundo uma padronização pré-definida, o reuso em um sistema provoca consequente padronização e agilidade na manutenção das aplicações devido a esta padronização da arquitetura. 
+
 
 ## Reutilizações de Software no Vestibulandos
 Foi utilizado códigos já desenvolvidos em projetos pessoais e que se encaixam no contexto de desenvolvimento do Vestibulandos. Assim, essa reutilização aumentou reduziu significamente o tempo de desenvolvimento de alguns recursos da aplicação.
