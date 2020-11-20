@@ -8,12 +8,13 @@
 | 19/11/2020 | 0.2 | Adicionando introdução | João Pedro |
 | 19/11/2020 | 0.3 | Adicionado imagem do visão geral da arquitetura | Julio Litwin |
 | 19/11/2020 | 0.4 | Adicionado tecnologias utilizadas | Julio Litwin |
-| 19/11/2020 | 0.5 | Adicionado representação arquitetural | João Pedro e Rodrigo Canela |
+| 19/11/2020 | 0.5 | Adicionado representação arquitetural | João Pedro e Ricardo Canela |
 | 20/11/2020 | 0.6 | Adicionado as metas da arquitetura | Julio Litwin |
 | 20/11/2020 | 0.7 | Adicionado as restrições da arquitetura | Julio Litwin |
 | 20/11/2020 | 0.8 | Adicionado mais tecnologias utilizadas. | Julio Litwin |
 | 20/11/2020 | 0.9 | Adicionado tamanho e desempenho. | Julio Litwin |
 | 20/11/2020 | 1.0 | Adicionado qualidade. | Julio Litwin |
+| 20/11/2020 | 1.1 | Adicionado definições, acrônimos e abreviações | Ricardo Canela e Joao Pedro |
 
 ## Introdução
 
@@ -23,6 +24,16 @@ A finalidade deste artefato é evidenciar as decisões pertinentes à arquitetur
 
 ### Escopo
 Este documento foi construído sobre a visão arquitetural utilizada na implementação do Vestibulandos. Nele serão expostas as visões de caso de uso, lógica, dados e implementação. 
+
+### Definições, Acrônimos e Abreviações
+
+|   Abreviação   | Significado |
+|:--------:|:-----------------------------:|
+| API | Application Programming Interface | 
+| TCP | Transmission Control Protocol | 
+| APP | Aplicação | 
+| MSSQL | Microsoft Server SQL | 
+
 
 ## Representação Arquitetural
 A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-Servidor, sendo o responsável pela manutenção das informações (servidor) provenientes da plataforma onde ocorrem as partidas e a inserção de novas questões (cliente).
