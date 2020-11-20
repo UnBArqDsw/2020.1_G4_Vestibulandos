@@ -6,7 +6,9 @@
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 19/11/2020 | 0.1 | Criado o documento | Lucas Gomes |
 | 19/11/2020 | 0.2 | Adicionando introdução | João Pedro |
-| 19/11/2020 | 0.2 | Adicionando representação arquitetural | João Pedro e Rodrigo Canela |
+| 19/11/2020 | 0.3 | Adicionado imagem do visão geral da arquitetura | Julio Litwin |
+| 19/11/2020 | 0.4 | Adicionado tecnologias utilizadas | Julio Litwin |
+| 19/11/2020 | 0.5 | Adicionado representação arquitetural | João Pedro e Rodrigo Canela |
 
 
 # Introdução
@@ -22,5 +24,19 @@ Este documento foi construído sobre a visão arquitetural utilizada na implemen
 # Representação Arquitetural
 A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-Servidor, sendo o responsável pela manutenção das informações (servidor) provenientes da plataforma onde ocorrem as partidas e a inserção de novas questões (cliente).
 
+
+### Visão Geral
+
+![Arquitetura](../img/arquitetura/representacao_arquitetural.png)
+
+### Tecnologias
+
+#### Backend
+
+#### Frontend
+- **Unity 3D**: Game Engine utilizada para o desenvolvimento do Vestibulandos, facilitando bastante o tempo e o uso de muitos bibliotecas, como renderizações de imagens, modelos, sons e muito mais. 
+
+#### Banco de Dados
+- **MSSQL**: É um banco de dados relacional, desenvolvido pela Sybase em parceria com a Microsft. Visando utilizar tabelas e procedures, com conexões realizadas pelo LoginServer e o GameServer. Para manter dados salvos, tais como contas de usuários, questões e dentre outros. 
 
 ## Referências
