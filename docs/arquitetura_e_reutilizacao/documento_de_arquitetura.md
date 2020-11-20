@@ -13,6 +13,7 @@
 | 20/11/2020 | 0.7 | Adicionado as restrições da arquitetura | Julio Litwin |
 | 20/11/2020 | 0.8 | Adicionado mais tecnologias utilizadas. | Julio Litwin |
 | 20/11/2020 | 0.9 | Adicionado tamanho e desempenho. | Julio Litwin |
+| 20/11/2020 | 1.0 | Adicionado qualidade. | Julio Litwin |
 
 # Introdução
 
@@ -82,4 +83,16 @@ Descrição das principais características de tamanho do software que afetam a 
 - MSSQL 2019
 - Espaço minímo de 20 GB (incluindo instalações e armazenamento de banco)
 
+### Qualidade
+
+Descrição de como a arquitetura do software contribui para todos os recursos (exceto a funcionalidade) do sistema: extensibilidade, confiabilidade, portabilidade e assim por diante. Se essas características tiverem significado especial, como implicações de proteção, segurança ou privacidade, elas devem ser claramente delineadas.
+
+|   Item   |           Descrição           |
+|:--------:|:-----------------------------:|
+| Segurança | São realizado algumas etapas de segurança na arquitetura, partindo como persistência da dados e como são armezados e também na troca de informações entre clientes e servidores. | 
+| Usuabilidade | É pensado sobre apreensibilidade, inteligibilidade e operacionalidade relacionado entre o backend e o frontend, tendo em vista sobre a complexidade do código fonte serem facilmente compreensíveis, tais como a operacionalidade entra em um fator importante, pois as tecnologias utilizadas facilitam bastante o uso, configuração do backend tem uma curva de aprendizado bem baixo. | 
+| Portabilidade | Com a Unity 3D usado no frontend, são aberta várias portas para a portbilidade como Windows, Linux, Android, iOS e dentre outros, usando o mesmo código e sendo apenas necessário escolher o tipo de compilação da plataforma. O backend, sendo utilizado o C# (.NET Core), também é possível ser compilado para o Windows e Linux sem problema algum, também é possível a utilização de um Docker.  | 
+| Eficiência | Backend foi desenvolvido com rápidas operações, incluindo processamento em multithread, com socket's assíncronos, troca de mensagens com o banco de dados e retorno. O tempo de resposta tende ser o mais rápido.  | 
+
 ## Referências
+- Qualidade de Software. DevMedia. Disponível em: https://www.devmedia.com.br/qualidade-de-software/9408. Acesso em: 20 de novembro. 2020.
