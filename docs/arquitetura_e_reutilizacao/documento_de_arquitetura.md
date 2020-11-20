@@ -16,6 +16,8 @@
 | 20/11/2020 | 1.0 | Adicionado qualidade. | Julio Litwin |
 | 20/11/2020 | 1.1 | Adicionado definições, acrônimos e abreviações | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.2 | Adicionado casos de uso | Ricardo Canela e Joao Pedro |
+| 20/11/2020 | 1.3 | Adicionado diagrama casos de uso, tabela de atores de caso de uso e rastreabilidade | Ricardo Canela e Joao Pedro |
+
 
 ## Introdução
 
@@ -96,15 +98,28 @@ Descrição das principais características de tamanho do software que afetam a 
 - Espaço minímo de 20 GB (incluindo instalações e armazenamento de banco)
 
 ## Visão dos Casos de Uso
-Estão listados abaixo os casos de uso do sistema
+Estão listados abaixo os casos de uso do sistema de acordo com o [Backlog](https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/modelagem/backlog)
 
 - Realizar Cadastro
 - Jogar Ranqueada
-  - Visualizar Ranking
+  - Visualizar [Ranking](https://unbarqdsw.github.io/2020.1_G4_Vestibulandos/modelagem/lexico)
+
 - Jogar Treino
 - Propor Novas Questões
 - Reportar Questão
 - Revisar Questão
+
+### Diagrama de Casos de Uso
+
+![Casos de Uso](../img/diagramas/diagrama_de_caso_de_uso.png)
+
+### Atores de Casos de Uso
+
+|   Ator   | Descrição |
+|:--------:|:-----------------------------:|
+| Jogador | Pessoa que joga Vestibulando para se divertir e estudar | 
+| Monitor | Pessoa que dá suporte às Questões do jogo Vestibulando | 
+
 
 ## Qualidade
 
