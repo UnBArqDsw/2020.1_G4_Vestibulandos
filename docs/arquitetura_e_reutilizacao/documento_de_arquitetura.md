@@ -11,6 +11,7 @@
 | 19/11/2020 | 0.5 | Adicionado representação arquitetural | João Pedro e Rodrigo Canela |
 | 20/11/2020 | 0.6 | Adicionado as metas da arquitetura | Julio Litwin |
 | 20/11/2020 | 0.7 | Adicionado as restrições da arquitetura | Julio Litwin |
+| 20/11/2020 | 0.8 | Adicionado mais tecnologias utilizadas. | Julio Litwin |
 
 # Introdução
 
@@ -20,7 +21,6 @@ A finalidade deste artefato é evidenciar as decisões pertinentes à arquitetur
 
 ## Escopo
 Este documento foi construído sobre a visão arquitetural utilizada na implementação do Vestibulandos. Nele serão expostas as visões de caso de uso, lógica, dados e implementação. 
-
 
 # Representação Arquitetural
 A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-Servidor, sendo o responsável pela manutenção das informações (servidor) provenientes da plataforma onde ocorrem as partidas e a inserção de novas questões (cliente).
@@ -32,9 +32,14 @@ A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-
 ### Tecnologias
 
 #### Backend
+- **Logging/Log4Net**: Gerencimento de logs no backend, tais como mostrar logs no próprio Console e/ou salvamento em arquivos. Também considerado como thread-safe, não tendo que se preocupar com race-conditions.
+- **MessagePack**: Framework utilizado para serialização de dados, a serem enviados/recebidos via socket/tcp.
+- **Socket/TCP**: Protoclo de controle de transmissão usado no Vestibulandos, o gerenciamento de sessões, controle de envio e recebimentos se encontra no pacote do Core.
 
 #### Frontend
 - **Unity 3D**: Game Engine utilizada para o desenvolvimento do Vestibulandos, facilitando bastante o tempo e o uso de muitos bibliotecas, como renderizações de imagens, modelos, sons e muito mais. 
+- **MessagePack**: Framework utilizado para serialização de dados, a serem enviados/recebidos via socket/tcp.
+- **Socket/TCP**: Protoclo de controle de transmissão usado no Vestibulandos, o gerenciamento de sessões, controle de envio e recebimentos.
 
 #### Banco de Dados
 - **MSSQL**: É um banco de dados relacional, desenvolvido pela Sybase em parceria com a Microsft. Visando utilizar tabelas e procedures, com conexões realizadas pelo LoginServer e o GameServer. Para manter dados salvos, tais como contas de usuários, questões e dentre outros. 
