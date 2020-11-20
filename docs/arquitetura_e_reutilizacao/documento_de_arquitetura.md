@@ -17,7 +17,7 @@
 | 20/11/2020 | 1.1 | Adicionado definições, acrônimos e abreviações | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.2 | Adicionado casos de uso | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.3 | Adicionado diagrama casos de uso, tabela de atores de caso de uso e rastreabilidade | Ricardo Canela e Joao Pedro |
-
+| 20/11/2020 | 1.4 | Adicionado visão de implementação | Ricardo Canela e Joao Pedro |
 
 ## Introdução
 
@@ -44,21 +44,6 @@ A arquitetura utilizada no Vestibulandos, de modo geral, segue o modelo Cliente-
 #### Visão Geral
 
 ![Arquitetura](../img/arquitetura/representacao_arquitetural.png)
-
-#### Tecnologias
-
-##### Backend
-- **Logging/Log4Net**: Gerencimento de logs no backend, tais como mostrar logs no próprio Console e/ou salvamento em arquivos. Também considerado como thread-safe, não tendo que se preocupar com race-conditions.
-- **MessagePack**: Framework utilizado para serialização de dados, a serem enviados/recebidos via socket/tcp.
-- **Socket/TCP**: Protoclo de controle de transmissão usado no Vestibulandos, o gerenciamento de sessões, controle de envio e recebimentos se encontra no pacote do Core.
-
-##### Frontend
-- **Unity 3D**: Game Engine utilizada para o desenvolvimento do Vestibulandos, facilitando bastante o tempo e o uso de muitos bibliotecas, como renderizações de imagens, modelos, sons e muito mais. 
-- **MessagePack**: Framework utilizado para serialização de dados, a serem enviados/recebidos via socket/tcp.
-- **Socket/TCP**: Protoclo de controle de transmissão usado no Vestibulandos, o gerenciamento de sessões, controle de envio e recebimentos.
-
-##### Banco de Dados
-- **MSSQL**: É um banco de dados relacional, desenvolvido pela Sybase em parceria com a Microsft. Visando utilizar tabelas e procedures, com conexões realizadas pelo LoginServer e o GameServer. Para manter dados salvos, tais como contas de usuários, questões e dentre outros. 
 
 ## Metas e Restrições da Arquitetura
 
@@ -119,6 +104,30 @@ Estão listados abaixo os casos de uso do sistema de acordo com o [Backlog](http
 |:--------:|:-----------------------------:|
 | Jogador | Pessoa que joga Vestibulando para se divertir e estudar | 
 | Monitor | Pessoa que dá suporte às Questões do jogo Vestibulando | 
+
+
+## Visão de Implementação
+
+### Cliente Servidor
+
+A arquitetura cliente-servidor é composta por duas partes interligadas entre si utilizando um meio de comunicação como rede de computadores. Nosso contexto se apresenta com o cliente sendo o Front-end do sistema, desenvolvido em Unity 3d e um servidor desenvolvido em .NET Core, sendo a comunicação feita entre eles feita através de Socket/TCP.
+
+
+### Tecnologias utilizadas
+
+##### Backend
+- **Logging/Log4Net**: Gerencimento de logs no backend, tais como mostrar logs no próprio Console e/ou salvamento em arquivos. Também considerado como thread-safe, não tendo que se preocupar com race-conditions.
+- **MessagePack**: Framework utilizado para serialização de dados, a serem enviados/recebidos via socket/tcp.
+- **Socket/TCP**: Protoclo de controle de transmissão usado no Vestibulandos, o gerenciamento de sessões, controle de envio e recebimentos se encontra no pacote do Core.
+
+##### Frontend
+- **Unity 3D**: Game Engine utilizada para o desenvolvimento do Vestibulandos, facilitando bastante o tempo e o uso de muitos bibliotecas, como renderizações de imagens, modelos, sons e muito mais. 
+- **MessagePack**: Framework utilizado para serialização de dados, a serem enviados/recebidos via socket/tcp.
+- **Socket/TCP**: Protoclo de controle de transmissão usado no Vestibulandos, o gerenciamento de sessões, controle de envio e recebimentos.
+
+##### Banco de Dados
+- **MSSQL**: É um banco de dados relacional, desenvolvido pela Sybase em parceria com a Microsft. Visando utilizar tabelas e procedures, com conexões realizadas pelo LoginServer e o GameServer. Para manter dados salvos, tais como contas de usuários, questões e dentre outros. 
+
 
 
 ## Qualidade
