@@ -53,3 +53,25 @@
   </table>    
 </div>
 
+# Instalação 
+**Linguagens**: C# (.NET Core 3.1)<br>
+**Tecnologias**: Visual Studio 2019, MSSQL 2019 e Unity 3D 2019.4.13f1 <br>
+
+Clone os dois repositórios a seguir:
+
+[Frontend](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Frontend "Frontend")
+[Backend](https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos_Frontend "Backend")
+
+# Uso
+
+**Frontend**
+Abra o projeto com a Unity 3D após instalada, após aberto, basta apenas executar o projeto a partir do botão de "PLAY".
+
+**Backend**
+Abra o projeto com o Visual Studio, o NuGET do Visual Studio automaticamente irá baixar as dependências automaticamente, após ser realizado o download, basta apenas clicar em F5 para compilar. Ambos processo possa ser relizado no LoginServer e no GameServer. Há arquivo de configuração, mas por default não é necessário realizar alteração.
+
+**Database**
+Na pasta do backend, se encontra o arquivo .sql do banco de dados, execute o script pelo o MSSQL Management.
+
+# Vídeo
+[Video de Apresentação](https://drive.google.com/file/d/1AvcS3E8-C8Gxr-JDJlDXYD3podLnqwIO/view?usp=sharing "Video de Apresentação")
