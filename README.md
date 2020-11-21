@@ -6,7 +6,6 @@
 ## Alunos
 |Matrícula | Aluno | Foto |
 | -- | -- | -- |
-| 14/0139281 | [Fernando Ribeiro Aguilar](https://github.com/fernand0aguilar)|![membro](docs/img/equipe/fernando.gif)|
 | 15/0128312 | [Guilherme Lima Matos Leal](https://github.com/gleal17) |![membro](docs/img/equipe/guilherme.jpeg)|
 | 16/0046602 | [João Pedro de Aquino Corrêa Martins](https://github.com/jpmartins201) |![membro](docs/img/equipe/joao.jpeg)|
 | 16/0129443 | [Julio Cesar Litwin Lima](https://github.com/juliolitwin) |![membro](docs/img/equipe/julio.jpeg)|

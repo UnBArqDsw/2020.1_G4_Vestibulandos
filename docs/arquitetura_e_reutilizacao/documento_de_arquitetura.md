@@ -21,7 +21,7 @@
 | 20/11/2020 | 1.5 | Adicionado visão lógica | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.6 | Adicionado diagrama de pacotes | Ricardo Canela e Joao Pedro |
 | 20/11/2020 | 1.7 | Adicionado diagrama de classe | Ricardo Canela e Joao Pedro |
-
+| 20/11/2020 | 1.8 | Adicionado rastreabilidade | Julio Litwin |
 
 ## Introdução
 
@@ -169,6 +169,26 @@ Descrição de como a arquitetura do software contribui para todos os recursos (
 | Usuabilidade | É pensado sobre apreensibilidade, inteligibilidade e operacionalidade relacionado entre o backend e o frontend, tendo em vista sobre a complexidade do código fonte serem facilmente compreensíveis, tais como a operacionalidade entra em um fator importante, pois as tecnologias utilizadas facilitam bastante o uso, configuração do backend tem uma curva de aprendizado bem baixo. | 
 | Portabilidade | Com a Unity 3D usado no frontend, são aberta várias portas para a portbilidade como Windows, Linux, Android, iOS e dentre outros, usando o mesmo código e sendo apenas necessário escolher o tipo de compilação da plataforma. O backend, sendo utilizado o C# (.NET Core), também é possível ser compilado para o Windows e Linux sem problema algum, também é possível a utilização de um Docker.  | 
 | Eficiência | Backend foi desenvolvido com rápidas operações, incluindo processamento em multithread, com socket's assíncronos, troca de mensagens com o banco de dados e retorno. O tempo de resposta tende ser o mais rápido.  | 
+
+## Rastreabilidade de Requisitos
+
+| Épico | Requisito | Descrição|
+|---|---|---|
+| - | ESPS00, BR24| Desempenho|
+|US01 | RF01|Login|
+| US01, US02 | RF01| Autenticação|
+| US04| RF03, RF08 | Partida|
+| US04| RF16| Partida Rankeada|
+| US04, US10, US11, US12, US19 | RF03, RF08, RF10, RF17 | Partida Treino|
+| US05, US06 | RF04, RF19 | Usuário|
+| US07| RF05| Área de conhecimento|
+| US10-14 | RF09, RF10, RF11 |Iniciar Partida|
+| US02 | RF01   |Criar Personagem|
+|  US18, US22| RF16, RF21   |Acessar Ranks|
+| US07| RF05| Área de conhecimento|
+| US05, US06, US07, US08, US15 | RF, 04RF05,RF06,RF10,RF13, RF19| Questão|
+| US16 | RF14 | Informação sobre jogares|
+
 
 ## Referências
 - Qualidade de Software. DevMedia. Disponível em: https://www.devmedia.com.br/qualidade-de-software/9408. Acesso em: 20 de novembro. 2020.
